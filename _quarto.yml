@@ -2,22 +2,22 @@ project:
   type: book
   output-dir: docs
 
-title: "Mój tytuł"
-titleeng: "My title"
+title: "Ocena wpływu tworzenia nowych lądów na jakość wód przy wykorzystaniu danych teledetekcyjnych"
+titleeng: "Assessment of the impact of land reclamation on water quality using remote sensing data"
 lang: pl
 language:
   pl:
     crossref-fig-title: "Rycina"
     crossref-tab-title: "Tabela"
     crossref-sec-prefix: "Podrozdział"
-degreetype: "Praca inżynierska" #"Engineer's thesis"
-author: "Imię Nazwisko"
+degreetype: "Praca magisterska" #"Engineer's thesis"
+author: "Mateusz Rydzik"
 major: "Geoinformacja" #"Geoinformation"
-albumid: "000000"
-year: "2028"
+albumid: "455820"
+year: "2024"
 
 book:
-  output-file: "imienazwisko"
+  output-file: "mrydzik"
   chapters:
     - index.qmd
     #- 00-oswiadczenie.qmd
