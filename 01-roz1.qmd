@@ -1,9 +1,61 @@
 # Wprowadzenie {#sec-wprowadzenie}
 
-Wprowadzenie powinno mieć charakter opisu od ogółu do szczegółu (np. trzy-pięć paragrafów).
-Pierwszy paragraf powinien być najbardziej ogólny, a kolejne powinny przybliżać czytelnika do problemu.
-Przedostatni paragraf powinien określić jaki jest problem (są problemy), który praca ma rozwiązać i dlaczego jest to (są one) ważne.
+Wzrost liczby ludności jest zjawiskiem, które znacząco wpływa na wiele aspektów społeczno-gospodarczych.
+Wzrost populacji wymusza utworzenie nowych obszarów mieszkalnych, zwiększenia produkcji żywności oraz pozostałych dóbr, usprawnienie infrastruktury transportowej i wszystkich innych elementów pośrednich.
+Każda z tych czynności oddziaływuje w różnych stopniach na środowisko przyrodnicze.
+Jednym z elementów środowiska szczególnie narażonym na negatywne zjawiska związane ze wzrostem populacji jest środowisko wodne.
+Ponad połowa ludności na świecie zamieszkuje obszary przybrzeżne [@seto2011meta].
+Jednocześnie wykazywany jest trend migracji ludności do miast znajdujących się na wybrzeżu [@hugo2011future], który może przyczynić się do zwiększenia udziału populacji zamieszkująceje miasta nadmorskie w ogólnej sumie populacji na świecie [@mcgranahan2007rising].
+Oznacza to, że wszystkie czynności służące przygotowaniu miast do przyjęcia nowych mieszkańców będą wpływały również na zbiorniki wodne.
+Do metod dostosowywania miast do nowych mieszkańców można zaliczyć przekształcanie istniejących form wykorzystania terenu na obszary mieszkalne lub usługowe.
+Może to w pewnym momencie spowodować brak dostępnych obszarów lądowych do osiedlenia w nadmorskich miastach.
+Jedną z alternatyw pozyskiwania nowych lądów może być proces tworzenia nowych lądów.
 
-Wprowadzenie powinno być zakończone stwierdzeniem celu pracy.
-Dodatkowo tutaj może znaleźć się również krótki opis co zostało zrealizowane w pracy.
+Jednym z krajów, zaliczanych do pionierów pozyskiwania nowych lądów, jest Holandia, na obszarze której już w 1533 roku przekształcono jezioro w nowe tereny do zagospodarowania [@ven1993man].
+Operacja ta nie została jednak podyktowana zapotrzebowaniem na nowe tereny, a wymuszona przez ciągłe rozrastanie się jeziora i zalewanie pobliskich miejscowości.
+Proces ten polegał na wypompowaniu wody z jeziora do wybudowanej wokół niego sieci kanałów, i odprowadzenia jej do innego zbiornika, najczęściej jeziora Zuiderzee.
+Dna zbiorników, nazywanych polderami, wykorzystywane były przede wszystkim do rolnictwa.
+W celu konserwacji nowo pozyskanych terenów, ziemie podzielone zostały sieciami kanałów, ułatwiających odprowadzanie wody poza polder.
+Rowy te jednocześnie wykorzystano jako granice działek, dzieląc nowy ląd na siatkę parceli o charakterystycznych, regularnych krztałtach [@hoeksema2007three].
+Wraz z upływem lat, procesy tworzenia nowych lądów w Holandii były stale rozwijane.
+Punktem kulminacyjnym była seria konstrukcji nowych prowincji w XX wieku, których rezultatem było pozykanie dla Holandii lądów o łącznej powierzchni 1650 kilometrów kwadratowych.
+Stanowił to wzrost powierzchni kraju o 5% [@hoeksema2007three].
 
+Współczesne procesy tworzenia nowych lądów wprowadziły nowe metody konstrukcji terenów lądowych.
+Oprócz polderów, stosowane są techniki usypywania materiału na dnie zbiornika do momentu wydobycia się go ponad powierzchnię wody.
+Najczęściej stosowanym materiałem jest piasek, często mieszany z większymi skałami czy cementem [@martin2016review].
+Piasek może być usypywany przy wybrzeżu, poszerzając go wgłąb morza.
+Innym rozwiązaniem jest usypywanie materiału z dala od lądu, tworząc sztuczne wyspy
+W zależności od miejsca wykonywania tych procesów, służyły one różnym funkcjom.
+Do najczęstszych przyczyn konstrukcji nowych lądów zalicza się: rozbudowy portów i lotnisk, pozyskiwanie terenów rolniczych, tworzenie nowych stref mieszkalnych czy wojskowych [@martin2016review].
+Procesy te są szczególnie widoczne w megamiastach, czyli ogromnych miastach o populacji przekraczającej osiem milionów mieszkańców [@wenzel2007megacities]
+Dla 16 wybranych megamiast przez ostatnie 40 lat skonstruowano 1249 kilometrów kwadratowych nowych lądów [@sengupta2018building].
+Aż 587 kilometrów kwadratowych z tych zmian miało miejsce w Szanghaju, które w tym okresie powiększyło swoją powierzchnię o 6,5% [@sengupta2018building.
+Słuszne jest przypuszczenie, że przy ciągłym wzroście populacji możliwe jest natężenie tworzenia nowych lądów.
+Wynika to z prognozowanego wzrostu liczby ludności, zamieszkującej wybrzeża.
+Procesy te mogą okazać się jedyną możliwą decyzją dla obszarów, które mają ograniczoną ilość dostępnych obszarów.
+Ograniczenie obszarów można rozumieć jako fizyczny brak terenów, albo jako restrykcje, nałożone w ramach programów ochrony środowiska.
+Powoduje to powstawanie wielu pytań odnośnie bezpieczności tych procesów w kontekście ochrony środowiska.
+Współczesne metody tworzenia nowych lądów wymagają pozyskania dużej ilości piasku, najczęściej z dna zbiorników wodnych lub istniejących wysp.
+Konieczne jest ustalenie relacji między procesami tworzenia nowych lądów a zmianami jakości wód.
+Jest to szczególnie ważne w obliczu rosnącej liczby ludności i coraz większego zapotrzebowania na nowe obszary lądowe.
+
+Jakość wód badana jest przeważnie na podstawie trzech grup parametrów: fizycznych, chemicznych i biologicznych.
+Do fizycznych parametrów przynależą takie własności jak temperatura, kolor, smak wody, czy występowanie zawiesiny. 
+Chemiczne parametry badają występowanie metali ciężkich, substancji toksycznych lub sam odczyn wody.
+Do biologicznych parametrów zalicza się występowanie bakterii, alg, oraz wirusów [@summers2020water].
+Podstawowym sposobem badania jakości wód jest wykonywanie pomiarów w terenie.
+Jest to jednak proces kosztowny oraz czasochłonny, wymagający ręcznego pobierania próbek na obszarze badań i ich transportu do laboratorium [@glasgow2004real].
+Manualne pomiary coraz częściej są zastępowane przez mierniki, które automatycznie albo poprzez zdalne wywołanie dokonują pomiarów.
+Taka automatyzacja umożliwia przeprowadzanie ciągłego monitoringu stanu wód, bez konieczności fizycznego przebywania nad zbiornikiem [@glasgow2004real].
+Dodatkowym źródłem cennych informacji o stanie jakości wód są zdjęcia satelitarne.
+Pozwalają one na ocenę wybranych parametrów, w szczególności fizycznych.
+Dużą zaletą zdjęć satelitarnych jest także ich rozdzielczość przestrzenna.
+Zdjęcie jest w stanie dostarczyć informacji dla większego obszaru badań niż pojedyncze pomiary punktowe.
+
+Mając na uwadzę potencjaly wzrost zapotrzebowania na tereny w miastach nadmorskich, konieczne jest zbadanie wpływu konstrukcji nowych ziem na środowisko.
+Celem pracy było zbadanie potencjalnego wpływu tworzenia nowych lądów na zmiany jakości pobliskich wód.
+Wybranych zostało pięć obszarów badań, na terenie których dokonano konstrukcji nowych lądów w przeciągu ostatnich 30 lat.
+Stan wód był badany w trzech etapach: przed, w trakcie i po zakończeniu prac konstrukcyjnych.
+Jakości wód zostały porównane między obszarami badań, w celu wykrycia potencjalnych globalnych lub czasowych trendów.
+Do wykonania oceny jakości wód korzystano dane teledetekcyjne w postaci zdjęć satelitarnych.
