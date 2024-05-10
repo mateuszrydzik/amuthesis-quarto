@@ -1,7 +1,122 @@
-# Podsumowanie {#podsumowanie}
+# Wyniki {#sec-wyniki}
 
-Podsumowanie pracy jest w pewnym sensie znacznie rozbudowanym abstraktem. 
-Należy wyliczyć i opisać osiągnięcia uzyskane w pracy dyplomowej.
-Tutaj jednak (w przeciwieństwie do np. rozdziału [-@sec-wprowadzenie]) należy przechodzić od szczegółu do ogółu - co zostało stworzone/określone, jak zostało to zrobione, jakie ma to konsekwencje, itd.
+## Limon, Kostaryka
+```{r tbl-cr_sabi_mean, echo=FALSE, warning=FALSE, message = FALSE}
+#| label: tbl-sabi_mean
+#| echo: false
+#| tbl-cap: "Statystyki wskaźnika SABI dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji terminala kontenerowego w Limon"
+library(dplyr)
+sabi_df <- readRDS("data/costarica/sabi.Rda")
+sabi_df_mean <- rbind(
+        colMeans(sabi_df[sabi_df$date_ld < as.Date("2015-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2016-01-01") & sabi_df$date_ld < as.Date("2018-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2019-01-01"), 1:5])) %>% as.data.frame()
+sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
 
-Ten rozdział powinien też zawierać opis kwestii, których nie udało się rozwiązać w pracy dyplomowej (i dlaczego się nie udało) oraz pomysły na przyszłe ulepszenie uzyskanych wyników lub dalsze badania.
+knitr::kable(
+  sabi_df_mean[,c(6, 1:5)],
+  digits = 3,
+  col.names = c("etap",
+                "średnia",
+                "mediana",
+                "odch. std.",
+                "1 kwartyl",
+                "3 kwartyl")
+)
+
+```
+Wraz z upływem czasu, na obszarze badań w Limon odnotowano wzrost ilości chlorofilu A ([@tbl-sabi_mean]).
+Najmniej chlorofilu A wykryto podczas trwania prac konstrukcji nowego lądu.
+Największe odchylenie standardowe wykryto jednak przed rozpoczęciem prac.
+Oznacza to, że w trakcie tworzenia nowego lądu w Limon, ilość chlorofilu A była stale niska. 
+Przed rozpoczęciem prac, chlorofilu A było więcej, jednak jego ilość była bardziej zróżnicowana.
+Wraz z zakończeniem prac, ilość chlorofilu A była największa, przy jednoczesnym najmniejszym zróżnicowaniu wartości.
+Wskaźnik SABI wykrył przesłanki występowania trendów w rozkładzie wartości chlorofilu A dla pojedynczych obrazów ([@fig-cr_sabi_violin]).
+Dni z przeważającą ilością obserwacji o wysokich wartościach przypadają na okres połowy wiosny i lata.
+Oznacza to, że przeważnie od marca do września w Limon zaobserwowano większą ilość chlorofilu A.
+W trakcie konstrukcji nowego lądu odnotowano jednak anomalie.
+Na przełomie 2017 i 2018 wskaźnik SABI wskazywał na występowanie dużej ilości chlorofilu A.
+Ilość ta była znacznie wyższa od pozostałych obserwacji na przełomie jesieni i zimy.
+```{r fig-cr_sabi_violin}
+#| label: fig-cr_sabi_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika SABI dla poszczególnych dni, z podziałem na etapy prac na obszarze badań w Limon"
+#| out-width: "100%"
+knitr::include_graphics("figures/costarica/sabi_violin.png")
+```
+Sama korelacja między wskaźnikami jest słaba ([@fig-cr_sabi_flhblue_corr)].
+Wskazuje na trend, gdzie przy wzroście wartości wskaźnika FLH Blue maleją wartości wskaźnika SABI.
+```{r fig-cr_sabi_flhblue_corr}
+#| label: fig-cr_sabi_flhblue_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla obszaru badań w Limon"
+#| out-width: "100%"
+knitr::include_graphics("figures/costarica/sabi_flhblue_corr.png")
+```
+Wskaźnik FLH Blue wykrył zależność w zmianach ilości wykrytego chlorofilu A.
+Wraz ze wzrostem głębokości, ilość chlorofilu A malała ([@fig-cr_flhblue_profile]).
+Największe różnice zaobserwowano w trakcie konstrukcji terminalu.
+```{r fig-cr_flhblue_profile}
+#| label: fig-cr_flhblue_profile
+#| echo: false
+#| fig-cap: "Przebieg zmian wartości wskaźnika FLH Blue wdłuż profilu, biegnącego w obszarze badań w Limon"
+#| out-width: "100%"
+knitr::include_graphics("figures/costarica/flhblue_profile.png")
+```
+Największy przyrost chlorofilu A wiosną wykryto przy lądzie ([@fig-cr_sabi_diff]).
+Im dalej znajdowano się od wybrzeża, tym większy obserwowano spadek ilości chlorofilu po zakończeniu prac, w porównaniu do stanu przed konstrukcją nowego lądu.
+Zależność ta była przeciwna zimą.
+Strefy przybrzeżne notowały utratę chlorofilu A, porównując ich ilość do stanu przed rozpoczęciem prac.
+```{r fig-cr_sabi_diff}
+#| label: fig-cr_sabi_diff
+#| echo: false
+#| fig-cap: "Rozkład przestrzenny różnic wartości wskaźnika SABI przed rozpoczęciem i po zakończeniu prac na obszarze badań w Limon"
+#| out-width: "100%"
+knitr::include_graphics("figures/costarica/sabi_diff.png")
+```
+
+Obserwując zmiany w ilości zawiesiny, wartości wskaźnika Bow06 prognozują wzrost mętności wody ([@tbl-bow_mean]).
+Największe ilości zawiesiny odnotowano w trakcie prowadzenia prac.
+Na tym etapie odchylenie standardowe również było najniższe.
+Pokrywa się to ze zmianami wartości chlorofilu A, gdzie w etapie prowadzenia prac ilość chlorofilu była najmniejsza, przy jednoczesnym niskim zróżnicowaniu wartości.
+Jedyną zmianą w pomiarach zawiesiny jest najwyższe odchylenie standardowe po zakończeniu prac.
+Dla wskaźnika SABI natomiast, największe odchylenia miały miejsce przed rozpoczęciem prac.
+Oznacza to, że dla obszaru badań w Limon po zakończeniu prac zwiększyła się mętność wody, przy jednoczesnym zmniejszeniu jednorodności ilości zawiesiny.
+```{r tbl-cr_bow_mean, echo=FALSE, warning=FALSE,  message = FALSE}
+#| label: tbl-bow_mean
+#| echo: false
+#| tbl-cap: "Statystyki wskaźnika Bow06 dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji terminala kontenerowego w Limon"
+library(dplyr)
+bow_df <- readRDS("data/costarica/bow06.Rda")
+bow_df <- rbind(
+        colMeans(bow_df[bow_df$date_ld < as.Date("2015-12-31"), 1:5]),
+        colMeans(bow_df[bow_df$date_ld >= as.Date("2016-01-01") & bow_df$date_ld < as.Date("2018-12-31"), 1:5]),
+        colMeans(bow_df[bow_df$date_ld >= as.Date("2019-01-01"), 1:5])) %>% as.data.frame()
+bow_df$etap <- factor(c("przed", "w trakcie", "po"))
+
+knitr::kable(
+  bow_df[,c(6, 1:5)],
+  digits = 3,
+  col.names = c("etap",
+                "średnia",
+                "mediana",
+                "odch. std.",
+                "1 kwartyl",
+                "3 kwartyl")
+)
+
+```
+Oba wskaźniki opisujące mętność wody wskazują na podobne zmiany w rozkładzie przestrzennym zmian wartości.
+W okresie wiosennym i letnim, największe spadki w ilości zawiesiny zaobserwowano przy wybrzeżu ([@fig-cr_chip_diff]).
+Zimą natomiast wykryto zależność, według której na obszarach położonych przy lądzie zanotowano wzrost mętności wody.
+Trend ten jest odwrotny do zmian ilości chlorofilu A, gdzie wiosną do największego wzrostu ich ilości doszło przy wybrzeżu.
+```{r fig-cr_chip_diff}
+#| label: fig-cr_chip_diff
+#| echo: false
+#| fig-cap: "Rozkład przestrzenny różnic wartości wskaźnika mętności Chip09 przed rozpoczęciem i po zakończeniu prac na obszarze badań w Limon"
+#| out-width: "100%"
+knitr::include_graphics("figures/costarica/chip_diff.png")
+```
+
+## Szanghaj, Chiny
+

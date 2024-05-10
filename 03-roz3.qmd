@@ -45,3 +45,9 @@ knitr::kable(df, booktabs = TRUE) |>
   kableExtra::column_spec(1, width = "2cm") |>  
   kableExtra::column_spec(2, width = "4cm")
 ```
+
+
+
+
+
+Badania dla obszaru terminalu Moin wykonano dla okresu od początku 2014 do końca 2020 roku. Wykorzystano zdjęcia ze zbioru Landsat 8, udostępnionych na platformie Microsoft Planetary Computer. Obszar badań obejmuje sam terminal oraz otaczające go obszary wodne. Dla obszaru badań w okresie sześciu wymienionych lat pozyskano 316 obrazów, z których 27 spełniało wymogi do wykorzystania w dalszych badaniach.
