@@ -1,8 +1,8 @@
 # Wyniki {#sec-wyniki}
 
 ## Limon, Kostaryka
-```{r tbl-cr_sabi_mean, echo=FALSE, warning=FALSE, message = FALSE}
-#| label: tbl-sabi_mean
+```{r tbl-cr_sabi_stats, echo=FALSE, warning=FALSE, message = FALSE}
+#| label: tbl-cr_sabi_stats
 #| echo: false
 #| tbl-cap: "Statystyki wskaźnika SABI dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji terminala kontenerowego w Limon"
 library(dplyr)
@@ -25,25 +25,18 @@ knitr::kable(
 )
 
 ```
-Wraz z upływem czasu, na obszarze badań w Limon odnotowano wzrost ilości chlorofilu A ([@tbl-sabi_mean]).
+Wraz z upływem czasu, na obszarze badań w Limon odnotowano wzrost ilości chlorofilu A ([@tbl-cr_sabi_stats]).
 Najmniej chlorofilu A wykryto podczas trwania prac konstrukcji nowego lądu.
 Największe odchylenie standardowe wykryto jednak przed rozpoczęciem prac.
 Oznacza to, że w trakcie tworzenia nowego lądu w Limon, ilość chlorofilu A była stale niska. 
 Przed rozpoczęciem prac, chlorofilu A było więcej, jednak jego ilość była bardziej zróżnicowana.
 Wraz z zakończeniem prac, ilość chlorofilu A była największa, przy jednoczesnym najmniejszym zróżnicowaniu wartości.
-Wskaźnik SABI wykrył przesłanki występowania trendów w rozkładzie wartości chlorofilu A dla pojedynczych obrazów ([@fig-cr_sabi_violin]).
+Wskaźnik SABI wykrył przesłanki występowania trendów w rozkładzie wartości chlorofilu A dla pojedynczych obrazów 
 Dni z przeważającą ilością obserwacji o wysokich wartościach przypadają na okres połowy wiosny i lata.
 Oznacza to, że przeważnie od marca do września w Limon zaobserwowano większą ilość chlorofilu A.
 W trakcie konstrukcji nowego lądu odnotowano jednak anomalie.
 Na przełomie 2017 i 2018 wskaźnik SABI wskazywał na występowanie dużej ilości chlorofilu A.
 Ilość ta była znacznie wyższa od pozostałych obserwacji na przełomie jesieni i zimy.
-```{r fig-cr_sabi_violin}
-#| label: fig-cr_sabi_violin
-#| echo: false
-#| fig-cap: "Rozkład wartości wskaźnika SABI dla poszczególnych dni, z podziałem na etapy prac na obszarze badań w Limon"
-#| out-width: "100%"
-knitr::include_graphics("figures/costarica/sabi_violin.png")
-```
 Sama korelacja między wskaźnikami jest słaba ([@fig-cr_sabi_flhblue_corr)].
 Wskazuje na trend, gdzie przy wzroście wartości wskaźnika FLH Blue maleją wartości wskaźnika SABI.
 ```{r fig-cr_sabi_flhblue_corr}
@@ -82,8 +75,8 @@ Pokrywa się to ze zmianami wartości chlorofilu A, gdzie w etapie prowadzenia p
 Jedyną zmianą w pomiarach zawiesiny jest najwyższe odchylenie standardowe po zakończeniu prac.
 Dla wskaźnika SABI natomiast, największe odchylenia miały miejsce przed rozpoczęciem prac.
 Oznacza to, że dla obszaru badań w Limon po zakończeniu prac zwiększyła się mętność wody, przy jednoczesnym zmniejszeniu jednorodności ilości zawiesiny.
-```{r tbl-cr_bow_mean, echo=FALSE, warning=FALSE,  message = FALSE}
-#| label: tbl-bow_mean
+```{r tbl-cr_bow_stats, echo=FALSE, warning=FALSE,  message = FALSE}
+#| label: tbl-cr_bow_stats
 #| echo: false
 #| tbl-cap: "Statystyki wskaźnika Bow06 dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji terminala kontenerowego w Limon"
 library(dplyr)
@@ -107,7 +100,7 @@ knitr::kable(
 
 ```
 Oba wskaźniki opisujące mętność wody wskazują na podobne zmiany w rozkładzie przestrzennym zmian wartości.
-W okresie wiosennym i letnim, największe spadki w ilości zawiesiny zaobserwowano przy wybrzeżu ([@fig-cr_chip_diff]).
+W okresie wiosennym i letnim, największe spadki w ilości zawiesiny zaobserwowano przy wybrzeżu ([@fig-cr_bow_stats]).
 Zimą natomiast wykryto zależność, według której na obszarach położonych przy lądzie zanotowano wzrost mętności wody.
 Trend ten jest odwrotny do zmian ilości chlorofilu A, gdzie wiosną do największego wzrostu ich ilości doszło przy wybrzeżu.
 ```{r fig-cr_chip_diff}
@@ -119,4 +112,94 @@ knitr::include_graphics("figures/costarica/chip_diff.png")
 ```
 
 ## Szanghaj, Chiny
+```{r tbl-cn_flhblue_stats, echo=FALSE, warning=FALSE, message = FALSE}
+#| label: tbl-cn_flhblue_stats
+#| echo: false
+#| tbl-cap: "Statystyki wskaźnika FLH Blue dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji Nanhui New City w Szanghaju."
+sabi_df <- readRDS("data/china/flhblue.Rda")
+sabi_df_mean <- rbind(
+        colMeans(sabi_df[sabi_df$date_ld < as.Date("2002-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2003-01-01") & sabi_df$date_ld < as.Date("2005-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2006-1-01"), 1:5])) %>% as.data.frame()
+sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
 
+knitr::kable(
+  sabi_df_mean[,c(6, 1:5)],
+  digits = 3,
+  col.names = c("etap",
+                "średnia",
+                "mediana",
+                "odch. std.",
+                "1 kwartyl",
+                "3 kwartyl")
+)
+
+```
+Wraz z postępem prac konstrukcji lądu pod Nanhui New City, odnotowano wzrost ilości chlorofilu A w zatoce Hangzhou ([@tbl-cn_flhblue_stats]).
+Najniższe średnie wartości wskaźnika FLH Blue występowały przed rozpoczęciem prac, a najwyższe - po zakończeniu.
+Odchylenie standardowe wartości również uległo zmianie.
+Przed rozpoczęciem prac, wartości chlorofilu A posiadały największy rozrzut spośród wszystkich etapów pracy.
+W trakcie konstrukcji lądu, wartości wskaźnika stały się bardziej stabilne, a następnie wzrosły wraz z zakończeniem prac.
+Odnośnie występowania chlorofilu, wyższe wartości odchylenia standardowego mogą być naturalnym zjawiskiem.
+Wartości chlorofilu są zależne od szeregu czynników i mogą różnić się w zależności od pory roku.
+Niskie wartości odchylenia standardowego podczas trwania prac mogą świadczyć o negatywnym wpływie konstrukcji lądów na zbiorniki wodne i zaburzeniu w występowaniu chlorofilu A.
+```{r fig-cn_flhblue_violin}
+#| label: fig-cn_flhblue_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla poszczególnych etapów prac na obszarze Nanhui New City w Szanghaju"
+#| out-width: "100%"
+knitr::include_graphics("figures/china/flhblue_violin.png")
+```
+
+```{r fig-cn_sabi_diff}
+#| label: fig-cn_sabi_diff
+#| echo: false
+#| fig-cap: "Rozkład przestrzenny różnic wartości wskaźnika SABI przed rozpoczęciem i po zakończeniu prac na obszarze badań w Nanhui New City w Szanghaju"
+#| out-width: "100%"
+knitr::include_graphics("figures/china/sabi_diff.png")
+```
+Wskaźnik SABI wskazał natomiast spadek ilości chlorofilu wraz z upływem czasu.
+Najbardziej widoczne jest to późnym latem, gdzie na większości obszaru badań chlorofil A ubył po zakończeniu prac, w porównaniu do stanu przed ich rozpoczęciem ([@cn_sabi_diff]).
+Zależność ta jest natomiast odwrotna pod koniec jesieni.
+Całość obszaru badań wykazuje wzrost ilości chlorofilu A po zakończeniu prac.
+Jedyne występowania spadku chlorofilu zaobserwowano przy wybrzeżu nowego lądu.
+```{r tbl-cn_chip_stats, echo=FALSE, warning=FALSE, message = FALSE}
+#| label: tbl-cn_chip_stats
+#| echo: false
+#| tbl-cap: "Statystyki wskaźnika Chip09 dla obrazów pochodzących z okresów przed, w trakcie i po wykonywaniu prac konstrukcji Nanhui New City w Szanghaju."
+sabi_df <- readRDS("data/china/chip09.Rda")
+sabi_df_mean <- rbind(
+        colMeans(sabi_df[sabi_df$date_ld < as.Date("2002-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2003-01-01") & sabi_df$date_ld < as.Date("2005-12-31"), 1:5]),
+        colMeans(sabi_df[sabi_df$date_ld >= as.Date("2006-1-01"), 1:5])) %>% as.data.frame()
+sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
+
+knitr::kable(
+  sabi_df_mean[,c(6, 1:5)],
+  digits = 3,
+  col.names = c("etap",
+                "średnia",
+                "mediana",
+                "odch. std.",
+                "1 kwartyl",
+                "3 kwartyl")
+)
+
+```
+
+Mętność wody na obszarze badań w zatoce Hangzhou wzrosła po zakończeniu prac ([@tbl-cn_chip_stats]).
+Najniższe wartości zawiesiny w wodzie odnotowano przed rozpoczęciem prac, po czym stopniowo rosło w trakcie trwania konstrukcji.
+W przeciwieństwie do chlorofilu A, odchylenie standardowe również wzrosło po zakończeniu prac.
+Wzrost mętności oraz rozrzutu ilości zawiesiny może wynikać z długofalowych skutków konstrukcji lądów, albo ze zwiększonej ludzkiej aktywności, wynikającej z zamieszkania terenu nad zatoką przez dużą ilość nowych mieszkańców.
+```{r fig-cn_bow_chip_means}
+#| label: fig-cr_bow_chip_means
+#| echo: false
+#| fig-cap: "Zmiany średnich wartości wskaźników Bow06 i Chip09 w czasie na obszarze Nanhui New City w Szanghaju"
+#| out-width: "100%"
+knitr::include_graphics("figures/china/bow_chip_means.png")
+```
+Zestawiając ze sobą wartości wskaźników Bow06 i Chip09 zauważyć można różnice w wielkościach średnich ([@fig-cr_bow_chip_means]).
+Wartości wskaźnika Bow06 były dwukrotnie większe od wartości wskaźnika Chip09.
+Ponadto, wskażnik Bow06 zaobserwował wzrost średnich wartości zawiesiny już przed samym rozpoczęciem prac.
+Wartości wskaźnika Chip09 cechują się mniejszym rozrzutem.
+Większosć obserwacji posiada wartość zbliżoną średniej, z wyjątkiem jednej obserwacji odstającej w trakcie prowadzenia prac.
