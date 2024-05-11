@@ -37,7 +37,7 @@ Oznacza to, że przeważnie od marca do września w Limon zaobserwowano większ�
 W trakcie konstrukcji nowego lądu odnotowano jednak anomalie.
 Na przełomie 2017 i 2018 wskaźnik SABI wskazywał na występowanie dużej ilości chlorofilu A.
 Ilość ta była znacznie wyższa od pozostałych obserwacji na przełomie jesieni i zimy.
-Sama korelacja między wskaźnikami jest słaba ([@fig-cr_sabi_flhblue_corr)].
+Sama korelacja między wskaźnikami jest słaba ([@fig-cr_sabi_flhblue_corr]).
 Wskazuje na trend, gdzie przy wzroście wartości wskaźnika FLH Blue maleją wartości wskaźnika SABI.
 ```{r fig-cr_sabi_flhblue_corr}
 #| label: fig-cr_sabi_flhblue_corr
@@ -68,7 +68,7 @@ Strefy przybrzeżne notowały utratę chlorofilu A, porównując ich ilość do 
 knitr::include_graphics("figures/costarica/sabi_diff.png")
 ```
 
-Obserwując zmiany w ilości zawiesiny, wartości wskaźnika Bow06 prognozują wzrost mętności wody ([@tbl-bow_mean]).
+Obserwując zmiany w ilości zawiesiny, wartości wskaźnika Bow06 prognozują wzrost mętności wody ([@tbl-cr_bow_stats]).
 Największe ilości zawiesiny odnotowano w trakcie prowadzenia prac.
 Na tym etapie odchylenie standardowe również było najniższe.
 Pokrywa się to ze zmianami wartości chlorofilu A, gdzie w etapie prowadzenia prac ilość chlorofilu była najmniejsza, przy jednoczesnym niskim zróżnicowaniu wartości.
@@ -100,7 +100,7 @@ knitr::kable(
 
 ```
 Oba wskaźniki opisujące mętność wody wskazują na podobne zmiany w rozkładzie przestrzennym zmian wartości.
-W okresie wiosennym i letnim, największe spadki w ilości zawiesiny zaobserwowano przy wybrzeżu ([@fig-cr_bow_stats]).
+W okresie wiosennym i letnim, największe spadki w ilości zawiesiny zaobserwowano przy wybrzeżu ([@fig-cr_chip_diff]).
 Zimą natomiast wykryto zależność, według której na obszarach położonych przy lądzie zanotowano wzrost mętności wody.
 Trend ten jest odwrotny do zmian ilości chlorofilu A, gdzie wiosną do największego wzrostu ich ilości doszło przy wybrzeżu.
 ```{r fig-cr_chip_diff}
@@ -136,7 +136,7 @@ knitr::kable(
 
 ```
 Wraz z postępem prac konstrukcji lądu pod Nanhui New City, odnotowano wzrost ilości chlorofilu A w zatoce Hangzhou ([@tbl-cn_flhblue_stats]).
-Najniższe średnie wartości wskaźnika FLH Blue występowały przed rozpoczęciem prac, a najwyższe - po zakończeniu.
+Najniższe średnie wartości wskaźnika FLH Blue występowały przed rozpoczęciem prac, a najwyższe - po zakończeniu ([@fig-cn_flhblue_violin]).
 Odchylenie standardowe wartości również uległo zmianie.
 Przed rozpoczęciem prac, wartości chlorofilu A posiadały największy rozrzut spośród wszystkich etapów pracy.
 W trakcie konstrukcji lądu, wartości wskaźnika stały się bardziej stabilne, a następnie wzrosły wraz z zakończeniem prac.
@@ -159,7 +159,7 @@ knitr::include_graphics("figures/china/flhblue_violin.png")
 knitr::include_graphics("figures/china/sabi_diff.png")
 ```
 Wskaźnik SABI wskazał natomiast spadek ilości chlorofilu wraz z upływem czasu.
-Najbardziej widoczne jest to późnym latem, gdzie na większości obszaru badań chlorofil A ubył po zakończeniu prac, w porównaniu do stanu przed ich rozpoczęciem ([@cn_sabi_diff]).
+Najbardziej widoczne jest to późnym latem, gdzie na większości obszaru badań chlorofil A ubył po zakończeniu prac, w porównaniu do stanu przed ich rozpoczęciem ([@fig-cn_sabi_diff]).
 Zależność ta jest natomiast odwrotna pod koniec jesieni.
 Całość obszaru badań wykazuje wzrost ilości chlorofilu A po zakończeniu prac.
 Jedyne występowania spadku chlorofilu zaobserwowano przy wybrzeżu nowego lądu.

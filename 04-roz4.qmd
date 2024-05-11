@@ -1,4 +1,15 @@
 # Obszary badań {#sec-obszary_badan}
+Badania przeprowadzono na pięciu obszarach, położonych na trzech kontynentach ([@fig-aois]).
+Oprócz położenia, obszary różnią się też zakresem czasowym, w którym obserwowano zmiany.
+Najwcześniejsze zdjęcia wykorzystane w pracy pochodzą z 1993 roku, a najstarsze - z 2020 roku.
+
+```{r fig-aois}
+#| label: fig-aois
+#| echo: false
+#| fig-cap: "Położenie obszarów badań."
+#| out-width: "100%"
+knitr::include_graphics("figures/aois.png")
+```
 
 ## Limon, Kostaryka
 ```{r fig-cr_aoi}
