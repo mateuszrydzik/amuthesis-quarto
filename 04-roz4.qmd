@@ -8,7 +8,7 @@ Najwcześniejsze zdjęcia wykorzystane w pracy pochodzą z 1993 roku, a najstars
 #| echo: false
 #| fig-cap: "Położenie obszarów badań."
 #| out-width: "100%"
-knitr::include_graphics("figures/aois.png")
+knitr::include_graphics("figures/aois2.png")
 ```
 
 ## Limon, Kostaryka
