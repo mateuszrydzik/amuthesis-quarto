@@ -1,27 +1,40 @@
 # Przegląd literatury {#sec-lit}
 
-Ten rozdział zawiera wyjaśnienie kontekstu pracy.
+Zaletą danych teledetekcyjnych w ocenie jakości wód jest ich obszar, który obejmują ciągły obszar badań [@gholizadeh2016comprehensive].
+Pozwala to na obserwacje przestrzennego rozkładu stanu wód, w przeciwieństwie do punktowych pomiarów w terenie, które dostarczają informacje jedynie o stanie konkretnego punktu w przestrzeni.
+Wykorzystanie zdjęć satelitarnych jako danych teledetekcyjnych ogranicza jednak ilość właściwości wody, jaką można ocenić.
+Pozwalają jedynie na badanie fizycznych właściwości wód, takich jak ich kolor czy mętność [@glasgow2004real].
+Stacje pomiarowe w terenie pozwalają na pozyskanie większej ilości informacji, opisujących chemiczne i biologiczne własności wody [@summers2020water].
+Znaczna ilość badań zbiorników wodnych, przy wykorzystaniu danych teledetekcyjnych, skupia się na ocenie występowania chlorofilu A, ilości zawieszonego materiału i mętności wody [@gholizadeh2016comprehensive].
+Badania odnośnie wpływu konstrukcji lądów na jakość wód są istotne przez stale rosnącą liczbę ludności, w szczególności w obszarach na wybrzeżach [@mcgranahan2007rising].
+Nowe lądy znajdują zastosowania w poszerzaniu granic przybrzeżnych miast, dostarczając tereny pod strefy mieszkalne i przemysłowe [@wang2014development].
+Ocena wpływu konstrukcji nowych lądów na stan jakości wód jest tematem wielu badań, których wyniki wykorzystano w tej pracy.
 
-Pisząc ten rozdział proszę pomyśleć o osobach, które zupełnie nie znają opisywanej tematyki.
-Należy tutaj krok po kroku wyjaśnić podstawowe koncepcje, istotność problemu, wyniki poprzednich podobnych badań, itd.
-Ten rozdział obejmuje tylko kwestie, które już zostały wykonane przez inne osoby - nowe wyniki mają swoje miejsce w rozdziale [-@sec-wyniki].
+Zespół [@zhang2017assessment] prowadził badania na obszarze zatoki Jiaozhou w Chinach.
+Wybrzeże tej zatoki ulegało wielu przekształceniom, będących wynikiem wielu prac konstrukcji nowych lądów.
+Część z nowych terenów wykorzystano do rozwoju przemysłu.
+Wraz ze wzrostem ilości procesów tworzenia nowych lądów, odnotowano wzrost ilości nieorganicznego azotu, rozpuszczonego w wodach zatoki Jiaozhou.
+W ramach tej pracy, zdecydowano się zbadać wpływ wybranych czynników do zmiany ilości nieorganicznego azotu w zatoce Jiaozhou, która mogła doprowadzić do zmian jakości wody.
+Do oceny jakości wód, zespół pozyskał dostępne zbiory danych opisujące własciwości wody, których zmiany w ilości występowania w wodzie mogą świadczyć o potencjalnym pogorszeniu lub polepszeniu jakości wód.
+Do zbioru danych, oprócz ilości azotu odprowadzanego przez rzeki do zbiornika, zaliczono również między innymi informacje o: występowaniu chlorofilu A, zasadowości i temperaturze wody, zasoleniu czy ilości rozpuszczonego tlenu.
+Zbiór danych opisywał od 1962 do 2012 roku
+Dane następnie podzielono na dwie grupy: czynniki wpływu antropogenicznego (przedostawanie się azotu i innych związków do zbiorników wodnych bezpośrednio przez strefy przemysłowe, lub odprowadzone do rzek uchodzących w zatoce) oraz przyrodnicze czynniki strefy przybrzeżnej (ilość chlorofilu A, zawiesiny w wodzie, temperatura i zasolenie wody, oraz zjawiska przyrodnicze).
+W pracy wykorzystano metody statystyczne, między innymi regresję liniową, analizę czynników oraz numeryczne modele jakości wód, do zbadania wpływu poszczególnych elementów zbioru danych na zmiany ilości rozpuszczonego azotu w zatoce.
+Praca wskazała, że głównymi czynnikami pogorszenia jakości wód w zatoce Jiaozhou był wzrost ilości azotu odprowadzanego przez rzeki do zatoki, oraz jednoczesne zmniejszanie powierzchni zbiornika wodnego.
+Tworzenie nowych lądów w zatoce skutkowało przekształcaniem powierzchni zatoki Jiaozhou między innymi w obszary przemysłowe, które zwiększały ilość azotu w wodach zatoki. 
+Autorzy wskazali na konieczność wprowadzenia programów uzdatniania wody z rzek czy przenoszenia stref przemysłowych zdala od wybrzeża w celu poprawienia jakości wód w zbiorniku.
 
-Każda kwestia opisana w tym rozdziale powinna być cytowana.
-Dodatnie cytowania odbywa się poprzez uzupełnienie pliku `thesis.bib` zapisem w formacie BibTeX, a następnie dodanie nazwy referencji poprzedzonej znakiem `@`.
-Przykładowo, zacytowanie książki Geocomputation with R odbywa się poprzez [@lovelace_geocomputation_2019].
-<!-- https://tex.stackexchange.com/questions/143/what-are-good-sites-to-find-citations-in-bibtex-format -->
-
-W przypadku, gdy cytowanie zostało poprawnie wpisane oraz istnieje w pliku `thesis.bib` to bibliografia powinna się automatycznie wygenerować na końcu pracy.
-
-W przypadku, gdy praca dyplomowa opisuje konkretny obszar to można po tym rozdziale stworzyć kolejny rozdział opisujący "obszar badań".
-
-Ten i kolejne rozdziału moją mieć także podrozdziały.
-Tworzenie podrozdziałów polega na stworzeniu nowej linii rozpoczynającej się od znaków `##` a następnie tytułu podrozdziału.
-Dodatkowo w postaci `{#sec-}` można dodać skrót nazwy rozdziału/podrozdziału umożliwiający odnoszenie się do niego używając operatora `[-@sec]` aby uzyskać sam numer rozdziału.
-Jeżeli chcemy dodać odnośnik do rozdziału w nawiasie, to możemy zrobić to przy pomocy operatora `[@sec]`.
-W zależności od tego, czy odnośnik prowadzi do rozdziału czy podrozdziału - zostanie użyte odpowiednie określenie ([@sec-lit], [@sec-podr]).
-
-## Podrozdział {#sec-podr}
-
-Przykładowo, "te kwestie zostały opisane w podrozdziale [-@sec-podr]".
-Zwróć uwagę, że w ten sposób automatycznie tworzony jest odnośnik w pliku PDF.
+Praca [@hao2021effects] skupia się na określeniu wpływu konstrukcji nowych terenów w mieście Ningbo na stan jakości wód w zatoce Hangzhou w Chinach.
+Do oceny jakości wód wybrano cztery metale ciężkie: miedź, ołów, cynk i kadm.
+Wzrost stężenia tych metali w wodzie został utożsamiony z pogorszeniem jakości wody.
+Dane pozyskano z próbek, pobranych w trzech okresach: przed rozpoczęciem prac (2007 rok), tuż po zakończeniu prac (2016 rok) i dłuższy czas po zakończeniu prac (2018 rok).
+Próbkowanie natężenia metali ciężkich w trzech oddzielnych etapach pozwoliło na ocenę wpływu tworzenia nowych lądów na stan jakości wód, porównując ilość metali ciężkich po zakończeniu prac z ilością przed rozpoczęciem prac.
+Badania wskazały na najwyższe wartości trzech z czterech metali ciężkich w 2016 roku, czyli tuż po zakończeniu prac.
+Jedynym metalem ciężkim, którego ilość była większa przed rozpoczęciem prac niż tuż po zakończeniu prac był kadm.
+Największy wzrost tuż po zakończeniu prac w 2016 roku, w porównaniu do stanu przed rozpoczęciem prac w 2007 roku odnotowały miedź oraz cynk.
+Obserwując ilości metali ciężkich w 2018 roku, czyli dwa lata po zakończeniu prac, wartości zmalały do ilości przed rozpoczęciem prac.
+W przypadku ołowiu, ilość metali wykryta w zbiorniku była mniejsza w 2018 roku niż w 2007 roku.
+Trend spadku ilości metalu po zakończeniu prac nie został odnotowany dla kadmu, który dwa lata po zakończeniu prac wzrósł.
+Wyniki badań wskazują na wpływ tworzenia nowych lądów na stan jakości wody.
+Tuż po zakończeniu prac, ilość metali ciężkich w wodach była większa niż przed rozpoczęciem prac.
+Wraz z upływem czasu po zakończeniu prac, natężenie metali w wodzie stopniowo malało.

@@ -1,15 +1,37 @@
 # Obszary badań {#sec-obszary_badan}
-Badania przeprowadzono na pięciu obszarach, położonych na trzech kontynentach ([@fig-aois]).
-Oprócz położenia, obszary różnią się też zakresem czasowym, w którym obserwowano zmiany.
-Najwcześniejsze zdjęcia wykorzystane w pracy pochodzą z 1993 roku, a najstarsze - z 2020 roku.
 
+Badania przeprowadzono na pięciu obszarach, położonych na trzech kontynentach [@fig-aois].
+[@tbl-aois_info] zawiera podstawowe informacje dla każdego obszaru.
+Obszary obejmują projekty, które prowadzono na przestrzeni 23 lat.
+Najwcześniejszy projekt, w Singapurze, rozpoczęto w 1995 roku, gdzie najnowsze prace w Kostaryce i Nigerii zakończono w 2018 roku.
+Obszary badań różnią się także całkowitą pozyskaną powierzchnią lądową i jej wykorzystaniem.
+Najmniejszy teren pozyskano w Kostaryce i wykorzystano go do otworzenia terminalu kontenerowego.
+Projekt w Szanghaju cechował się największą pozyskaną powierzchnią lądową, którą użyto do otwarcia nowej dzielnicy miasta.
 ```{r fig-aois}
 #| label: fig-aois
 #| echo: false
-#| fig-cap: "Położenie obszarów badań."
+#| fig-cap: "Położenie przestrzenne obszarów badań"
 #| out-width: "100%"
 knitr::include_graphics("figures/aois2.png")
 ```
+
+```{r tbl-aois_info, echo=FALSE, warning=FALSE, message=FALSE}
+#| label: tbl-aois_info
+#| echo: false
+#| tbl-cap: "Podstawowe informacje o obszarach badań, okresach prowadzenia prac oraz pozyskanych powierzchni i ich wykorzystaniu"
+aois <- data.frame(
+  c("Dubaj, ZEA", "Lagos, Nigeria", "Limon, Kostaryka", "Singapur", "Szanghaj, Chiny"),
+  c("2002", "2009", "2015", "1995", "2003"),
+  c("2010", "2018", "2018", "2003", "2005"),
+  c("20 km2", "9 km2", "0.4 km2", "30 km2", "296 km2"),
+  c("turystyka", "obszar mieszkalno-usługowy", "terminal kontenerowy", "lotnisko", "obszar mieszkalno-usługowy")
+)
+knitr::kable(aois, format = "latex", booktabs = TRUE, linesep = "", col.names = c("obszar badań", "początek prac", "zakończenie prac", "nowa powierzchnia", "wykorzystanie"))  |> 
+  kableExtra::column_spec(2, width = "2cm") |>  
+  kableExtra::column_spec(3, width = "2cm") |>
+  kableExtra::column_spec(4, width = "2cm")
+```
+
 
 ## Limon, Kostaryka
 ```{r fig-cr_aoi}

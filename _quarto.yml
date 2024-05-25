@@ -29,6 +29,8 @@ book:
     - 05-roz5.qmd
     - 06-roz6.qmd
     - 07-roz7.qmd
+    - references.qmd
+    - appendix.qmd
 
 bibliography: thesis.bib, packages.bib
 
@@ -43,3 +45,4 @@ format:
     fig-asp: 0.618  # 1 / phi
     fig-pos: 't'
     number-sections: true
+    #suppress-bibliography: true

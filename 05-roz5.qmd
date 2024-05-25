@@ -1,5 +1,43 @@
 # Metody {#sec-metody}
 
+Główną metodą wykorzystywania zdjęć satelitarnych w badaniu jakości wody jest wykorzystywanie informacji o ilości odbitego promieniowania od powierzchni wody [@gholizadeh2016comprehensive].
+
+
+SABI [@alawadi2010detection]
+
+Different sensors mounted on satellites and other platforms, such as aeroplanes, measure the amount of radiation at various wavelengths reflected from the water’s surface. These reflections can be used directly or indirectly to detect different water quality indicators, such as total suspended solids (TSS), chlorophyll-a concentration, turbidity, salinity, total phosphorus (TP), Secchi disk depth (SDD), Temperature, pH, Dissolved Organic Carbon (DOC),etc
+
+amount of radiation at various wavelengths reflected from the water’s surface
+
+
+The surface algal bloom index (SABI) is a four-band algorithm developed to map the spatial distribution of surface and
+near-surface algae in global oceans. It achieves this by using the red-edge effect as a tool to distinguish floating algae in
+a background of clear blue water and/or green planktonic water-mixed blooms. SABI's robustness is attributed to the
+following factors: (1) it is a ratio-based relationship applicable to spectral radiances (if measured at the same irradiance
+conditions) and reflectances, making it relatively insensitive to many of the uncertainties introduced by the bidirectional
+reflectance distribution function (BRDF); (2) it is a four-band relationship, that will distribute the weight of each optical
+response proportionally; and (3) the inclusion of short wave bands (green and blue) in the denominator of the ratio
+making it: (a) highly suitable for relating near-surface bloom distributions to those occurring at the water surface; and (b)
+highly stable against sun glint as well as a number of optical scattering sources in the atmosphere, like molecules and
+certain particles.
+The SABI formulae used MODIS wavebands that belong to the 500 m spatial resolution group: B1 (R=645 nm) and B2
+(NIR=869 nm) both aggregated from the 250 m resolution MODIS band group; and bands B3 (B=469 nm) and B4
+(G=555 nm).
+Positive SABI values are a relative measure of the photosynthetic activity exhibited by the surface algae. Whereas
+negative values will point to the species' state of buoyancy in the water relative to their photosynthetic activity. This
+would, therefore, indicate either that the species are found deeper in the water column, leading to high water absorption
+in the NIR and preventing the red-edge effect from being detected, or the species are simply no longer photosynthetically
+active. 
+
+
+R:
+rsi do pobrania
+waterquality do obliczenia wskaznikow (on ma formuły i metode do obliczania)
+ja dodalem metody dla landsata 5-7
+
+
+
+
 Rozdział **Metody** zawiera opis użytych metod (np. statystycznych czy geostatystycznych) oraz technologii (np. pakiety R). 
 Opis każdej z metod czy technologi powinien być zwarty i zawierać tylko najważniejsze informacje z punktu widzenia pracy dyplomowej.
 

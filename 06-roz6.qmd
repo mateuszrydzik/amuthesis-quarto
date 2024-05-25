@@ -15,6 +15,7 @@ sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
 
 knitr::kable(
   sabi_df_mean[,c(6, 1:5)],
+  format = "latex",
   digits = 3,
   col.names = c("etap",
                 "średnia",
@@ -89,6 +90,7 @@ bow_df$etap <- factor(c("przed", "w trakcie", "po"))
 
 knitr::kable(
   bow_df[,c(6, 1:5)],
+  format = "latex",
   digits = 3,
   col.names = c("etap",
                 "średnia",
@@ -125,6 +127,7 @@ sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
 
 knitr::kable(
   sabi_df_mean[,c(6, 1:5)],
+  format = "latex",
   digits = 3,
   col.names = c("etap",
                 "średnia",
@@ -176,6 +179,7 @@ sabi_df_mean$etap <- factor(c("przed", "w trakcie", "po"))
 
 knitr::kable(
   sabi_df_mean[,c(6, 1:5)],
+  format="latex",
   digits = 3,
   col.names = c("etap",
                 "średnia",

@@ -1,53 +1,42 @@
 # Materiały {#sec-materialy}
 
-Celem tego rozdziału jest przedstawienie użytych w pracy danych.
-Należy wyjaśnić jakie dane zostały użyte, jakiego są one rodzaju, dla jakiego okresu zostały pobrane/stworzone, co one zawierają, etc.
+Do oceny jakości stanu wód, wykorzystano dane teledetekcyjne w postaci zdjęć satelitarnych.
+[@tbl-data_info] zawiera informacje o wykorzystanych danych.
+Wszystkie obrazy pochodzą z programu Landsat Collection 2 poziomu drugiego, dla którego zdjęcia zostały poddane korekcji atmosferycznej.
+W zależności od lat prowadzonych badań, zdjęcia pochodzą z satelit Landsat 5, 7 lub 8.
+Obrazy pozyskano z katalogu Planetary Computer od Microsoft [@microsoft_open_source_2022_7261897].
+Wszystkie zdjęcia mają rozdzielczość przestrzenną 30 metrów.
+Z pozyskanych zdjęć satelitarnych, do obliczenia wskaźników spektralnych, wykorzystano kanały widzialne (czerwony, zielony, niebieski) i bliskiej podczerwieni.
+Wykorzystany został również kanał oceny jakości poszczególnych pikseli do wyboru jedynie obszarów zaklasyfikowanych jako zbiorniki wodne bez pokrycia chmurami.
+Tabela zawiera również informacje o ilości dostępnych zdjęć dla obszarów badań, pozyskanych z Planetary Computer.
+W przypadku Dubaju, Lagosu oraz Szanghaju, obszary badań były wystarczająco duże, że ich obszar dla pojedynczych dni pokrywały dwa zdjęcia satelitarne.
+Spowodowało to wzrost ilości dostępnych obrazów dla tych obszarów.
+Dla Dubaju i Lagosu jednak dwa zdjęcia dla tych samych dni pokrywały się tak mocno, że dodatkowy obraz nie dostarczał nowych danych do obszaru badań. 
+Ze wszystkich dostępnych zdjęć dla badanych obszarów wybrano jedynie te, dla których procentowy udział ilości pikseli bez wartości w całym obrazie nie przekroczył wartości progowej.
+Wartość progowa zmieniała się dla każdego z obszarów, w zależności od ilości obszarów lądowych znajdujących się w obszarze badań.
+Piksele klasyfikowane jako ląd były wykluczane z analizy, w wyniku czego przy dużym udziale lądu należało zwiększyć wartość progową braku wartości.
+Oprócz lądów, chmury również wpływały na brak wartości na obrazie satelitarnym.
+Przy dużym zachmurzeniu, ilość dostępnych pikseli dla zbiorników wodnych malała, co skutkowało zmniejszeniem przydatności takiego zdjęcia do badań.
 
-W tym rozdziale warto dodać ryciny i tabele przedstawiające użyte dane.
-
-Zwróć uwagę, że poniższe bloki kodu mają parametr `#| echo: false`; oznacza to, że będą one niewidoczne w wynikowym pliku PDF.
-Każdy z bloków kodu musi mieć unikalną nazwę; w przypadku rycin powinna się ona rozpoczynać od prefiksu `fig-`.
-Dodanie podpisu pod rycinę odbywa się używając parametru `#| fig-cap:`.
-Następnie do tej ryciny można się odnieść używając operatora `[@]`.
-Przykładowo, odniesienie się do pierwszej ryciny wymaga wpisania `[@fig-rycina1]` ([@fig-rycina1]).
-Aby odnieść się do samego numeru ryciny, należy użyć operatora `[-@]`, np. `[-@fig-rycina1]` (...na rycinie [-@fig-rycina1]).
-
-```{r}
-#| label: fig-rycina1
+Oprócz zdjęć satelitarnych, w pracy wykorzystano również dane o głębokości zbiorników wodnych ze zbioru GEBCO_2023 Grid [@gebco_2023].
+Dane o batymetrii udostępnione są w formie rastrów o rozdzielczości 15 sekund kątowych.
+Każdy piksel rastra zawiera informacje o głębokości w metrach.
+Dane o batymetrii zostały wykorzystane do zbadania zmian wskaźników jakości wód wzdłuż profilów, biegnących od nowych lądów wgłąb zbiorników wodnych.
+Pozwoliło to nie tylko na ocenę zmiany jakości wód wraz ze zwiększaniem odległości od lądu, ale również wraz ze zwiększaniem głębokości.
+```{r tbl-datainfo, echo=FALSE, warning=FALSE, message=FALSE}
+#| label: tbl-data_info
 #| echo: false
-#| fig-cap: "Moja pierwsza rycina"
-plot(1, 4)
+#| tbl-cap: "Informacje o wykorzystanych danych oraz długości profilu. W tabeli podano lata, dla których pozyskano obrazy satelitarne. Zawarto także ilość dostępnych zdjęć, oraz ile z nich zostało wykorzystane w badaniach. Umieszczono również informacje o rodzaju satelity, które wykonały zdjęcia. W tabeli zawarto również długość profilu w metrach, wzdłuż którego próbkowano wartości wskaźników spektralnych oraz głębokości zbiornika."
+
+aois <- data.frame(
+  c("Dubaj, ZEA", "Lagos, Nigeria", "Limon, Kostaryka", "Singapur", "Szanghaj, Chiny"),
+  c("Landsat 7", "Landsat 7 i 8", "Landsat 8", "Landsat 5 i 7", "Landsat 7"),
+  c("2002 - 2012", "2007 - 2020", "2014 - 2020", "1993 - 2005", "2000 - 2008"),
+  c("410", "465", "316", "337", "759"),
+  c("45", "51", "27", "46", "39"),
+  c("22149 m", "7654 m", "6853 m", "9479 m", "15134 m")
+)
+knitr::kable(aois, format = "latex", booktabs = TRUE, linesep = "", col.names = c("obszar badań", "satelita", "okres badań", "dostępne zdjęcia", "wybrane zdjęcia", "długość profilu"))  |> 
+  kableExtra::column_spec(4, width = "2cm") |>  
+  kableExtra::column_spec(5, width = "2cm")
 ```
-
-Podobnie wygląda odnoszenie się do plików graficznych. 
-Tutaj wewnątrz bloku kodu należy użyć funkcji `knitr::include_graphics()` ([@fig-rycina2]).
-Dodatkowo możliwa jest zmiana rozmiary obrazka używając parametrów takich jak `#| out-width:` i `#| out-height:`.
-
-```{r}
-#| label: fig-rycina2
-#| echo: false
-#| fig-cap: "Moja druga rycina"
-#| out-width: "100%"
-#| out-height: 300px
-knitr::include_graphics("figures/rcookies.png")
-```
-
-Odnoszenie się do tabel odbywa się poprzez operator `[@]` wraz z prefiksem `tbl-`.
-Natomiast tworzenie podpisu nad tabelą ma miejsce używając parametru `#| tbl-cap:`. 
-Dodatkowo możliwe jest użycie pakietu **kableExtra** [@R-kableExtra] do określenia szerokości kolumn ([@tbl-tabela1]).
-
-```{r tabela1, echo=FALSE}
-#| label: tbl-tabela1
-#| echo: false
-#| tbl-cap: "Moja pierwsza tabela"
-df = data.frame(a = 1:5, b = letters[1:5])
-knitr::kable(df, booktabs = TRUE) |> 
-  kableExtra::column_spec(1, width = "2cm") |>  
-  kableExtra::column_spec(2, width = "4cm")
-```
-
-
-
-
-
-Badania dla obszaru terminalu Moin wykonano dla okresu od początku 2014 do końca 2020 roku. Wykorzystano zdjęcia ze zbioru Landsat 8, udostępnionych na platformie Microsoft Planetary Computer. Obszar badań obejmuje sam terminal oraz otaczające go obszary wodne. Dla obszaru badań w okresie sześciu wymienionych lat pozyskano 316 obrazów, z których 27 spełniało wymogi do wykorzystania w dalszych badaniach.
