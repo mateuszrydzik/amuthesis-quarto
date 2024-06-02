@@ -5,3 +5,8 @@ Należy wyliczyć i opisać osiągnięcia uzyskane w pracy dyplomowej.
 Tutaj jednak (w przeciwieństwie do np. rozdziału [-@sec-wprowadzenie]) należy przechodzić od szczegółu do ogółu - co zostało stworzone/określone, jak zostało to zrobione, jakie ma to konsekwencje, itd.
 
 Ten rozdział powinien też zawierać opis kwestii, których nie udało się rozwiązać w pracy dyplomowej (i dlaczego się nie udało) oraz pomysły na przyszłe ulepszenie uzyskanych wyników lub dalsze badania.
+
+
+
+ulepszenie - uzycie innego sposobu maskowania zamiast QA bo on sporo pomijal
+moze uzyc kompozytow dla meisiecy? bo tak dla pojedynczych dni to bylo sporo luk

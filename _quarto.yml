@@ -45,4 +45,4 @@ format:
     fig-asp: 0.618  # 1 / phi
     fig-pos: 't'
     number-sections: true
-    #suppress-bibliography: true
+    suppress-bibliography: true

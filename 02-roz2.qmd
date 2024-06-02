@@ -3,7 +3,7 @@
 Zaletą danych teledetekcyjnych w ocenie jakości wód jest ich obszar, który obejmują ciągły obszar badań [@gholizadeh2016comprehensive].
 Pozwala to na obserwacje przestrzennego rozkładu stanu wód, w przeciwieństwie do punktowych pomiarów w terenie, które dostarczają informacje jedynie o stanie konkretnego punktu w przestrzeni.
 Wykorzystanie zdjęć satelitarnych jako danych teledetekcyjnych ogranicza jednak ilość właściwości wody, jaką można ocenić.
-Pozwalają jedynie na badanie fizycznych właściwości wód, takich jak ich kolor czy mętność [@glasgow2004real].
+Pozwalają głównie na badanie fizycznych właściwości wód, takich jak ich kolor czy mętność [@glasgow2004real].
 Stacje pomiarowe w terenie pozwalają na pozyskanie większej ilości informacji, opisujących chemiczne i biologiczne własności wody [@summers2020water].
 Znaczna ilość badań zbiorników wodnych, przy wykorzystaniu danych teledetekcyjnych, skupia się na ocenie występowania chlorofilu A, ilości zawieszonego materiału i mętności wody [@gholizadeh2016comprehensive].
 Badania odnośnie wpływu konstrukcji lądów na jakość wód są istotne przez stale rosnącą liczbę ludności, w szczególności w obszarach na wybrzeżach [@mcgranahan2007rising].
@@ -38,3 +38,5 @@ Trend spadku ilości metalu po zakończeniu prac nie został odnotowany dla kadm
 Wyniki badań wskazują na wpływ tworzenia nowych lądów na stan jakości wody.
 Tuż po zakończeniu prac, ilość metali ciężkich w wodach była większa niż przed rozpoczęciem prac.
 Wraz z upływem czasu po zakończeniu prac, natężenie metali w wodzie stopniowo malało.
+
+jeszcze jeden artykuł ale już przy wykorzystaniu metod teledetekcyjnym

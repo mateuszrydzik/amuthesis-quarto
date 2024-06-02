@@ -1,5 +1,63 @@
 # Wyniki {#sec-wyniki}
 
+Ten rozdział poświęcony jest analizie wartości wskaźników i próbie odpowiedzi na pytanie: czy tworzenie nowych lądów wpływa na jakość wód?
+Wskaźniki spektralne zostały obliczone dla każdego obrazu satelitarnego, wybranego według podanego kryterium (proces ten został opisany w @sec-metody).
+W ramach tej pracy, jako sygnały potencjalnej degradacji jakości wód uznano: spadek ilości chlorofilu a lub zwiększenie ilości zawiesiny w wodzie.
+Obliczenie zmian stanu jakości wód polegał na zestawieniu wartości poszczególnych wskaźników z okresu trwania prac, z wartościami tych samych wskaźników przed rozpoczęciem prac.
+Dodatkowo, wartości wskaźników obliczonych na obrazach z etapu trwania prac i przed ich rozpoczęciem zestawiono także z obrazami wykonanymi po zakończeniu prac, w celu obserwacji możliwych długofalowych efektów tworzenia nowych lądów na stan jakości wód.
+Rozdział ten podzielony jest na podrozdziały, poświęcone każdemu obszarowi badań z osobna.
+
+
+każdy podrozdział ma miec przypomnienie co to jest za obszar na wstepie
+czyli np dubaj to pod turystyke hotele jakies kurorty itd itd
+pozniej wstepne zdanie czy wykryto zmiany
+i pozniej na jakiej podstawie
+
+
+## Dubaj, Zjednoczone Emiraty Arababskie
+```{r tbl-cr-stats, echo=FALSE, warning=FALSE, message = FALSE}
+#| label: tbl-cr-stats
+#| echo: false
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Limon, Kostaryki z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz  na trzy etapy prac  (przed, w trakcie i po zakończeniu)."
+library(dplyr)
+sabi_df <- readRDS("data/costarica/sabi.Rda")
+flh_df <- readRDS("data/costarica/flhblue.Rda")
+bow_df <- readRDS("data/costarica/bow06.Rda")
+chip_df <- readRDS("data/costarica/chip09.Rda")
+
+sabi_df_mean <- cbind(
+  mean(sabi_df$mean[sabi_df$date_ld < as.Date("2015-12-31")]),
+  mean(sabi_df$mean[sabi_df$date_ld >= as.Date("2016-01-01") & sabi_df$date_ld < as.Date("2018-12-31")]),
+  mean(sabi_df$mean[sabi_df$date_ld >= as.Date("2019-01-01")])
+)
+flh_df_mean <- cbind(
+  mean(flh_df$mean[flh_df$date_ld < as.Date("2015-12-31")]),
+  mean(flh_df$mean[flh_df$date_ld >= as.Date("2016-01-01") & flh_df$date_ld < as.Date("2018-12-31")]),
+  mean(flh_df$mean[flh_df$date_ld >= as.Date("2019-01-01")])
+)
+bow_df_mean <- cbind(
+  mean(bow_df$mean[bow_df$date_ld < as.Date("2015-12-31")]),
+  mean(bow_df$mean[bow_df$date_ld >= as.Date("2016-01-01") & bow_df$date_ld < as.Date("2018-12-31")]),
+  mean(bow_df$mean[bow_df$date_ld >= as.Date("2019-01-01")])
+)
+chip_df_mean <- cbind(
+  mean(chip_df$mean[chip_df$date_ld < as.Date("2015-12-31")]),
+  mean(chip_df$mean[chip_df$date_ld >= as.Date("2016-01-01") & chip_df$date_ld < as.Date("2018-12-31")]),
+  mean(chip_df$mean[chip_df$date_ld >= as.Date("2019-01-01")])
+)
+
+df_means <- rbind(sabi_df_mean, flh_df_mean, bow_df_mean, chip_df_mean)
+colnames(df_means) <- c("przed (2014-2015)", "w trakcie (2016-2018)", "po (2019-2020)")
+rownames(df_means) <- c("SABI", "FLH Blue", "Bow06", "Chip09")
+
+
+knitr::kable(df_means, format = "latex", booktabs = TRUE, linesep = "", digits = 3) %>% kableExtra::group_rows("chlorofil a", 1, 2) %>% 
+  kableExtra::group_rows("zawiesina", 3, 4)
+```
+
+
+## Lagos, Nigeria
+
 ## Limon, Kostaryka
 ```{r tbl-cr_sabi_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-cr_sabi_stats
@@ -112,6 +170,8 @@ Trend ten jest odwrotny do zmian ilości chlorofilu A, gdzie wiosną do najwięk
 #| out-width: "100%"
 knitr::include_graphics("figures/costarica/chip_diff.png")
 ```
+
+## Singapur
 
 ## Szanghaj, Chiny
 ```{r tbl-cn_flhblue_stats, echo=FALSE, warning=FALSE, message = FALSE}
