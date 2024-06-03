@@ -7,6 +7,10 @@ Obliczenie zmian stanu jakości wód polegał na zestawieniu wartości poszczeg�
 Dodatkowo, wartości wskaźników obliczonych na obrazach z etapu trwania prac i przed ich rozpoczęciem zestawiono także z obrazami wykonanymi po zakończeniu prac, w celu obserwacji możliwych długofalowych efektów tworzenia nowych lądów na stan jakości wód.
 Rozdział ten podzielony jest na podrozdziały, poświęcone każdemu obszarowi badań z osobna.
 
+Wzrost wartości wszystkich wskaźników interpetowany jest jako wzrost intensywności obserowwanego zjawiska.
+Oznacza to, że wzrost wartości wskaźników SABI i FLH Blue jest równy wzrostu ilości chlorofilu a w wodzie.
+Odbierane jest to jako polepszenie jakości wody.
+Wzrost wartości wskaźników Bow06 i Chip09 jest interpretowany jako wzrost ilości zawiesiny w wodzie, co odbierane jest jako pogorszenie jakości wód.
 
 każdy podrozdział ma miec przypomnienie co to jest za obszar na wstepie
 czyli np dubaj to pod turystyke hotele jakies kurorty itd itd
