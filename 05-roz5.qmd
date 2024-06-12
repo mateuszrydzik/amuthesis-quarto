@@ -1,7 +1,7 @@
 # Metody {#sec-metody}
 
 Rozdział ten podzielony jest na trzy podrozdziały, odpowiadające każdemu z trzech głównych etapów prac: wybór obszarów badań, pozyskiwanie danych teledetekcyjnych w postaci zdjęć satelitarnych, oraz obliczanie wskaźników spektralnych i interpretacja wyników.
-Schemat prac został przedstawiony na @fig-flowchart.
+@fig-flowchart przedstawia schemat prac i wykonywanych kroków.
 Wszystkie etapy pozyskiwania danych, ich przetwarzania oraz prezentowania wyników zostały przeprowadzone przy wykorzystaniu języka programowania **R** [@R-base].
 Podrozdziały zawierają odniesienia do wykorzystywanych pakietów R, ułatwiających i automatyzujących poszczególne etapy prac.
 ```{r fig-flowchart, echo=FALSE, warning=FALSE, message = FALSE, out.width="500px"}
@@ -62,7 +62,7 @@ Wyklucza to mniejsze projekty, których zmiany nie byłyby zauważalne na zdjęc
 
 Zdjęcia satelitarne pozyskano przy wykorzystaniu pakietu **rsi** [@R-rsi]. 
 Pakiet ten jest zbiorem narzędzi, umożliwiającym przede wszystkim na pozyskiwanie zdjęć satelitarnych ze zbiorów STAC oraz obliczanie wskaźników spektralnych udostępnionych w ramach katalogu Awesome Spectral Indices [@montero2023standardized].
-Połączenie łatwego dostępu do kolekcji danych teledetekcyjnych i ciągle poszerzającego się zbioru wskaźników znacząco ułatwia przeprowadzanie analiz zmian przestrzennych i czasowych badanych wartości na podstawie wskaźników spektralnych [@rydzik2024].
+Połączenie łatwego dostępu do kolekcji danych teledetekcyjnych i ciągle poszerzającego się zbioru wskaźników znacząco ułatwia przeprowadzanie analiz zmian przestrzennych i czasowych badanych wartości na podstawie wskaźników spektralnych.
 
 Poniższy fragment kodu przedstawia przykład sposobu pozyskania zdjęć satelitarnych przy wykorzystaniu pakietu **rsi**.
 **rsi** posiada wiele dedykowanych metod do pozyskiwania konkretnych danych, udostępnianych w ramach Microsoft Planetary Computer [@microsoft_open_source_2022_7261897].

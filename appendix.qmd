@@ -1,219 +1,408 @@
-# Załączniki do wyników prac {.unnumbered}
-
+# Załączniki do wyników prac {#sec-zalaczniki .unnumbered}
 ## Dubaj, Zjednoczone Emiraty Arabaskie
-
+```{r fig-db_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-db_sabi_flhblue_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników SABI i FLH Blue dla Dubaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/dubai/sabi_flhblue_means.png")
+```
+```{r fig-db_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-db_bow_chip_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Dubaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/dubai/bow_chip_means.png")
+```
+```{r fig-db_sabi_flhblue_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-db_sabi_flhblue_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla Dubaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/dubai/sabi_flhblue_corr.png")
+```
+```{r fig-db_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-db_bow_chip_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Dubaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/dubai/bow_chip_corr.png")
+```
+```{r fig-db_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-db_flhblue_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla Dubaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/dubai/flhblue_violin.png")
+```
+```{r fig-db_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-db_bow_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Dubaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/dubai/bow_violin.png")
+```
+```{r fig-db_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-db_chip_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Chip09 dla Dubaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/dubai/chip_violin.png")
+```
+```{r fig-db_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-db_profile
+#| echo: false
+#| fig-cap: "Zmiany głębokości zbiornika wodnego wzdłuż profilu dla obszaru badań w Dubaju."
+knitr::include_graphics("figures/dubai/profile.png")
+```
+```{r fig-db_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-db_sabi_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Dubaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/dubai/sabi_profile.png")
+```
+```{r fig-db_flhblue_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-db_flhblue_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika FLH Blue wzdłuż profilu dla Dubaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/dubai/flhblue_profile.png")
+```
+```{r fig-db_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-db_bow_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Bow06 wzdłuż profilu dla Dubaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/dubai/bow_profile.png")
+```
+```{r fig-db_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-db_chip_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Chip09 wzdłuż profilu dla Dubaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/dubai/chip_profile.png")
+```
+```{r fig-db_sabi_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-db_sabi_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika SABI dla Dubaju. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (sierpień 2007 i 2000). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2011 i 2002)."
+knitr::include_graphics("figures/dubai/sabi_diff.png")
+```
+```{r fig-db_chip_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-db_chip_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika Chip09 dla Dubaju. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (sierpień 2007 i 2000). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2011 i 2002)."
+knitr::include_graphics("figures/dubai/chip_diff.png")
+```
 ## Lagos, Nigeria
-
+```{r fig-ng_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-ng_bow_chip_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Lagos. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/nigeria/bow_chip_means.png")
+```
+```{r fig-ng_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-ng_bow_chip_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Lagos. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/nigeria/bow_chip_corr.png")
+```
+```{r fig-ng_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-ng_sabi_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika SABI dla Lagos, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/nigeria/sabi_violin.png")
+```
+```{r fig-ng_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-ng_flhblue_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla Lagos, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/nigeria/flhblue_violin.png")
+```
+```{r fig-ng_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-ng_bow_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Lagos, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/nigeria/bow_violin.png")
+```
+```{r fig-ng_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-ng_chip_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Chip09 dla Lagos, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/nigeria/chip_violin.png")
+```
+```{r fig-ng_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-ng_profile
+#| echo: false
+#| fig-cap: "Zmiany głębokości zbiornika wodnego wzdłuż profilu dla obszaru badań w Lagos."
+knitr::include_graphics("figures/nigeria/profile.png")
+```
+```{r fig-ng_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-ng_sabi_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Lagos. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/nigeria/sabi_profile.png")
+```
+```{r fig-ng_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-ng_bow_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Bow06 wzdłuż profilu dla Lagos. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/nigeria/bow_profile.png")
+```
+```{r fig-ng_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-ng_chip_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Chip09 wzdłuż profilu dla Lagos. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/nigeria/chip_profile.png")
+```
+```{r fig-ng_sabi_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-ng_sabi_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika SABI dla Lagos. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (grudzień 2015 i 2008). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2020 i 2016)."
+knitr::include_graphics("figures/nigeria/sabi_diff.png")
+```
+```{r fig-ng_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-ng_flhblue_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika FLH Blue dla Lagos. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (grudzień 2015 i 2008). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2020 i 2016)."
+knitr::include_graphics("figures/nigeria/flhblue_diff.png")
+```
+```{r fig-ng_chip_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-ng_chip_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika Chip09 dla Lagos. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (grudzień 2015 i 2008). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2020 i 2016)."
+knitr::include_graphics("figures/nigeria/chip_diff.png")
+```
 ## Limon, Kostaryka
-```{r tbl-cr_sabi_stats, echo=FALSE, warning=FALSE, message = FALSE}
-#| label: tbl-cr_sabi_stats
-#| echo: false
-#| tbl-cap: "Statystyki opisowe wskaźnika SABI dla każdego obrazu satelitarnego dla obszaru badań w Limon, Kostaryka."
-library(dplyr)
-df <- readRDS("data/costarica/sabi.Rda")
-knitr::kable(df[, c(6, 1:5)], format = "latex", booktabs = TRUE, linesep = "", digits = 3, col.names = c("data", "średnia", "mediana", "odch. st.", "1 kwartyl", "3 kwartyl")) %>%
-  kableExtra::group_rows("przed", 1, 5) %>% 
-  kableExtra::group_rows("w trakcie", 6, 18) %>% 
-  kableExtra::group_rows("po", 19, 27)
-```
-```{r tbl-cr_flhblue_stats, echo=FALSE, warning=FALSE, message = FALSE}
-#| label: tbl-cr_flhblue_stats
-#| echo: false
-#| tbl-cap: "Statystyki opisowe wskaźnika FLH Blue dla każdego obrazu satelitarnego dla obszaru badań w Limon, Kostaryka."
-df <- readRDS("data/costarica/flhblue.Rda")
-knitr::kable(df[, c(6, 1:5)], format = "latex", booktabs = TRUE, linesep = "", digits = 3, col.names = c("data", "średnia", "mediana", "odch. st.", "1 kwartyl", "3 kwartyl"))%>%
-  kableExtra::group_rows("przed", 1, 5) %>% 
-  kableExtra::group_rows("w trakcie", 6, 18) %>% 
-  kableExtra::group_rows("po", 19, 27)
-```
-```{r tbl-cr_bow_stats, echo=FALSE, warning=FALSE, message = FALSE}
-#| label: tbl-cr_bow_stats
-#| echo: false
-#| tbl-cap: "Statystyki opisowe wskaźnika Bow06 dla każdego obrazu satelitarnego dla obszaru badań w Limon, Kostaryka."
-df <- readRDS("data/costarica/bow06.Rda")
-knitr::kable(df[, c(6, 1:5)], format = "latex", booktabs = TRUE, linesep = "", digits = 3, col.names = c("data", "średnia", "mediana", "odch. st.", "1 kwartyl", "3 kwartyl"))%>%
-  kableExtra::group_rows("przed", 1, 5) %>% 
-  kableExtra::group_rows("w trakcie", 6, 18) %>% 
-  kableExtra::group_rows("po", 19, 27)
-```
-```{r tbl-cr_chip_stats, echo=FALSE, warning=FALSE, message = FALSE}
-#| label: tbl-cr_chip_stats
-#| echo: false
-#| tbl-cap: "Statystyki opisowe wskaźnika Chip09 dla każdego obrazu satelitarnego dla obszaru badań w Limon, Kostaryka."
-df <- readRDS("data/costarica/chip09.Rda")
-knitr::kable(df[, c(6, 1:5)], format = "latex", booktabs = TRUE, linesep = "", digits = 3, col.names = c("data", "średnia", "mediana", "odch. st.", "1 kwartyl", "3 kwartyl"))%>%
-  kableExtra::group_rows("przed", 1, 5) %>% 
-  kableExtra::group_rows("w trakcie", 6, 18) %>% 
-  kableExtra::group_rows("po", 19, 27)
-```
-```{r fig-cr_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+```{r fig-cr_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
 #| label: fig-cr_sabi_flhblue_means
 #| echo: false
-#| fig-cap: "Rozkład średnich wartości wskaźników SABI i FLH Blue dla Limon, Kostaryki. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+#| fig-cap: "Rozkład średnich wartości wskaźników SABI i FLH Blue dla Limon. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
 knitr::include_graphics("figures/costarica/sabi_flhblue_means.png")
 ```
-```{r fig-cr_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+```{r fig-cr_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
 #| label: fig-cr_bow_chip_means
 #| echo: false
-#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Limon, Kostaryki. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Limon. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
 knitr::include_graphics("figures/costarica/bow_chip_means.png")
 ```
-```{r fig-cr_sabi_flhblue_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
-#| label: fig-cr_sabi_flhblue_corr
-#| echo: false
-#| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla Limon, Kostaryki. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
-knitr::include_graphics("figures/costarica/sabi_flhblue_corr.png")
-```
-```{r fig-cr_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+```{r fig-cr_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
 #| label: fig-cr_bow_chip_corr
 #| echo: false
-#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Limon, Kostaryki. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Limon. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
 knitr::include_graphics("figures/costarica/bow_chip_corr.png")
 ```
-```{r fig-cr_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
 #| label: fig-cr_sabi_violin
 #| echo: false
-#| fig-cap: "Rozkład wartości wskaźnika SABI dla Limon, Kostaryki, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac."
+#| fig-cap: "Rozkład wartości wskaźnika SABI dla Limon, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
 knitr::include_graphics("figures/costarica/sabi_violin.png")
 ```
-```{r fig-cr_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
 #| label: fig-cr_flhblue_violin
 #| echo: false
-#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla Limon, Kostaryki, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac."
+#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla Limon, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
 knitr::include_graphics("figures/costarica/flhblue_violin.png")
 ```
-```{r fig-cr_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
 #| label: fig-cr_bow_violin
 #| echo: false
-#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Limon, Kostaryki, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac."
+#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Limon, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
 knitr::include_graphics("figures/costarica/bow_violin.png")
 ```
-```{r fig-cr_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
-#| label: fig-cr_chip_violin
+```{r fig-cr_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-cr_profile
 #| echo: false
-#| fig-cap: "Rozkład wartości wskaźnika Chip09 dla Limon, Kostaryki, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac."
-knitr::include_graphics("figures/costarica/chip_violin.png")
+#| fig-cap: "Zmiany głębokości zbiornika wodnego wzdłuż profilu dla Limon."
+knitr::include_graphics("figures/costarica/profile.png")
 ```
-```{r fig-cr_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
 #| label: fig-cr_sabi_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Limon, Kostaryki. Rycina składa się z czeterech paneli: zmiana głębokości wzdłuż profilu, zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac."
+#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Limon. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
 knitr::include_graphics("figures/costarica/sabi_profile.png")
 ```
-```{r fig-cr_flhblue_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_flhblue_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
 #| label: fig-cr_flhblue_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości wskaźnika FLH Blue wzdłuż profilu dla Limon, Kostaryki. Rycina składa się z czeterech paneli: zmiana głębokości wzdłuż profilu, zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac."
+#| fig-cap: "Zmiany wartości wskaźnika FLH Blue wzdłuż profilu dla Limon. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
 knitr::include_graphics("figures/costarica/flhblue_profile.png")
 ```
-```{r fig-cr_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
 #| label: fig-cr_bow_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości wskaźnika Bow06 wzdłuż profilu dla Limon, Kostaryki. Rycina składa się z czeterech paneli: zmiana głębokości wzdłuż profilu, zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac."
+#| fig-cap: "Zmiany wartości wskaźnika Bow06 wzdłuż profilu dla Limon. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
 knitr::include_graphics("figures/costarica/bow_profile.png")
 ```
-```{r fig-cr_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
+```{r fig-cr_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
 #| label: fig-cr_chip_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości wskaźnika Chip09 wzdłuż profilu dla Limon, Kostaryki. Rycina składa się z czeterech paneli: zmiana głębokości wzdłuż profilu, zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac."
+#| fig-cap: "Zmiany wartości wskaźnika Chip09 wzdłuż profilu dla Limon. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
 knitr::include_graphics("figures/costarica/chip_profile.png")
-```
-```{r fig-cr_sabi_maps_before, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_sabi_maps_before
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika SABI dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego przed rozpoczęciem prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/sabi_maps_before.png")
-```
-```{r fig-cr_sabi_maps_during, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_sabi_maps_during
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika SABI dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego w trakcie prowadzenia prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/sabi_maps_during.png")
-```
-```{r fig-cr_sabi_maps_after, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
-#| label: fig-cr_sabi_maps_after
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika SABI dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego po zakończeniu prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/sabi_maps_after.png")
-```
-```{r fig-cr_flhblue_maps_before, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_flhblue_maps_before
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika FLH Blue dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego przed rozpoczęciem prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/flhblue_maps_before.png")
-```
-```{r fig-cr_flhblue_maps_during, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_flhblue_maps_during
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika FLH Blue dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego w trakcie prowadzenia prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/flhblue_maps_during.png")
-```
-```{r fig-cr_flhblue_maps_after, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
-#| label: fig-cr_flhblue_maps_after
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika FLH Blue dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego po zakończeniu prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/flhblue_maps_after.png")
-```
-```{r fig-cr_bow_maps_before, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_bow_maps_before
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Bow06 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego przed rozpoczęciem prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/bow_maps_before.png")
-```
-```{r fig-cr_bow_maps_during, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_bow_maps_during
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Bow06 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego w trakcie prowadzenia prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/bow_maps_during.png")
-```
-```{r fig-cr_bow_maps_after, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
-#| label: fig-cr_bow_maps_after
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Bow06 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego po zakończeniu prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/bow_maps_after.png")
-```
-```{r fig-cr_chip_maps_before, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_chip_maps_before
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Chip09 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego przed rozpoczęciem prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/chip_maps_before.png")
-```
-```{r fig-cr_chip_maps_during, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_chip_maps_during
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Chip09 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego w trakcie prowadzenia prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/chip_maps_during.png")
-```
-```{r fig-cr_chip_maps_after, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
-#| label: fig-cr_chip_maps_after
-#| echo: false
-#| fig-cap: "Rozkład przestrzenny wartości wskaźnika Chip09 dla Limon, Kostaryki dla każdego obrazu satelitarnego datującego po zakończeniu prac konstrukcji nowego obszaru lądowego."
-knitr::include_graphics("figures/costarica/chip_maps_after.png")
 ```
 ```{r fig-cr_sabi_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cr_sabi_diff
 #| echo: false
-#| fig-cap: "Mapy różnic dla wskaźnika SABI dla Limon, Kostaryki. Rycina po lewej stronie przedstawia różnice między wskaźnikami obliczonymi dla obrazów satelitarnych z dni wiosennych (17.04.2020 i 01.04.2014). Rycina po prawej stronie pokazuje różnice między wskaźnikami obliczonymi dla obrazów z dni zimowych (09.01.2019 i 27.01.2014)."
+#| fig-cap: "Mapy różnic dla wskaźnika SABI dla Limon. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2018 i 2014). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (grudzień 2020 i 2016)."
 knitr::include_graphics("figures/costarica/sabi_diff.png")
-```
-```{r fig-cr_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
-#| label: fig-cr_flhblue_diff
-#| echo: false
-#| fig-cap: "Mapy różnic dla wskaźnika FLH Blue dla Limon, Kostaryki. Rycina po lewej stronie przedstawia różnice między wskaźnikami obliczonymi dla obrazów satelitarnych z dni wiosennych (17.04.2020 i 01.04.2014). Rycina po prawej stronie pokazuje różnice między wskaźnikami obliczonymi dla obrazów z dni zimowych (09.01.2019 i 27.01.2014)."
-knitr::include_graphics("figures/costarica/flhblue_diff.png")
 ```
 ```{r fig-cr_bow_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cr_bow_diff
 #| echo: false
-#| fig-cap: "Mapy różnic dla wskaźnika Bow06 dla Limon, Kostaryki. Rycina po lewej stronie przedstawia różnice między wskaźnikami obliczonymi dla obrazów satelitarnych z dni wiosennych (17.04.2020 i 01.04.2014). Rycina po prawej stronie pokazuje różnice między wskaźnikami obliczonymi dla obrazów z dni zimowych (09.01.2019 i 27.01.2014)."
+#| fig-cap: "Mapy różnic dla wskaźnika Bow06 dla Limon. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2018 i 2014). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (grudzień 2020 i 2016)."
 knitr::include_graphics("figures/costarica/bow_diff.png")
 ```
 ```{r fig-cr_chip_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cr_chip_diff
 #| echo: false
-#| fig-cap: "Mapy różnic dla wskaźnika Chip09 dla Limon, Kostaryki. Rycina po lewej stronie przedstawia różnice między wskaźnikami obliczonymi dla obrazów satelitarnych z dni wiosennych (17.04.2020 i 01.04.2014). Rycina po prawej stronie pokazuje różnice między wskaźnikami obliczonymi dla obrazów z dni zimowych (09.01.2019 i 27.01.2014)."
+#| fig-cap: "Mapy różnic dla wskaźnika Chip09 dla Limon. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2018 i 2014). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (grudzień 2020 i 2016)."
 knitr::include_graphics("figures/costarica/chip_diff.png")
 ```
 ## Singapur
-
+```{r fig-sg_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-sg_bow_chip_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Singapuru. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/singapore/bow_chip_means.png")
+```
+```{r fig-sg_sabi_flhblue_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-sg_sabi_flhblue_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla Singapuru. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/singapore/sabi_flhblue_corr.png")
+```
+```{r fig-sg_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-sg_bow_chip_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Singapuru. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/singapore/bow_chip_corr.png")
+```
+```{r fig-sg_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-sg_sabi_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika SABI dla Singapuru, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/singapore/sabi_violin.png")
+```
+```{r fig-sg_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-sg_flhblue_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika FLH Blue dla Singapuru, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/singapore/flhblue_violin.png")
+```
+```{r fig-sg_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-sg_bow_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Singapuru, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/singapore/bow_violin.png")
+```
+```{r fig-sg_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-sg_chip_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Chip09 dla Singapuru, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/singapore/chip_violin.png")
+```
+```{r fig-sg_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-sg_sabi_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Singapuru. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/singapore/sabi_profile.png")
+```
+```{r fig-sg_flhblue_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-sg_flhblue_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika FLH Blue wzdłuż profilu dla Singapuru. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/singapore/flhblue_profile.png")
+```
+```{r fig-sg_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-sg_chip_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Chip09 wzdłuż profilu dla Singapuru. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/singapore/chip_profile.png")
+```
+```{r fig-sg_sabi_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-sg_sabi_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika SABI dla Singapuru. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (kwiecień 1999 i 1991). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2004 i 1995)."
+knitr::include_graphics("figures/singapore/sabi_diff.png")
+```
+```{r fig-sg_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-sg_flhblue_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika FLH Blue dla Singapuru. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (kwiecień 1999 i 1991). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2004 i 1995)."
+knitr::include_graphics("figures/singapore/flhblue_diff.png")
+```
+```{r fig-sg_bow_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-sg_bow_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika Bow06 dla Singapuru. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (kwiecień 1999 i 1991). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2004 i 1995)."
+knitr::include_graphics("figures/singapore/bow_diff.png")
+```
 ## Szanghaj, Chiny
+```{r fig-cn_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-cn_sabi_flhblue_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników SABI i FLH Blue dla Szanghaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/china/sabi_flhblue_means.png")
+```
+```{r fig-cn_bow_chip_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-cn_bow_chip_means
+#| echo: false
+#| fig-cap: "Rozkład średnich wartości wskaźników Bow06 i Chip09 dla Szanghaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/china/bow_chip_means.png")
+```
+```{r fig-cn_sabi_flhblue_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-cn_sabi_flhblue_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla Szanghaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/china/sabi_flhblue_corr.png")
+```
+```{r fig-cn_bow_chip_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+#| label: fig-cn_bow_chip_corr
+#| echo: false
+#| fig-cap: "Korelacja między średnimi wartościami wskaźników Bow06 i Chip09 dla Szanghaju. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+knitr::include_graphics("figures/china/bow_chip_corr.png")
+```
+```{r fig-cn_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-cn_sabi_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika SABI dla Szanghaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/china/sabi_violin.png")
+```
+```{r fig-cn_bow_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-cn_bow_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Bow06 dla Szanghaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/china/bow_violin.png")
+```
+```{r fig-cn_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+#| label: fig-cn_chip_violin
+#| echo: false
+#| fig-cap: "Rozkład wartości wskaźnika Chip09 dla Szanghaju, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
+knitr::include_graphics("figures/china/chip_violin.png")
+```
+```{r fig-cn_sabi_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-cn_sabi_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika SABI wzdłuż profilu dla Szanghaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/china/sabi_profile.png")
+```
+```{r fig-cn_flhblue_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-cn_flhblue_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika FLH Blue wzdłuż profilu dla Szanghaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/china/flhblue_profile.png")
+```
+```{r fig-cn_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+#| label: fig-cn_bow_profile
+#| echo: false
+#| fig-cap: "Zmiany wartości wskaźnika Bow06 wzdłuż profilu dla Szanghaju. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+knitr::include_graphics("figures/china/bow_profile.png")
+```
+```{r fig-cn_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-cn_flhblue_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika FLH Blue dla Szanghaju. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2005 i 2001). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2008 i 2004)."
+knitr::include_graphics("figures/china/flhblue_diff.png")
+```
+```{r fig-cn_bow_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-cn_bow_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika Bow06 dla Szanghaju. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2005 i 2001). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2008 i 2004)."
+knitr::include_graphics("figures/china/bow_diff.png")
+```
+```{r fig-cn_chip_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
+#| label: fig-cn_chip_diff
+#| echo: false
+#| fig-cap: "Mapy różnic dla wskaźnika Chip09 dla Szanghaju. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (maj 2005 i 2001). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (sierpień 2008 i 2004)."
+knitr::include_graphics("figures/china/chip_diff.png")
+```

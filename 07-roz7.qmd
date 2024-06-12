@@ -1,12 +1,65 @@
 # Podsumowanie {#podsumowanie}
 
-Podsumowanie pracy jest w pewnym sensie znacznie rozbudowanym abstraktem. 
-Należy wyliczyć i opisać osiągnięcia uzyskane w pracy dyplomowej.
-Tutaj jednak (w przeciwieństwie do np. rozdziału [-@sec-wprowadzenie]) należy przechodzić od szczegółu do ogółu - co zostało stworzone/określone, jak zostało to zrobione, jakie ma to konsekwencje, itd.
+Wyniki pracy przedstawiają różnice we wpływach tworzenia nowych lądów na jakość wód.
+Wskaźniki obliczone na obszarach badań w Dubaju i Limon wskazują jednoznacznie na negatywny wpływ konstrukcji nowych lądów na stan wód.
+Rozpoczęcie prac skutkowało zmniejszeniem stężenia chlorofilu a, oraz zwiększeniem stężenia zawiesiny w wodzie.
+Obydwa trendy utożsamiane są z pogorszeniem jakości wód.
+Dla tych obszarów zaobserowano także dalszą degradację wód po zakończeniu prac.
+Na obszarze nowych lądów w Dubaju utworzono obiekty turystyczne, a na nowych lądach w Limon powstał terminal kontenerowy.
+Obydwie działalności mogły przyczynić się do dalszej degradacji jakości wód.
+W tych przypadkach, ciągły spadek jakości wód nie wynikał bezpośrednio z tworzenia nowych lądów, a ze sposobu ich późniejszego wykorzystywania.
 
-Ten rozdział powinien też zawierać opis kwestii, których nie udało się rozwiązać w pracy dyplomowej (i dlaczego się nie udało) oraz pomysły na przyszłe ulepszenie uzyskanych wyników lub dalsze badania.
+@zhang2017assessment to opisywali w deponowaniu azotu!!!
 
+Wyniki dla obszarów badań w Singapurze i Szanghaju zwróciły niejednoznaczne oceny odnośnie wpływu tworzenia nowych lądów na jakość wód tych obszarów.
+W przypadku Singapuru, konstrukcja nowego lądu przyczyniła się do zmniejszenia stężenia chlorofilu a w wodach.
+Sygnał ten utożsamiany jest z degradacją jakości wód.
+Jednak po rozpoczęciu prac nad konstrukcją nowego lądu, zaobserwowano spadek zawiesiny w wodzie.
+Zmniejszenie mętności wody oznacza poprawę jakości wody.
+Odwrotne trendy zaobserwowano na obszarze badań w Szanghaju.
+Po rozpoczęciu prac, stężenie chlorofilu a w wodzie wzrosło, co oznacza poprawę jakości wód.
+W tym samym okresie odnotowano wzrost stężenia zawiesiny, wpływające na pogorszenie jakości wód.
+Ostateczna decyzja w ocenie wpływu tworzenia nowych lądów na jakość wód dla tych obszarów będzie zależna od wagi poszczególnych parametrów jakości wód.
+Jeżeli zmiany stężenia chlorofilu a są bardziej istotne niż zmiany mętności wody, to tworzenie nowych lądów na jakość wód w Szanghaju miało pozytywny wpływ, a na jakość wód w Singapurze -- negatywny.
+Jeśli jednak zmniejszenie mętności wody jest najważniejszym czynnikiem w poprawie jakości wód, to wpływ nowych lądów na wody w Singapurze miały pozytywny wpływ, a w Chinach -- negatywny.
 
+Obszar badań w Lagos był jedynym obszarem, dla którego tworzenie nowych lądów miało pozytywny wpływ na jakość wód.
+Wraz z rozpoczęciem konstrukcji nowych terenów, zaobserowano wzrost stężenia chlorofilu a i spadek mętności wody.
+Wspólną cechą wszystkich obszarów badań było odkrycie największej degradacji jakości wód, znajdujących się w bezpośrednim sąsiedztwie z nowym lądem.
+Wody znajdujące się dalej od utworzonego lądu zazwyczaj cechowały się lepszą jakością wód.
 
-ulepszenie - uzycie innego sposobu maskowania zamiast QA bo on sporo pomijal
-moze uzyc kompozytow dla meisiecy? bo tak dla pojedynczych dni to bylo sporo luk
+Wyniki tej pracy wskazują na zgodność z wynikami prac, przytoczonymi w rozdziale @sec-lit.
+Praca @hao2021effects wskazuje na największe zmiany w parametrach jakości wód w okresie tworzenia nowych lądów.
+Taką samą zależność odnotowano w tej pracy.
+Największe zmiany, czy to wzrostu czy spadku stężenia parametru, występowały podczas konstrukcji nowych lądów.
+TUTAJ BEDZIE JESZCZE ODNIESIENIE DO DODATKOWEJ LITERATURY
+
+Jednym z potencjalnych usprawnień w ramach pracy mogłaby być zmiana metody pozyskiwania zdjęć satelitarnych.
+Metoda wykorzystana w tej pracy pozwoliła na pozyskanie dużego zbioru obrazów.
+Jednak większość z tych zdjęc nie była przydatna do wykorzystania w dalszej analizie.
+Wynikało to ze sposobu maskowania danych niebędacych zbiornikami wodnymi.
+Wykorzystanie kanału QA skutkowało wyborem jedynie komórek rastrów przypisanych do klasy zbiorników wodnych bez pokrycia chmurami.
+Skutkowało to powstawaniem wielu luk i przerw w obrazach satelitarnych, co ograniczało możliwości przeprowadzania analiz przestrzennych.
+Możliwym rozwiązaniem tego problemu jest zaproponowanie lepszej metody maskowania obszarów niebędących zbiornikami wodnymi.
+Metoda ta mogłaby być rozwinięciem stosowania kanału QA, który zawierałby dodatkowe klasy.
+Podejście to nie rozwiąże jednak problemu z występowaniem zachmurzeń, które wyklucza z analizy obszary będące zakryte chmurami.
+Alternatywnym rozwiązaniem jest stosowanie kompozytów.
+Zamiast pracować na zdjęciach satelitarnych z pojedynczych dni, można utworzyć z kilku zdjęć jeden obraz, będący całkowicie wypełniony informacjami.
+Potencjalne podejście polegałoby na grupowaniu zdjęć według mięsiecy.
+Dla każdego miesiąca wyliczany byłby obraz kompozytowy.
+Wartości komórek obrazu kompozytowego mógłby być medianą wszystkich dostępnych wartości komórek z pojedynczych zdjęć.
+Takie rozwiązanie umożliwiłoby pozyskanie obrazu w całości wypełnionego danymi.
+Wadą tej metody jest fakt, że obraz kompozytowy nie jest odwzierciedleniem obszaru pozyskanym w konkretnym momencie, a mozaiką informacji, złączoną z wielu różnych obrazów.
+Może to spowodować powstanie wzorców przestrzennych, nie mających odwzierciedlenia w rzeczywistości i prowadzących do nieprawdziwych wniosków.
+Między innymi z tego powodu w pracy zdecydowano się korzystać z pojedynczych obrazów satelitarnych.
+
+Inne ulepszenie dotyczyłoby rozwoju oceny jakości wody.
+W ramach pracy, zmiany jakości wód były oceniane poprzez porównywanie zmian parametrów w czasie, oraz porównując je między obszarami badań.
+Wszystkie obszary badań obejmowały obszary, na których przeprowadzane były konstrukcje nowych lądów.
+W celu zwiększenia dokładności wyników, zmiany jakości wód powinno się także przeprowadzić na obszarach, na których nie miały miejsca prace tworzenia nowych lądów.
+Pozwoliłoby to na ocenę, czy zmiany jakości wód faktycznie wynikały z tworzenia nowych lądów, czy były wynikiem globalnych zmian jakości wód.
+Dodatkowe obszary badań powinny być jak najbardziej zbliżone do wybranych obszarów.
+Podobieństwo polegałoby na podobnym ukształtowaniu dna zbiornika wodnego i terenu na wybrzeżu, podobnym wykorzystaniu terenu wybrzeżnego, podobnych parametrach pogody itd.
+Wprowadzenie takiego ulepszenia wymagałoby zaproponowanie metody, służącej do odnajdywania bliźniaczych terenów dla wybranego obszaru badań.
+Metoda ta, po zapoznaniu się z własnościami obszaru badań na którym utworzono nowy ląd, powinna odnaleźć inny obszar o podobnych parametrach, na którym nie wykonywano prac tworzenia nowych lądów.
+Opracowanie tej metody okazało się zbyt czasochłonne i nie zostało uwzględnione w tej pracy.

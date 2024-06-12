@@ -2,47 +2,47 @@
 
 Wzrost liczby ludności jest zjawiskiem, które znacząco wpływa na wiele aspektów społeczno-gospodarczych.
 Wzrost populacji wymusza utworzenie nowych obszarów mieszkalnych, zwiększenia produkcji żywności oraz pozostałych dóbr, usprawnienie infrastruktury transportowej i wszystkich innych elementów pośrednich.
-Każda z tych czynności oddziaływuje w różnych stopniach na środowisko przyrodnicze.
+Każda z tych czynności oddziaływuje w różnych stopniach na środowisko przyrodnicze [@cropper1994interaction].
+
 Jednym z elementów środowiska szczególnie narażonym na negatywne zjawiska związane ze wzrostem populacji jest środowisko wodne.
 Ponad połowa ludności na świecie zamieszkuje obszary przybrzeżne [@seto2011meta].
 Jednocześnie wykazywany jest trend migracji ludności do miast znajdujących się na wybrzeżu [@hugo2011future], który może przyczynić się do zwiększenia udziału populacji zamieszkująceje miasta nadmorskie w ogólnej sumie populacji na świecie [@mcgranahan2007rising].
-Oznacza to, że wszystkie czynności służące przygotowaniu miast do przyjęcia nowych mieszkańców będą wpływały również na zbiorniki wodne.
+Oznacza to, że wszystkie czynności służące przygotowaniu miast do przyjęcia nowych mieszkańców będą wpływały również na morza i oceany.
+
 Do metod dostosowywania miast do nowych mieszkańców można zaliczyć przekształcanie istniejących form wykorzystania terenu na obszary mieszkalne lub usługowe.
 Może to w pewnym momencie spowodować brak dostępnych obszarów lądowych do osiedlenia w nadmorskich miastach.
 Jedną z alternatyw pozyskiwania nowych lądów może być proces tworzenia nowych lądów.
 
 Jednym z krajów, zaliczanych do pionierów pozyskiwania nowych lądów, jest Holandia, na obszarze której już w 1533 roku przekształcono jezioro w nowe tereny do zagospodarowania [@ven1993man].
 Operacja ta nie została jednak podyktowana zapotrzebowaniem na nowe tereny, a wymuszona przez ciągłe rozrastanie się jeziora i zalewanie pobliskich miejscowości.
-Proces ten polegał na wypompowaniu wody z jeziora do wybudowanej wokół niego sieci kanałów, i odprowadzenia jej do innego zbiornika, najczęściej jeziora Zuiderzee.
+Proces ten polegał na wypompowaniu wody z jeziora do wybudowanej wokół niego sieci kanałów, i odprowadzenia jej do innego zbiornika, głównie jeziora Zuiderzee.
 Dna zbiorników, nazywanych polderami, wykorzystywane były przede wszystkim do rolnictwa.
-W celu konserwacji nowo pozyskanych terenów, ziemie podzielone zostały sieciami kanałów, ułatwiających odprowadzanie wody poza polder.
+W celu konserwacji nowo pozyskanych terenów, ziemie podzielone zostały sieciami kanałów, ułatwiających odprowadzanie wody poza poldery.
 Rowy te jednocześnie wykorzystano jako granice działek, dzieląc nowy ląd na siatkę parceli o charakterystycznych, regularnych krztałtach [@hoeksema2007three].
 Wraz z upływem lat, procesy tworzenia nowych lądów w Holandii były stale rozwijane.
 Punktem kulminacyjnym była seria konstrukcji nowych prowincji w XX wieku, których rezultatem było pozykanie dla Holandii lądów o łącznej powierzchni 1650 kilometrów kwadratowych.
 Stanowił to wzrost powierzchni kraju o 5% [@hoeksema2007three].
 
-Współczesne procesy tworzenia nowych lądów wprowadziły nowe metody konstrukcji terenów lądowych.
+Współcześnie, stosowane są inne metody konstrukcji terenów lądowych.
 Oprócz polderów, stosowane są techniki usypywania materiału na dnie zbiornika do momentu wydobycia się go ponad powierzchnię wody.
 Najczęściej stosowanym materiałem jest piasek, często mieszany z większymi skałami czy cementem [@martin2016review].
 Piasek może być usypywany przy wybrzeżu, poszerzając go wgłąb morza.
-Innym rozwiązaniem jest usypywanie materiału z dala od lądu, tworząc sztuczne wyspy
-W zależności od miejsca wykonywania tych procesów, służyły one różnym funkcjom.
-Do najczęstszych przyczyn konstrukcji nowych lądów zalicza się: rozbudowy portów i lotnisk, pozyskiwanie terenów rolniczych, tworzenie nowych stref mieszkalnych czy wojskowych [@martin2016review].
+Innym rozwiązaniem jest usypywanie materiału z dala od lądu, tworząc sztuczne wyspy.
+Oprócz tworzenia nowych stref mieszkalnych, nowe lądy tworzone są do: rozbudowy portów i lotnisk, pozyskiwania terenów rolniczych czy tworzenia nowych stref  wojskowych [@martin2016review].
 Procesy te są szczególnie widoczne w megamiastach, czyli ogromnych miastach o populacji przekraczającej osiem milionów mieszkańców [@wenzel2007megacities]
-Dla 16 wybranych megamiast przez ostatnie 40 lat skonstruowano 1249 kilometrów kwadratowych nowych lądów [@sengupta2018building].
-Aż 587 kilometrów kwadratowych z tych zmian miało miejsce w Szanghaju, które w tym okresie powiększyło swoją powierzchnię o 6,5% [@sengupta2018building.
-Słuszne jest przypuszczenie, że przy ciągłym wzroście populacji możliwe jest natężenie tworzenia nowych lądów.
-Wynika to z prognozowanego wzrostu liczby ludności, zamieszkującej wybrzeża.
+W 16 wybranych megamiastach przez ostatnie 40 lat skonstruowano 1249 kilometrów kwadratowych nowych lądów [@sengupta2018building].
+Aż 587 kilometrów kwadratowych z tych zmian miało miejsce w Szanghaju, które w tym okresie powiększyło swoją powierzchnię o 6,5% [@sengupta2018building].
+Biorąc pod uwagę prognozy wzrostu liczby ludności zamieszkującej wybrzeża, możliwe jest przypuszczenie o zwiększeniu natężenia tworzenia nowych lądów.
 Procesy te mogą okazać się jedyną możliwą decyzją dla obszarów, które mają ograniczoną ilość dostępnych obszarów.
 Ograniczenie obszarów można rozumieć jako fizyczny brak terenów, albo jako restrykcje, nałożone w ramach programów ochrony środowiska.
-Powoduje to powstawanie wielu pytań odnośnie bezpieczności tych procesów w kontekście ochrony środowiska.
+Powoduje to powstawanie wielu pytań odnośnie bezpieczeństwa tych procesów w kontekście ochrony środowiska.
 Współczesne metody tworzenia nowych lądów wymagają pozyskania dużej ilości piasku, najczęściej z dna zbiorników wodnych lub istniejących wysp.
-Konieczne jest ustalenie relacji między procesami tworzenia nowych lądów a zmianami jakości wód.
-Jest to szczególnie ważne w obliczu rosnącej liczby ludności i coraz większego zapotrzebowania na nowe obszary lądowe.
+Konieczne jest ustalenie relacji między procesami tworzenia nowych lądów a ich wpływemna środowisko.
+W tej pracy nacisk będzie położony na jeden z aspektów jakości wody.
 
-Jakość wód badana jest przeważnie na podstawie trzech grup parametrów: fizycznych, chemicznych i biologicznych.
-Do fizycznych parametrów przynależą takie własności jak temperatura, kolor, smak wody, czy występowanie zawiesiny. 
-Chemiczne parametry badają występowanie metali ciężkich, substancji toksycznych lub sam odczyn wody.
+Jakość wód badana jest przeważnie na podstawie trzech grup parametrów: fizycznych, chemicznych i biologicznych [@summers2020water].
+Do fizycznych parametrów przynależą takie własności jak temperatura, kolor, smak wody, czy występowanie zawiesiny [@summers2020water]. 
+Chemiczne parametry badają występowanie metali ciężkich, substancji toksycznych lub sam odczyn wody [@summers2020water].
 Do biologicznych parametrów zalicza się występowanie bakterii, alg, oraz wirusów [@summers2020water].
 Podstawowym sposobem badania jakości wód jest wykonywanie pomiarów w terenie.
 Jest to jednak proces kosztowny oraz czasochłonny, wymagający ręcznego pobierania próbek na obszarze badań i ich transportu do laboratorium [@glasgow2004real].
@@ -57,5 +57,5 @@ Mając na uwadzę potencjaly wzrost zapotrzebowania na tereny w miastach nadmors
 Celem pracy było zbadanie potencjalnego wpływu tworzenia nowych lądów na zmiany jakości pobliskich wód.
 Wybranych zostało pięć obszarów badań, na terenie których dokonano konstrukcji nowych lądów w przeciągu ostatnich 30 lat.
 Stan wód był badany w trzech etapach: przed, w trakcie i po zakończeniu prac konstrukcyjnych.
-Jakości wód zostały porównane między obszarami badań, w celu wykrycia potencjalnych globalnych lub czasowych trendów.
-Do wykonania oceny jakości wód korzystano dane teledetekcyjne w postaci zdjęć satelitarnych.
+Jakości wód zostały porównane między obszarami badań, w celu wykrycia potencjalnych przestrzennych lub czasowych trendów.
+Do wykonania oceny jakości wód korzystano dane teledetekcyjne w postaci zdjęć satelitarnych, przy pomocych których obliczono wskaźniki spektralne.
