@@ -1,9 +1,11 @@
 # Obszary badań {#sec-obszary_badan}
 
-Badania przeprowadzono na pięciu obszarach, położonych na trzech kontynentach [@fig-aois].
+Badania przeprowadzono na pięciu obszarach, położonych na trzech kontynentach.
+[@fig-aois] przedstawia położenie przestrzenne obszarów badań.
 [@tbl-aois_info] zawiera podstawowe informacje dla każdego obszaru.
 Obszary obejmują projekty, które prowadzono na przestrzeni 23 lat.
-Najwcześniejszy projekt, w Singapurze, rozpoczęto w 1995 roku, podczas gdy najnowsze prace w Kostaryce i Nigerii zakończono w 2018 roku.
+Najwcześniejszy projekt miał miejsce w Singapurze, który rozpoczęto w 1995 roku.
+Najnowsze prace, w Kostaryce i Nigerii, zakończono w 2018 roku.
 Obszary badań różnią się także całkowitą pozyskaną powierzchnią lądową i jej wykorzystaniem.
 Najmniejszy teren pozyskano w Kostaryce i wykorzystano go do otworzenia terminalu kontenerowego.
 Projekt w Szanghaju cechował się największą pozyskaną powierzchnią lądową, którą użyto do otwarcia nowej dzielnicy miasta.
@@ -26,7 +28,7 @@ knitr::include_graphics("figures/aois_profiles.png")
 ```{r tbl-aois_info, echo=FALSE, warning=FALSE, message=FALSE}
 #| label: tbl-aois_info
 #| echo: false
-#| tbl-cap: "Podstawowe informacje o obszarach badań, okresach prowadzenia prac oraz pozyskanych powierzchni i ich wykorzystaniu."
+#| tbl-cap: "Podstawowe informacje o obszarach badań, okresach prowadzenia prac, wielkościach pozyskanych powierzchni i ich wykorzystaniu."
 aois <- data.frame(
   c("Dubaj, ZEA", "Lagos, Nigeria", "Limon, Kostaryka", "Singapur", "Szanghaj, Chiny"),
   c("2002", "2009", "2015", "1995", "2003"),
@@ -44,7 +46,7 @@ knitr::kable(aois, format = "latex", booktabs = TRUE, linesep = "", col.names = 
 ```{r fig-db_aoi}
 #| label: fig-db_aoi
 #| echo: false
-#| fig-cap: "Hotel Atlantis, jeden z atrakcji Dubaju, znajduje się na wyspie Palm Jumeirah. (Źródło: ckilger/flickr)"
+#| fig-cap: "Hotel Atlantis, jeden z atrakcji Dubaju, znajduje się na sztucznej wyspie Palm Jumeirah. (Źródło: ckilger/flickr)"
 #| out-width: "100%"
 knitr::include_graphics("figures/dubai/dubai_aoi.jpg")
 ```
@@ -52,7 +54,7 @@ knitr::include_graphics("figures/dubai/dubai_aoi.jpg")
 Na początku XX wieku rozpoczęto konstrukcje sztucznych wysp na wybrzeżu Dubaju.
 Wynikało to ze wzrostu gospodarczego miasta w tym okresie [@gibling2013construction].
 Nowe wyspy miały pełnić funkcje turystyczne, będąc podłożem pod kompleksy hoteli, kurortów i atrakcji.
-Do tych wysp zaliczyć można: Palm Jebel Ali, Palm Jumeirah, The World Islands [@fig-db_aoi].
+Do tych wysp zaliczyć można: Palm Jebel Ali, Palm Jumeirah, The World Islands (@fig-db_aoi).
 Łączna powierzchnia wysp wynosi 20 kilometrów kwadratowych.
 Mimo iż większość wysp udało się ukończyć, ich dalszy rozwój został zahamowany w 2008 roku na skutek kryzysu ekonomicznego [@gupta2015futures].
 W ramach pracy, badania na obszarze Dubaju przeprowadzono w okresie od 2000 do 2012 roku.
@@ -71,9 +73,9 @@ Rozwiązaniem problemu miał być projekt Eko Atlantic, rozpoczęty w 2009 roku.
 Polegał on na konstrukcji nowego lądu na wybrzeżu Lagosu.
 Pozwoliło to na odzyskanie 9 kilometrów kwadratowych utraconej ziemi przez Nigerię, oraz jednoczesną konstrukcję pasa umocnień [@van2012lagos].
 Mimo, iż konstrukcję nowego lądu dla Eko Atlantic zakończono w 2018 roku, obszar ten nie jest dalej zamieszkany.
-Cały czas mają miejse prace nad budową infrastruktury, budynków mieszkalnych i innych niezbędnych obiektów do funkcjonowania Eko Atlantic.
-Eko Atlantic ma jako cel pełnić rolę nowego miasta oraz centrum biznesowego, w którym mogłoby mieszkać 250 tysięcy mieszkańców [@omotosho2013new].
-W ramach pracy, badania na obszarze Lagos przeprowadzono od 2007 do 2020 roku [@fig-lg_aoi].
+Cały czas mają miejsce prace nad budową infrastruktury, budynków mieszkalnych i innych niezbędnych obiektów do funkcjonowania Eko Atlantic.
+Eko Atlantic ma pełnić rolę nowego miasta oraz centrum biznesowego, w którym mogłoby mieszkać 250 tysięcy mieszkańców [@omotosho2013new].
+W ramach pracy, badania na obszarze Lagos przeprowadzono od 2007 do 2020 roku (@fig-lg_aoi).
 
 ## Limon, Kostaryka
 ```{r fig-cr_aoi}
@@ -85,10 +87,10 @@ knitr::include_graphics("figures/costarica/costarica_aoi.jpg")
 ```
 
 Limon jest drugim największym miastem Kostaryki, pełniącym jednocześnie rolę głównego portu morskiego kraju na Oceanie Atlantyckim.
-Kostaryka posiada mocną pozycję na rynku eksportowym, będąc liderem na świecie w ilości eskportowanych ananasów, oraz zajmując czwarte miejsce w ilości eksportowanych bananów [@notteboom2022port].
+Kostaryka posiada mocną pozycję na rynku eksportowym, będąc liderem na świecie w ilości eksportowanych ananasów, oraz zajmując czwarte miejsce w ilości eksportowanych bananów [@notteboom2022port].
 W celu rozwoju gospodarki kraju i umocnienia pozycji na rynku Ameryki Łacińskiej, w 2015 roku rozpoczęto pracę nad budową nowego terminalu kontenerowego.
 Terminal miał powstać na nowo utworzonej sztucznej wyspie obok miasta.
-Prace ukończono w 2019 roku, oddając do uzytku terminal kontenerowy Moin o powierzchni 0.4 kilometra kwadratowego [@fig-cr_aoi].
+Prace ukończono w 2019 roku, oddając do użytku terminal kontenerowy Moin o powierzchni 0.4 kilometra kwadratowego (@fig-cr_aoi).
 W przyszłości planowane są dalsze etapy rozbudowy terminalu, pozwalające na obsługę większych kontenerowców i większej ilości towarów.
 Wykorzystanie nowego terenu jest przemysłowe, służące jedynie obsłudze terminalu portowego.
 W ramach pracy, badania na obszarze Limon przeprowadzono w okresie od 2014 do 2020 roku.
@@ -104,8 +106,8 @@ knitr::include_graphics("figures/singapore/singapore_aoi.jpeg")
 
 Lotnisko Changi w Singapurze zostało otwarte w 1981 i pozwalało na obsługę 12 milionów pasażerów rocznie [@phang2003strategic].
 W 1993 roku rozpoczęto w Singapurze Changi East Reclamation Project.
-Projekt ten obejmował rozbudowę lotniska Changi w Singapurze o dodatkowe 30 kilometrów kwadratowych powierzchni [@fig-sp_aoi].
-Nowy ląd wykorzystano do rozbudowy infrastruktury lotniska oraz do zbudowania nowych obiektów: baz powietrznych i morskich oraz muzeum marynarki wojennej kraju [@arulrajah2009instrumentation].
+Projekt ten obejmował rozbudowę lotniska Changi o dodatkowe 30 kilometrów kwadratowych powierzchni (@fig-sp_aoi).
+Nowy ląd wykorzystano do rozbudowy infrastruktury lotniska oraz do zbudowania nowych obiektów: baz powietrznych i morskich, oraz muzeum marynarki wojennej kraju [@arulrajah2009instrumentation].
 W 2003 roku, w którym zakończono projekt, lotnisko Changi w Singapurze było w stanie obsłużyć rocznie 28 milionów pasażerów [@phang2003strategic].
 W ramach pracy, badania na obszarze Singapuru przeprowadzono w okresie od 1991 do 2005 roku.
 
@@ -119,11 +121,11 @@ knitr::include_graphics("figures/china/china_aoi.jpg")
 ```
 
 Szanghaj jest miastem o stale rosnącej liczbie ludności.
-Od 1990 do 2000 roku, populacja Szanghaju wzrosła z 8,6 do 14,2 miliona osób [@desaunited].
+Od 1990 do 2000 roku, populacja Szanghaju wzrosła z 8,6 do 14,2 milionów osób [@desaunited].
 W celu zapewnienia miejsca zamieszkania dla stale przybywającej ludności, rozpoczęto pracę nad rozbudową istniejących dzielnic Szanghaju.
 Jednym z takich projektów było stworzenie Nanhui New City, nowej dzielnicy Szanghaju w jej wschodniej części, nad zatoką Hangzhou.
-Założeniem dzielnicy było stworzenie ośrodka, które nie będzie jedynie częścią Szanghaju, a nowoczesnym miastem nadmorskim. [@shi2016new].
-Prace nad konstrukcją Nanhui rozpoczęto w 2003, planując zakończenie w 2020 roku.
-Celem lokalnego rządu było stworzenie dzielnicy o powierzchni 296 kilometrów kwadratowych, którą po zakończeniu prac mogłoby zamieszkiwać 800 tysięcy osób [@fig-cn_aoi].
-Mimo iż prace w Nanhui New City trwały do 2020 roku, to nowy ląd został skonstruowany już w 2006 roku, a w 2010 roku dzielnice zamieszkiwało blisko 200 tysięcy osób [@shi2016new].
+Założeniem dzielnicy było stworzenie ośrodka, które nie będzie jedynie częścią Szanghaju, a nowoczesnym miastem nadmorskim [@shi2016new].
+Prace nad konstrukcją Nanhui New City rozpoczęto w 2003 roku, planując zakończenie w 2020 roku.
+Celem lokalnego rządu było stworzenie dzielnicy o powierzchni 296 kilometrów kwadratowych, którą po zakończeniu prac mogłoby zamieszkiwać 800 tysięcy osób (@fig-cn_aoi).
+Mimo, iż prace w Nanhui New City trwały do 2020 roku, nowy ląd został zbudowany już w 2006 roku, a w 2010 roku dzielnicę zamieszkiwało blisko 200 tysięcy osób [@shi2016new].
 W ramach pracy, badania na obszarze Szanghaju przeprowadzono w zakresie czasowym od 2000 do 2009 roku.

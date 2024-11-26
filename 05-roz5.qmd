@@ -1,6 +1,6 @@
 # Metody {#sec-metody}
 
-Rozdział ten podzielony jest na trzy podrozdziały, odpowiadające każdemu z trzech głównych etapów prac: wybór obszarów badań, pozyskiwanie danych teledetekcyjnych w postaci zdjęć satelitarnych, oraz obliczanie wskaźników spektralnych i interpretacja wyników.
+Rozdział ten podzielony jest na podrozdziały, odpowiadające każdemu z trzech głównych etapów prac: wybór obszarów badań, pozyskiwanie danych teledetekcyjnych w postaci zdjęć satelitarnych, oraz obliczanie wskaźników spektralnych i interpretacja wyników.
 @fig-flowchart przedstawia schemat prac i wykonywanych kroków.
 Wszystkie etapy pozyskiwania danych, ich przetwarzania oraz prezentowania wyników zostały przeprowadzone przy wykorzystaniu języka programowania **R** [@R-base].
 Podrozdziały zawierają odniesienia do wykorzystywanych pakietów R, ułatwiających i automatyzujących poszczególne etapy prac.
@@ -16,11 +16,11 @@ node [shape = rectangle]
 'Wybór obszarów badań
 (lokalizacja, zakres czasowy)
 ' -> 
-'Pozyskanie wszystkich dostępnych zdjęć satelitarnych
-(dla danego obszaru badań i zakresu czasowego)' ->
-'Selekcja zdjęć
-na podstawie ilości dostępnych informacji' ->
-'Obliczenie wskaźników spektralnych dla każdego zdjęcia' ->
+'Pozyskanie obrazów satelitarnych
+dla każdego obszaru badań i zakresu czasowego' ->
+'Selekcja obrazów
+na podstawie przyjętych kryteriów' ->
+'Obliczenie wskaźników spektralnych dla każdego obrazu' ->
 'Ocena jakości wód
 (intepretacja wyników)'
 
@@ -41,99 +41,109 @@ knitr::include_graphics("figures/flowchart.png", auto_pdf = TRUE)
 
 ## Wybór obszarów badań
 
-Obszary badań obejmowały przybrzeżne tereny lądowe oraz przylegające zbiorniki wodne, zdefiniowane jako granice przestrzenne wyznaczone przez cztery współrzędne.
+Obszary badań obejmowały przybrzeżne tereny lądowe oraz przylegające zbiorniki wodne,
+Jako obszar badań rozumiane są granice przestrzenne, wyznaczone przez cztery pary współrzędnych.
 Zostały one wybrane na podstawie przeglądu literatury i artykułów oraz wcześniejszej wiedzy autora.
-Z prac pozyskano informacje o lokalizacji obszaru, lat prowadzenia prac oraz wykorzystania nowego lądu.
-Część publikacji opisujących konstrukcje nowych lądów do okresu prowadzenia prac zaliczyła również etapy przygotowawcze (badania w terenie, pozyskiwanie zgód itd.) oraz działania po zakończeniu prac (tworzenie infrastruktury na nowym lądzie, konstrukcja budowli).
-W takim przypadku, wykorzystano serie czasoswe obrazów satelitarnych w celu określenia konkretnego roku rozpoczęcia i zakończenia prac.
-Obszar badań musiał spełnić postawione wymagania, żeby został wybrany.
+
+Obszar badań musiał spełniać postawione wymagania, żeby został wybrany.
 Najważniejszym warunkiem był rok rozpoczęcia prac.
 Jako, iż praca bazuje na zdjęciach satelitarnych ze zbiorów Microsoft Planetary Computer, obszar badań musiał obejmować nowy ląd, którego konstrukcję rozpoczęto po 1982 roku [@microsoft_open_source_2022_7261897].
-Dodatkowo, w celu porównania stanu jakości wód w trakcie trwania prac ze stanem przed rozpoczęciem prac i po zakończeniu, konieczne jest uwzględnienie czasowego buforu między okresem prowadzenia prac.
-W ramach pracy bufor ustalono na minimum dwa lata.
+Dodatkowo, w celu porównania stanu jakości wód w trakcie trwania prac ze stanem przed rozpoczęciem prac i po zakończeniu, konieczne jest uwzględnienie w badaniach również przedziału czasowego przed i po okresie prowadzenia prac.
+W ramach pracy przedział ten ustalono na minimum dwa lata przed i po zakończeniu prac.
 Oznacza to, że wybrany obszar badań musiał obejmować konstrukcję nowego lądu, która rozpoczęła się najwcześniej w 1984 roku.
 Taki sam warunek postawiono dla roku zakończenia prac.
-Prace na wybranym obszarze badań mogły zakończyć się najpóźniej w 2020 roku, co pozwoliłoby uwzględnienie dodatkowcych dwóch-trzech lat do porównania wartości po zakończeniu prac.
+Prace na wybranym obszarze badań mogły zakończyć się najpóźniej w 2020 roku, co pozwoliłoby uwzględnić dodatkowe dwa -- trzy lata do porównania wartości po zakończeniu prac.
 Dodatkowym warunkiem była powierzchnia nowo utworzonego lądu.
-Przy wyborze obszarów badań do pracy skupiono się na projektach, których zmiany w przebiegu konstrukcji były widoczne z poziomu obrazów satelitarnych.
+Przy wyborze obszarów badań do pracy skupiono się na projektach, których zmiany w przebiegu konstrukcji byłyby widoczne z poziomu obrazów satelitarnych.
 Wyklucza to mniejsze projekty, których zmiany nie byłyby zauważalne na zdjęciach satelitarnych Landsat o rozdzielczości przestrzennej 30 metrów.
+
+Z prac naukowych pozyskano informacje o lokalizacji obszaru, lat prowadzenia prac oraz wykorzystaniu nowego lądu.
+Część publikacji opisujących konstrukcje nowych lądów do okresu prowadzenia prac zaliczyła również etapy przygotowawcze (badania w terenie, pozyskiwanie zgód itd.) oraz działania po zakończeniu prac (tworzenie infrastruktury na nowym lądzie, konstrukcja budowli).
+W takim przypadku, wykorzystano serie czasowe obrazów satelitarnych w celu określenia konkretnego roku rozpoczęcia i zakończenia prac.
 
 ## Pozyskiwanie zdjęć satelitarnych
 
-Zdjęcia satelitarne pozyskano przy wykorzystaniu pakietu **rsi** [@R-rsi]. 
-Pakiet ten jest zbiorem narzędzi, umożliwiającym przede wszystkim na pozyskiwanie zdjęć satelitarnych ze zbiorów STAC oraz obliczanie wskaźników spektralnych udostępnionych w ramach katalogu Awesome Spectral Indices [@montero2023standardized].
-Połączenie łatwego dostępu do kolekcji danych teledetekcyjnych i ciągle poszerzającego się zbioru wskaźników znacząco ułatwia przeprowadzanie analiz zmian przestrzennych i czasowych badanych wartości na podstawie wskaźników spektralnych.
+Zdjęcia satelitarne pozyskano przy wykorzystaniu pakietu **rsi** dla języka **R** [@R-rsi]. 
+Pakiet ten jest zbiorem narzędzi, umożliwiającym przede wszystkim na pozyskiwanie zdjęć satelitarnych oraz obliczanie wskaźników spektralnych udostępnionych w ramach katalogu Awesome Spectral Indices [@montero2023standardized].
+Połączenie łatwego dostępu do zbiorów danych teledetekcyjnych i ciągle poszerzającego się katalogu wskaźników znacząco ułatwia przeprowadzanie analiz zmian przestrzennych i czasowych badanych wartości na podstawie wskaźników spektralnych.
 
-Poniższy fragment kodu przedstawia przykład sposobu pozyskania zdjęć satelitarnych przy wykorzystaniu pakietu **rsi**.
 **rsi** posiada wiele dedykowanych metod do pozyskiwania konkretnych danych, udostępnianych w ramach Microsoft Planetary Computer [@microsoft_open_source_2022_7261897].
 Jedną z nich jest funkcja do pozyskiwania zdjęć satelitarnych z programów Landsat.
-Użytkownik, oprócz podania wymaganych informacji takich jak zasięg przestrzenny oraz czasowy, dla którego chce pozyskać dane, otrzymuje możliwość wprowadzenia dodatkowych konfiguracji.
+Użytkownik, oprócz podania wymaganych informacji takich jak zasięg przestrzenny oraz zakres czasowy, dla którego chce pozyskać dane, otrzymuje możliwość wprowadzenia dodatkowych konfiguracji.
 Możliwy jest:
-- wybór konkretnych satelit, z których pozyskać dane, 
-- wybór złączenia wszystkich dostępnych zdjęć w jeden obraz kompozytowy lub pobrania zdjęć osobno,
-- możliwość zamaskowania niepotrzebnych danych przy pomocy kanału oceny jakości.
+
+* wybór konkretnych satelit, z których pozyskać dane, 
+* wybór złączenia wszystkich dostępnych zdjęć w jeden obraz kompozytowy lub pobrania zdjęć osobno,
+* możliwość zamaskowania niepotrzebnych danych przy pomocy kanału oceny jakości.
+
+Fragment kodu w języku **R** przedstawia przykład sposobu pozyskania zdjęć satelitarnych przy wykorzystaniu pakietu **rsi**.
+W tym przypadku, korzystając z metody `get_landsat_imagery()`, możliwe jest pozyskanie obrazów Landsat.
+Trzema wymaganymi argumentami, koniecznymi do wywołania funkcji, są:
+
+* zasięg przestrzenny, dla którego zostaną pobrane zdjęcia (zmienna `aoi`),
+* początkowa data, od której chcemy pozyskać zdjęcia (parametr `start_date`),
+* końcowa data, do której chcemy pobrać obrazy (parametr `end_date`).
+
 ```{r rsi_download, eval = FALSE}
 rsi::get_landsat_imagery(
   aoi,
   start_date="27-04-2000",
   end_date="04-04-2006",
-  platforms=c("landsat-5", "landsat-7", "landsat-8"),
+  platforms=c("landsat-5", "landsat-7"),
   composite_function=NULL,
   output_filename="img/satimg.tif"
 )
 ```
+`rsi::get_landsat_imagery` posiada również opcjonalne argumenty, pozwalające na dalszą konfigurację pobrania obrazów.
+W przykładzie wykorzystano dodatkowe trzy: `platforms`, `composite_function` i `output_filename`.
+`platforms` pozwala na wybranie satelit, z których chcemy pozyskać zdjęcia.
+W tym przypadku, obrazy zostaną pozyskane z Landsat 5 i 7.
+`composite_function` odpowiada za kontrolę procesu tworzenia obrazu kompozytowego.
+Domyślnie, **rsi** ze wszystkich pobranych zdjęć tworzy jeden obraz kompozytowy, którego komórki rastra są medianą wartości ze wszystkich pozyskanych obrazów.
+W przypadku ustawienia tego parametru na `NULL`, zamiast obliczenia kompozytu, wszystkie wybrane obrazy zostaną zapisane do osobnych plików.
+Lokalizacja, w której zostaną one zapisane jest wskazywana przez argument `output_filename`.
+W przypadku ustawienia argumentu `composite_function` na `NULL`, do nazwy plików zostaną dołączone sufiksy z datą pozyskania zdjęcia, co umożliwi rozróżnienie plików od siebie.
 
 W przypadku tej pracy, przy pobieraniu danych został wykorzystany dodatkowy argument, służący do maskowania niepotrzebnych komórek.
-Zdjęcia satelitarne ze zbioru Landsat, oprócz kanałów spektralnych zawierających wartości odbitego promieniowania, posiadają również dodatkowe informacje.
-Jednym z takich metadanych jest kanał oceny jakości (quality assessment band).
+Zdjęcia satelitarne ze zbioru Landsat, oprócz kanałów spektralnych zawierających ilości odbitego promieniowania, posiadają również dodatkowe informacje.
+Jednym z takich metadanych jest kanał oceny jakości (*quality assessment band*).
 Przypisuje on każdej komórce rastra wartość, odpowiadającą konkretnej klasie jakości danej komórki.
-Kanał oceny jakości rozróżnia klasy dzięlace komórki na obszary o małym, niskim i dużym zachmurzeniu, oraz na obszary lądowe czy wodne.
-Klasy te zostały wykorzystane do wyboru jedynie komórek w zdjęciach satelitarnych, które zaklasyfikowane zostały do zbiorników wodnych bez pokrycia chmurami.
-Wszystkie inne komórki, zaklasyfikowane jako obszary lądowe lub obszary pokryte chmurami, zostały usunięte ze zdjęć satelitarnych.
-Taki proces zapewniał obliczanie wskaźników spektralnych jedynie na obszarach wodnych, wykluczając z dalszych analiz obszary lądowe oraz powierzchnie przykryte chmurami.
+Kanał oceny jakości rozróżnia klasy, dzięlące komórki na obszary o małym, niskim i dużym zachmurzeniu, oraz na obszary lądowe czy wodne.
+Klasy te zostały wykorzystane do wyboru jedynie takich komórek w zdjęciach satelitarnych, które zaklasyfikowane zostały do zbiorników wodnych bez pokrycia chmurami.
+Wszystkim innym komórkom, zaklasyfikowanym jako obszary lądowe lub obszary pokryte chmurami, zostały przypisane braki wartości.
+Taki proces zapewniał obliczanie wskaźników spektralnych jedynie na obszarach wodnych, wykluczając z dalszych analiz obszary lądowe oraz powierzchnie zasłonięte chmurami.
 
-Po pobraniu obrazów zawierających dane jedynie o zbiornikach wodnych, wykonywana została selekcja zdjęć.
-Wybierane zostały zdjęcia, w których stosunek ilości komórek rastra zawierających danych jest większa od ustalonego progu dla danego obszaru badań.
-Wartość progowa była porównywana z procentowym udziałem komórek bez wartości.
+Po pobraniu obrazów, zawierających jedynie dane o zbiornikach wodnych, została wykonywana selekcja zdjęć.
+Wybierane zostały zdjęcia, których stosunek liczby komórek bez wartości do wszystkich komórek obrazu jest mniejszy od ustalonego progu.
+Wartość progowa była porównywana z procentowym udziałem komórek bez wartości w całości obrazu.
 Jeżeli komórek bez wartości było mniej niż ustalono w progu, zdjęcie zostało wybierane.
 Próg ten różnił się dla każdego obszaru i był zależny od udziału powierzchni obszarów lądowych w całości obszaru badań.
 Jako, że podczas pobierania obrazów zachowywane zostały jedynie komórki dla obszarów wodnych bez pokrycia chmurami, wszystkim innym obszarom (lądowym albo zachmurzonym) przypisany został brak wartości.
-Dla obszarów badań, na których udział powierzchni lądowych był wysoki, wartość progowa również była podwyższana.
-Pozwalało to na uwzględnienie w pracy zdjęć satelitarnych, które zawierały mniejszą ilość informacji. 
+Dla obszarów badań, w których udział powierzchni lądowych był wysoki, wartość progowa również była podwyższana.
+Pozwalało to na uwzględnienie w pracy obrazów satelitarnych, które w porównaniu do innych obszarów badań zawierały mniejszą liczbę komórek wypełnionych wartościami.
+W swoim obszarze badań jednak liczba ta była satysfakcjonująca.
 Dla obszarów zdominowanych przez zbiorniki wodne, próg udziału komórek bez wartości był zmniejszany.
-Pozwalało to na wybór zdjęć satelitarnych o dużej ilośći danych.
-Poniższy fragment kodu przedstawia przykład funkcji, weryfikującej zdjęcia satelitarne pod kątem ilości dostępnych informacji.
-``` {r checking_threshold, eval=FALSE}
-check_na_threshold <- function(rasterpath_list, threshold = 50) {
-  check_results <- c()
-  for (rasterpath in rasterpath_list) {
-    raster <- terra::rast(rasterpath)
-    na_count <- terra::global(raster[[2]], fun = "isNA") / terra::ncell(raster[[2]]) * 100
-    check_results <- c(check_results, na_count < threshold)
-  }
-  data.frame(rasterpath_list, check_results)
-}
-```
+Umożliwiło to wybór jedynie obrazów, które zawierały dużą liczbę komórek wypełnionych wartościami.
 
 Operacje na danych rastrowych wykonywano przy wykorzystaniu pakietu **terra** [@R-terra].
 Do tych operacji zaliczyć można: selekcję obrazów satelitarnych na podstawie ilości dostępnych danych, przygotowywanie danych do analizy, próbkowanie obrazów wzdłuż profilu, obliczanie statystyk dla całego obrazu.
-Pakiety **dplyr** [@R-dplyr], **lubridate** [@R-lubridate] i **reshape2** [@R-reshape2] zostały użyte w przetwarzaniu danych.
+Pakiety **dplyr** [@R-dplyr], **lubridate** [@R-lubridate] i **reshape2** [@R-reshape2] zostały użyte do przetwarzania danych.
 
 ## Obliczanie wskaźników spektralnych
 
-Główną metodą wykorzystywania zdjęć satelitarnych w badaniu jakości wody jest wykorzystywanie informacji o ilości odbitego promieniowania od powierzchni wody [@gholizadeh2016comprehensive].
-Służą one przeważnie do oceny fizycznych parametrów stanu wód, takich jak występowanie chlorofilu a, zawiesiny czy mętności wody [@gholizadeh2016comprehensive].
+Główną metodą wykorzystywania zdjęć satelitarnych w badaniu jakości wody jest analiza informacji o ilości odbitego promieniowania od powierzchni wody [@gholizadeh2016comprehensive].
+Służą one przeważnie do oceny fizycznych parametrów stanu wód, takich jak występowanie chlorofilu a czy mętność wody [@gholizadeh2016comprehensive].
 Żeby wyszczególnić sygnały wskazujące na występowanie parametrów jakości wody, zdjęcia satelitarne przetwarzane są przy pomocy wskaźników spektralnych [@bijeesh2019comparative].
-Wskaźnik spektralny może przyjmować formę stosunku między dwoma kanałami, lub formuły wykorzystującej większą ilość kanałów.
-Taką formułę wykorzystuję się dla każdej komórki rastra, obliczając dla niej wartość wskaźnika na podstawie wartości wybranych kanałów dla tej komórki.
+Wskaźnik spektralny może przyjmować formę relacji między dwoma kanałami, lub formuły wykorzystującej większą liczbę kanałów.
+Algorytm stosuje się dla każdej komórki rastra, obliczając dla niej wartość wskaźnika na podstawie wartości wybranych kanałów dla tej komórki.
+
 Sam wybór kanałów do wskaźników zależy od właściwości spektralnych obiektu badań [@bijeesh2019comparative].
 Do oceny jakości wód, najczęściej wykorzystywanymi kanałami we wskaźnikach spektralnych są kanały widzialne (czerwony, zielony, niebieski) i kanał bliskiej podczerwieni.
 W ramach pracy, skupiono się na wykrywaniu występowania chlorofilu a oraz zawiesiny w zbiornikach wodnych.
-Spadek ilości chlorofilu a czy wzrost mętności wody utożsamiane były z pogorszeniem stanu jakości wód.
 
-Jednym z wykorzystanych wskaźników w pracy jest Surface Algal Bloom Index (nazywanym dalej w pracy SABI), opracowanym przez @alawadi2010detection.
-Powstał on w celu oszacowania koncentracji chlorofilu a pod powirzchnią i tuż przy powierzchni zbiorników wodnych.
-Algorytm SABI został opracowany formułą:
+Jednym z wykorzystanych wskaźników w pracy jest wskaźnik zakwitu glonów powierzchniowych (*Surface Algal Bloom Index*, nazywanym dalej w pracy SABI), opracowanym przez Fahada Alawadi.
+Powstał on w celu oszacowania stężenia chlorofilu a pod powierzchnią i tuż przy powierzchni zbiorników wodnych.
+Algorytm SABI przyjmuje formułę:
 $$
 SABI = \frac{k_p - k_c}{k_n + k_z}
 $$
@@ -146,14 +156,14 @@ $$
 
 Głównym atutem SABI jest wykorzystanie czterech kanałów do obliczenia wskaźnika.
 Kanał bliskiej podczerwieni ułatwia odróżnienie glonów od zbiornika wodnego.
-Połączenie kanałów o krótkich falach (zielonych i niebieskich) umożliwia wykrywanie koncetracji chlorofilu a pod powierzchnią wody [@alawadi2010detection].
+Połączenie kanałów o krótkich falach (zielonych i niebieskich) umożliwia wykrywanie stężenia chlorofilu a pod powierzchnią wody [@alawadi2010detection].
 Dodatnie wartości SABI są interpretowane jako wskaźnik obecności chlorofilu a w aktywnie fotosyntetyzujących glonach.
 Ujemne wartości wskazują natomiast na brak aktywności fotosyntetycznej glonów, co może wynikać z braku chlorofilu a lub z ich głębszego położenia pod powierzchnią wody [@alawadi2010detection].
 
-Kolejnym wskaźnikiem, służacym do estymacji chlorofilu a w zbiornikach wodnych jest Fluorescence Line Height, zaproponowanym przez @beck2016comparison.
-Autorzy opracowali dwa wskaźniki, oparte na stosunku fal w zakresie zielonym do barw czerwonych i niebieskich oraz fioletowych.
-W pracy wykorzystano pierwszy wskaźnik, nazywany dalej FLH Blue.
-Algorytm FLH Blue oparty jest na równaniu:
+Kolejnym wskaźnikiem, służącym do estymacji chlorofilu a w zbiornikach wodnych jest wskaźnik wysokości linii fluorescencyjnej (*Fluorescence Line Height*), zaproponowanym między innymi przez Richarda Becka.
+Autorzy opracowali dwa wskaźniki, bazujące na korzystaniu z informacji o odbitym promieniowaniu w zakresach kanału czerwonego i zielonego, z dodatkowym wykorzystaniem kanału niebieskiego lub bliskiej podczerwieni (@beck2016comparison).
+W pracy wykorzystano pierwszy wskaźnik, który będzie nazywany dalej FLH Blue.
+Algorytm FLH Blue oparty jest na wzorze:
 $$
 FLH Blue = k_z - (k_c + (k_n - k_c))
 $$
@@ -161,14 +171,14 @@ $$
 
 * k~z~ -- kanał zielony.
 * k~c~ -- kanał czerwony,
-* k~n~ -- kanmał niebieski.
+* k~n~ -- kanał niebieski.
 
 Wyższe wartości wskaźnika FLH Blue wskazują na większe stężenie chlorofilu a.
-Wykorzystanie dwóch wskaźników do estymacji chlorofilu a o dwóch różnych formułach może posłużyć do zaobserwowania większej ilości zależności i trendów niż przy przeprowadzeniu analizy z użyciem jednego wskaźnika.
+Wykorzystanie dwóch wskaźników do estymacji chlorofilu a o dwóch różnych formułach może posłużyć do zaobserwowania większej liczby potencjalnych zmian i trendów, niż przy przeprowadzeniu analizy z użyciem jednego wskaźnika.
 
 W przypadku oceny mętności wody, wykorzystano dwa wskaźniki bazujące na relacjach między dwoma kanałami.
-Wskaźnik opracowany przez @bowers2006optical (nazywany dalej Bow06) bazuje na relacji między kanałami czerwonym i zielonym.
-Drugi wskaźnik, zaproponowany przez @Chipman2009 (nazywany dalej Chip09), ponownie wykorzystuje kanał zielony, jednak bada jego związek z kanałem bliskiej podczerwieni.
+Wskaźnik opracowany przez Davida Bowersa w 2006 roku (nazywany dalej Bow06) bazuje na relacji między kanałami czerwonym i zielonym [@bowers2006optical].
+Drugi wskaźnik, zaproponowany przez Jonathana Chipmana w 2009 roku (nazywany dalej Chip09), ponownie wykorzystuje kanał zielony, jednak bada jego związek z kanałem bliskiej podczerwieni [@Chipman2009].
 
 Algorytmy obydwu wskaźników mają następujące formuły:
 $$
@@ -183,10 +193,10 @@ $$
 * k~p~ -- kanał bliskiej podczerwieni,
 * k~c~ -- kanał czerwony
 
-Wykorzystanie dwóch wskaźników o różnych wykorzystanych kanałach może pozwolić na wykrycie większej ilości potencjalnych zmian przestrzennych czy anomalii, które byłyby niewidoczne przy wykorzystaniu jedynie jednego wskaźnika lub jednego kanału spektralnego.
-Wykorzystanie wskaźnika Bow06 popierane jest stwierdzeniem, że formuły będące stosunkiem między dwoma kanałami widzialnymi są mniej podatne na niepoprawne korekcje atmosferyczne [@bowers2006optical].
-W pracy @Chipman2009 wskazano natomiast na zależność między stosunkiem odbicia w kanałach bliskiej podczerwieni i zieleni a stężeniem zawiesiny w zbiorniku wodnym.
-Dla obydwu wskaźników, wyższe wartości utożsamiane są z większą ilością zawiesiny i wzrostem mętności wody.
+Wykorzystanie dwóch wskaźników, bazujących na różnych relacjach może pozwolić na wykrycie większej ilości potencjalnych zmian przestrzennych czy anomalii, które byłyby niewidoczne przy wykorzystaniu jedynie jednego wskaźnika lub jednego kanału spektralnego.
+Wykorzystanie wskaźnika Bow06 popierane jest założeniem, że relacje między dwoma kanałami widzialnymi są mniej podatne na niepoprawne korekcje atmosferyczne [@bowers2006optical].
+@Chipman2009 wskazują natomiast na zależność między stosunkiem odbicia promieniowania elektromagnetycznego w kanałach bliskiej podczerwieni i zieleni, a stężeniem zawiesiny w zbiorniku wodnym.
+Dla obydwu wskaźników, wyższe wartości utożsamiane są z większym stężeniem zawiesiny i wzrostem mętności wody.
 
 Wskaźniki spektralne zostały obliczone przy wykorzystaniu pakietu **waterquality** [@R-waterquality].
 Pakiet ten posiada zbiór wyselekcjonowanych wskaźników spektralnych, służących do oceny jakości wód.
@@ -194,6 +204,12 @@ Pakiet **waterquality** dla każdego wskaźnika zawiera informacje o: wzorze do 
 W przypadku zdjęć satelitarnych Landsat, **waterquality** dostarcza wskaźniki jedynie dla danych z satelity Landsat 8.
 W ramach pracy przygotowano wzory dla zdjęć z Landsat 5 i 7.
 
-Wszystkie ryciny zostały wygenerowane z użyciem pakietów **ggplot2** [@R-ggplot2] i **patchwork** [@R-patchwork].
+Wszystkie ryciny w pracy zostały wygenerowane z użyciem pakietów **ggplot2** [@R-ggplot2] i **patchwork** [@R-patchwork].
+Niektóre z rycin, posiadające podział obserwacji na etapy prac i pory roku, mogą nie zawierać wszystkich pór roku.
+Wynika to z braku obserwacji w danej porze roku.
 Palety barw, wykorzystane na rycinach, pozyskano z pakietu **RColorBrewer** [@R-RColorBrewer]
 Do generowania tabel z wynikami, wykorzystano pakiety **knitr** [@R-knitr] i **kableExtra** [@R-kableExtra].
+
+Na średnich wartościach wskaźników przeprowadzono testy Kruskala-Wallisa.
+Pozwoliło to na ocenę istotności statystycznych zmian wartości pomiędzy etapami prac: przed, w trakcie i po zakończeniu tworzenia nowego lądu.
+Testy przeprowadzono, wykorzystując wbudowaną funkcję w **R** o nazwie `kruskal.test()`.

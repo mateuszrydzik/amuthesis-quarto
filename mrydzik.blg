@@ -1,0 +1,18 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'mrydzik.blg'
+[66] biber-darwin:340> INFO - === Tue Nov 26, 2024, 22:15:02
+[81] Biber.pm:420> INFO - Reading 'mrydzik.bcf'
+[167] Biber.pm:994> INFO - Found 48 citekeys in bib section 0
+[180] Biber.pm:4463> INFO - Processing section 0
+[189] Biber.pm:4654> INFO - Looking for bibtex file 'thesis.bib' for section 0
+[191] bibtex.pm:1713> INFO - LaTeX decoding ...
+[222] bibtex.pm:1519> INFO - Found BibTeX data source 'thesis.bib'
+[395] Biber.pm:4654> INFO - Looking for bibtex file 'packages.bib' for section 0
+[397] bibtex.pm:1713> INFO - LaTeX decoding ...
+[408] bibtex.pm:1519> INFO - Found BibTeX data source 'packages.bib'
+[520] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[520] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[520] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[520] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[579] bbl.pm:676> INFO - Writing 'mrydzik.bbl' with encoding 'UTF-8'
+[600] bbl.pm:779> INFO - Output to mrydzik.bbl

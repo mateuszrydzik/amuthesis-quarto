@@ -1,25 +1,31 @@
 # Wyniki {#sec-wyniki}
 
-Ten rozdział poświęcony jest analizie wartości wskaźników i próbie odpowiedzi na pytanie: czy tworzenie nowych lądów wpływa na jakość wód?
-Wskaźniki spektralne zostały obliczone dla każdego obrazu satelitarnego, wybranego według podanego kryterium (proces ten został opisany w @sec-metody).
-W ramach tej pracy, jako sygnały potencjalnej degradacji jakości wód uznano: spadek ilości chlorofilu a lub zwiększenie ilości zawiesiny w wodzie.
-Obliczenie zmian stanu jakości wód polegał na zestawieniu wartości poszczególnych wskaźników z okresu trwania prac, z wartościami tych samych wskaźników przed rozpoczęciem prac.
+Rozdział ten poświęcony jest analizie wartości wskaźników spektralnych i próbie odpowiedzi na pytanie, czy tworzenie nowych lądów wpływa na jakość wód?
+Wskaźniki spektralne zostały obliczone dla każdego obrazu satelitarnego, wybranego według podanego kryterium (@sec-metody zawiera dokładny opis tego procesu).
+Obserwacja zmian stanu jakości wód polegała na zestawieniu wartości poszczególnych wskaźników z okresu trwania prac nad tworzeniem nowych lądów, z wartościami tych samych wskaźników przed rozpoczęciem prac.
 Dodatkowo, wartości wskaźników obliczonych na obrazach z etapu trwania prac i przed ich rozpoczęciem zestawiono także z obrazami wykonanymi po zakończeniu prac, w celu obserwacji możliwych długofalowych efektów tworzenia nowych lądów na stan jakości wód.
 Rozdział ten podzielony jest na podrozdziały, poświęcone każdemu obszarowi badań z osobna.
 
-Wzrost wartości wszystkich wskaźników interpetowany jest jako wzrost intensywności obserwowanego zjawiska.
-Oznacza to, że wzrost wartości wskaźników SABI i FLH Blue jest równy wzrostu ilości chlorofilu a w wodzie.
-Odbierane jest to jako polepszenie jakości wody.
-Wzrost wartości wskaźników Bow06 i Chip09 jest interpretowany jako wzrost ilości zawiesiny w wodzie, co odbierane jest jako pogorszenie jakości wód.
+Wzrost wartości wszystkich wskaźników interpretowany jest jako wzrost intensywności obserwowanego zjawiska.
+Oznacza to, że wzrost wartości wskaźników Bow06 i Chip09 jest interpretowany jako wzrost stężenia zawiesiny w wodzie.
+Wzrost stężenia zawiesiny wskazuje na zwiększenie mętności wody.
+Zjawisko te interpretowane jest jako negatywne, pogarszające stan jakości wód.
 
-Podrozdziały zawierają wybrane ryciny, przedstawiające w najlepszy sposób potencjalny wpływ procesów tworzenia nowych lądów na jakość wód.
-Pozostałe ryciny, utworzone w ramach pracy, zostały umieszczone w rozdziale [z załącznikami do wyników prac](appendix.qmd).
+W przypadku chlorofilu a, w pracy nie zawarto opinii o negatywnym czy pozytywnym wpływie zmian tego parametru na jakość wód.
+Zarówno wzrost stężenia chlorofilu a jak i jego spadek może być utożsamiany z pogorszeniem stanu wód [@dembowska2021use].
+Wzrost stężenia chlorofilu a wskazuje na wzrost biomasy fitoplanktonu, co prowadzi do przekwitu glonów.
+Odnotowanie spadku stężenia chlorofilu a może świadczyć o zaniku fitoplanktonu, co prowadzi do ograniczenia dostępności pokarmu dla organizmów wodnych.
+W pracy skupiono się na obserwacji zmian stężenia chlorofilu a między etapami prac.
+Wielkość tych zmian może być sygnałem potencjalnego wpływu tworzenia nowych lądów na stan jakości wód.
+
+Podrozdziały zawierają wybrane ryciny, przedstawiające wpływ procesów tworzenia nowych lądów na jakość wód.
+Pozostałe ryciny, utworzone w ramach pracy, zostały umieszczone w rozdziale z załącznikami.
 
 ## Dubaj, Zjednoczone Emiraty Arabskie
 ```{r tbl-db_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-db_stats
 #| echo: false
-#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Dubaju z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu)."
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Dubaju z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu). W tabeli zawarto również p-value z testu Kruskala-Wallisa, sprawdzającego istotność statystyczną zmian średnich wartości wskaźników między etapami prac."
 library(dplyr)
 sabi_df <- readRDS("data/dubai/sabi.Rda")
 flh_df <- readRDS("data/dubai/flhblue.Rda")
@@ -72,27 +78,26 @@ Obserwując zmiany wartości parametrów jakości wody, odnotowano wpływ tworze
 Średnia wartość wskaźnika SABI była niższa w etapie trwania prac niż w okresie przed rozpoczęciem prac.
 Wskazuje to na zmniejszenie stężenia chlorofilu a na obszarze badań po rozpoczęciu prac.
 Drugi wskaźnik wykrywający chlorofil a, FLH Blue, odnotował natomiast wzrost średnich wartości po rozpoczęciu prac.
-Wskaźnik SABI sygnalizuje o spadku ilości chlorofilu a w wodzie, czyli pogorszeniu jakości wód, a wskaźnik FLH Blue wskazuje na zwiększenie ilości chlorofilu a, czyli polepszeniu stanu wód.
 Średnie wartości wskaźnika SABI po zakończeniu prac były jeszcze niższe niż podczas trwania prac.
 Może to świadczyć o długofalowych skutkach konstrukcji nowych lądów na jakość wód.
 Biorąc pod uwagę przeznaczenie nowego lądu, można przypuszczać o wpływie ruchu turystycznego na dalszą degradację pobliskich wód.
 
-Obydwa wskaźniki wykrywające zawiesinę w wodzie wskazują na wzrost stężenia zawiesiny w wodzie podczas trwania prac tworzenia nowego lądu, w porównaniu do stanu przed rozpoczęciem budowy.
+Obydwa wskaźniki wykrywające zawiesinę w wodzie wskazują na wzrost stężenia zawiesiny podczas trwania prac tworzenia nowego lądu, w porównaniu do stanu przed rozpoczęciem budowy.
 Proces tworzenia nowych lądów w Dubaju poskutkował zwiększeniem mętności wody i pogorszeniem stanu jakości pobliskich wód.
 Po zakończeniu prac, średnie wartości wskaźników badających występowanie zawiesiny zmalały do poziomu bliskiemu stanu przed rozpoczęciem prac.
 
-```{r fig-db_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+```{r fig-db_sabi_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-db_sabi_violin
 #| echo: false
 #| fig-cap: "Rozkład stężenia chlorofilu a dla Dubaju na przykładzie wskaźnika SABI, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
 knitr::include_graphics("figures/dubai/sabi_violin.png")
 ```
-Oprócz zmian średnich wartości parametrów jakości wód, zmiany uległy również rozkłady wartości.
+Oprócz zmian średnich wartości parametrów jakości wód, zmianom uległy również rozkłady wartości.
 @fig-db_sabi_violin przedstawia rozkłady wartości chlorofilu a w wodzie, bazując na wskaźniku SABI.
 Wskaźniki obliczone podczas trwania prac wykazują mniejsze rozproszenie wokół średniej niż wskaźniki obliczone przed rozpoczęciem prac.
 Jest to widoczne szczególnie na wskaźnikach obliczonych przy pomocy zdjęć, pochodzących z letniego sezonu.
 Oznacza to, że proces tworzenia nowych lądów wpłynął na jakość wód i sprawił, że na obszarze badań w Dubaju stężenie chlorofilu a stało się bardziej jednorodne.
-Przy jednoczesnym spadku średniej wartości chlorofilu a wskazuje to na negatywny wpływ procesów lądotwórczych na jakość wód, przez które chlorofilu a w wodzie jest mniej na całym obszarze badań, a nie jedynie przy nowym terenie lądowym.
+Przy jednoczesnym spadku stężenia chlorofilu a wskazuje to na wpływ procesów lądotwórczych na jakość wód, przez które chlorofilu a w wodzie jest mniej na całym obszarze badań, a nie jedynie przy nowym terenie lądowym.
 
 ```{r fig-db_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-db_flhblue_diff
@@ -105,13 +110,12 @@ Lewa rycina przedstawia różnice wartości między wskaźnikami obliczonymi w t
 Wartości dodatnie świadczą o wzroście ilości chlorofilu a podczas trwania prac w porównaniu do stanu przed rozpoczęciem, a wartości ujemne wskazują na spadek ilości chlorofilu a wraz z rozpoczęciem prac.
 Na mapie widoczny jest spadek stężenia chlorofilu a na południu obszaru badań, czyli tuż przy wybrzeżu i nowym lądzie.
 Rycina po prawej stronie przedstawia różnice między stężeniem chlorofilu a po zakończeniu prac a stężeniem wykrytym w trakcie.
-Większość obszaru badań wskazuje na ujemne wartości.
-Świadczy to, że jakość wody była w gorszym stanie po zakończeniu prac niż w ich trakcie.
+Większość obszaru badań wskazuje na ujemne wartości, co oznacza spadek stężenia chlorofilu a po zakończeniu prac.
 
 ```{r fig-db_bow_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-db_bow_diff
 #| echo: false
-#| fig-cap: "Mapy różnic występowania chlorofilu a dla Dubaju, z wykorzystaniem wskaźnika Bow06. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (sierpień 2007 i 2000). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2011 i 2002)."
+#| fig-cap: "Mapy różnic występowania zawiesiny dla Dubaju, z wykorzystaniem wskaźnika Bow06. Rycina po lewej przedstawia różnice między wskaźnikami, obliczonymi w trakcie trwania i przed rozpoczęciem prac (sierpień 2007 i 2000). Rycina po prawej przedstawia różnice między wskaźnikami, obliczonymi po zakończeniu prac i w trakcie ich trwania (listopad 2011 i 2002)."
 knitr::include_graphics("figures/dubai/bow_diff.png")
 ```
 @fig-db_bow_diff bada podobne różnice między wybranymi etapami prac, jednak pod kątem obecności zawiesiny w wodzie.
@@ -121,17 +125,21 @@ Stężenie zawiesiny spadło natomiast wraz z oddalaniem się od wybrzeża.
 Dla drugiej mapy, obszar wzrostu stężenia zawiesiny poszerzył się, w porównaniu do pierwszej ryciny.
 Świadczy to o negatywnym skutku tworzenia nowych lądów, który spowodował spadek jakości wody na większym obszarze niż prowadzono prace.
 
-Wpływ tworzenia nowych lądów na jakość wód był negatywny.
-W trakcie trwania prac, stężenie chlorofilu a było niższe niż przed rozpoczęciem prac.
-Dodatkowo, zaobserwowano zwiększenie mętności wody podczas etapu konstrukcji lądu względem stanu przed pracami.
-Zjawiskiem wartym podkreślenia jest ciągły spadek występowania chlorofilu a po zakończeniu prac.
+Zmiany średnich wartości chlorofilu a w Dubaju były najmniejsze spośród wszystkich obszarów badań, co może zostać odebrane jako niski wpływ tworzenia nowych lądów na stan jakości wód.
+Odnotowane zostały natomiast zmiany w rozkładzie wartości stężeń chlorofilu a.
+Podczas trwania prac, wartości stężenia chlorofilu a były bardziej jednorodne niż przed rozpoczęciem konstrukcji nowego lądu.
+Zauważono również największy spadek stężenia chlorofilu a w pobliżu miejsca tworzenia nowego lądu, w porównaniu do pozostałego obszaru badań.
+Dodatkowo, zaobserwowano zwiększenie stężenia zawiesiny w wodzie podczas etapu konstrukcji lądu względem stanu przed pracami.
+Wzrost mętności wody mógł wpłynąć negatywnie na stan jakości wód w Dubaju.
 Proces konstrukcji nowego lądu albo jego forma użytkowania mogły przyczynić się do dalszej degradacji jakości wód w Dubaju.
+Potwierdzenie ciągłej degradacji wymagałoby dalszej obserwacji zmian parametrów jakości wód po zakończeniu prac.
+Zmiany średnich wartości wskaźników między etapami prac nie wykazały istotności statystycznej.
 
 ## Lagos, Nigeria
 ```{r tbl-lg_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-lg_stats
 #| echo: false
-#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Lagos z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu)."
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Lagos z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu). W tabeli zawarto również p-value z testu Kruskala-Wallisa, sprawdzającego istotność statystyczną zmian średnich wartości wskaźników między etapami prac."
 sabi_df <- readRDS("data/nigeria/sabi.Rda")
 flh_df <- readRDS("data/nigeria/flhblue.Rda")
 bow_df <- readRDS("data/nigeria/bow06.Rda")
@@ -179,17 +187,17 @@ rownames(df_means) <- c("SABI", "FLH Blue", "Bow06", "Chip09")
 knitr::kable(df_means, format = "latex", booktabs = TRUE, linesep = "", digits = 3) %>% kableExtra::group_rows("chlorofil a", 1, 2) %>% 
   kableExtra::group_rows("zawiesina", 3, 4)
 ```
-@tbl-lg_stats zawiera informacje o średnich wartościach wskaźników opisujących natężenie parametrów jakości wód w Lagos.
+@tbl-lg_stats zawiera informacje o średnich wartościach wskaźników opisujących jakość wód w Lagos.
 Zauważalny jest wpływ procesów tworzenia nowych lądów na stan jakości wód.
-Stężenie chlorofilu a na obszarze badań w Lagos były wyższe podczas prowadzenia prac, niż przed ich rozpoczęciem.
+Stężenie chlorofilu a na obszarze badań w Lagos było wyższe podczas prowadzenia prac, niż przed ich rozpoczęciem.
+Po rozpoczęciu prac, zanotowano wzrost stężenia chlorofilu a w porównaniu do stężenia chlorofilu a przed rozpoczęciem konstrukcji.
 Obserwując zmiany mętności wody, ilość zawiesiny w trakcie konstrukcji lądów zmalała, w porównaniu do stanu przed prowadzeniem prac.
-Dodatkowo, po zakończeniu prac stężenie zawiesiny kontynuował spadek, a ilość chlorofilu a stales ię zwiększała (w przypadku wskaźnika FLH Blue).
-Trendy te wskazują na pozytywny wpływ procesów tworzenia nowych lądów na jakość wód.
+Dodatkowo, po zakończeniu prac stężenie zawiesiny kontynuowało spadek, a ilość chlorofilu a w wodzie zmniejszyła się (w przypadku wskaźnika FLH Blue).
 
-```{r fig-ng_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+```{r fig-ng_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-ng_sabi_flhblue_means
 #| echo: false
-#| fig-cap: "Rozkład średnich wartości stężenia chlorofilu a dla Lagos. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+#| fig-cap: "Rozkład średnich wartości stężenia chlorofilu a dla Lagos. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu. Czarna linia jest wygładzoną linią trendów."
 knitr::include_graphics("figures/nigeria/sabi_flhblue_means.png")
 ```
 @fig-ng_sabi_flhblue_means przedstawia zmiany średnich wartości wskaźników badających występowanie chlorofilu a wraz z upływem czasu.
@@ -199,18 +207,17 @@ Po tym roku, ilość chlorofilu a w wodzie nieznacznie zmalała do poziomu, któ
 Wskaźnik FLH Blue przedstawia bardziej gwałtowną zmianę stężenia.
 Ilość chlorofilu a w zbiorniku wodnym była stale niska od rozpoczęcia prac do połowy okresu trwania konstrukcji.
 Pod koniec 2013 roku stężenie chlorofilu a drastycznie wzrosło.
-Wysoki poziom chlorofilu a utrzymywał się do 2017 roku, po którym zaczął stopniowo maleć również w etapie po zakończeniu prac.
-Rok nagłego wzrostu ilości chlorofilu a pokrywa się z przejściem między dwoma źródłami zdjęć satelitarnych.
-Obrazy dla Lagos do 2013 roku pochodzą z Landsat 7, a kolejne zdjęcia -- z Landsat 8.
-Mimo iż dla wskaźnika FLH Blue widoczny jest skok w momencie zmiany satelity, wskaźnik SABI zaobserwował trend wzrostu stężenie chlorofilu a jeszcze przy wykorzystaniu obrazów z Landsat 7.
+Wzrost ten pokrywa się z momentem zwiększenia intensywności prac, podczas których utworzono większość lądu.
+Wysoki poziom chlorofilu a utrzymywał się do 2016 roku, po którym zaczął stopniowo maleć również w etapie po zakończeniu prac.
+
 ```{r fig-ng_sabi_flhblue_corr, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
 #| label: fig-ng_sabi_flhblue_corr
 #| echo: false
 #| fig-cap: "Korelacja między średnimi wartościami wskaźników SABI i FLH Blue dla Lagos. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
 knitr::include_graphics("figures/nigeria/sabi_flhblue_corr.png")
 ```
-Same średnie wartości dla obydwu wskaźników chlorofilu a wykazały dodatnią korelację [@fig-ng_sabi_flhblue_corr].
-Wraz ze wzrostem stężenia chlorofilu a według wskaźnika SABI, wzrastało stężenie chlorofilu a na danych obliczonych przez wskaźnik FLH Blue.
+Same średnie wartości dla obydwu wskaźników chlorofilu a wykazały dodatnią korelację (@fig-ng_sabi_flhblue_corr).
+Wraz ze wzrostem stężenia chlorofilu a według wskaźnika SABI, wzrastało stężenie chlorofilu a obliczonego przez wskaźnik FLH Blue.
 Oznacza to, że obydwa wskaźniki są spójne w ocenie stężenia chlorofilu a dla obszaru badań w Lagos.
 
 ```{r fig-ng_bow_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
@@ -227,21 +234,20 @@ W wodach położonych dalej od wybrzeża, stężenie zawiesiny było niższe ni�
 Prawa rycina zestawia stężenie zawiesiny po zakończeniu prac z okresem ich prowadzenia.
 Dla obszaru badań w Lagos przeważają ujemne wartości, co oznacza zmniejszenie mętności wody po skończeniu konstrukcji lądu.
 
-Wpływ tworzenia nowych obszarów lądowych na jakość wód w Lagos był pozytywny.
+Zmiany stężenia chlorofilu a w Lagos były znacznie większe, w porównaniu do zmian w Dubaju.
 Najwyższe stężenia chlorofilu a zostały odnotowane w trakcie prowadzenia prac konstrukcyjnych.
-Podobne zmiany zaobserwowano dla zmian mętności wody.
-Ilość zawiesiny w wodzie w trakcie budowy lądu była mniejsza, niż przed rozpoczęciem prac, i stale malała po zakończeniu prac.
-Podczas trwania prac, największa degradacja wody miała miejsce tuż przy wybrzeżu, w pobliżu konstrukcji nowego lądu.
+Nie wykazano jednak istotności statystycznej zmian wartości wskaźników między etapami prac.
+Stężenie zawiesiny w wodzie w trakcie budowy lądu było mniejsze niż przed rozpoczęciem prac, i stale malało po zakończeniu prac.
+Podczas trwania prac, największa degradacja wody w postaci zwiększenia mętności miała miejsce tuż przy wybrzeżu, w pobliżu konstrukcji nowego lądu.
 Pozostały obszar był jednak niedotknięty pogorszeniem stanu wód.
-Raport @EkoAtlantic2012 odnośnie konstrukcji Eko Atlantic uwzględnił możliwość degradacji jakości wód, między innymi w wyniku zwiększenia ilości zawiesin.
-Dodano jednak, że podczas prac zastosowano środki mające obniżyć negatywny wpływ konstrukcji lądu na stan wód.
-Możliwe, że zastosowane praktyki były wystarczająco dobre, by poprawić jakość wód w pobliżu Lagos.
+Raport @EkoAtlantic2012, odnośnie konstrukcji Eko Atlantic, uwzględnił możliwość degradacji jakości wód, między innymi w wyniku zwiększenia stężenia zawiesiny.
+W ramach pracy zaobserwowano jednak odwrotną właściwość, gdzie po rozpoczęciu prac stężenie zawiesiny w wodzie zmalało.
 
 ## Limon, Kostaryka
 ```{r tbl-cr_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-cr_stats
 #| echo: false
-#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Limon, z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu)."
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Limon, z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu). W tabeli zawarto również p-value z testu Kruskala-Wallisa, sprawdzającego istotność statystyczną zmian średnich wartości wskaźników między etapami prac."
 sabi_df <- readRDS("data/costarica/sabi.Rda")
 flh_df <- readRDS("data/costarica/flhblue.Rda")
 bow_df <- readRDS("data/costarica/bow06.Rda")
@@ -289,11 +295,10 @@ knitr::kable(df_means, format = "latex", booktabs = TRUE, linesep = "", digits =
   kableExtra::group_rows("zawiesina", 3, 4)
 ```
 @tbl-cr_stats zawiera informacje o średnich wartościach parametrów jakości wód dla Limon.
-Zawarte w niej dane wskazują na negatywny wpływ procesów tworzenia nowych lądów na stan jakości wód.
-Stężenie chlorofilu po rozpoczęciu prac zmniejszyło się.
+Stężenie chlorofilu a po rozpoczęciu prac zmniejszyło się.
 Po zakończeniu prac, wskaźnik SABI wykazał wzrost chlorofilu a do najwyższych wartości spośród wszystkich etapów.
-Wskaźnik FLH Blue odnotował natomiast dalszy spadek stężenia chlorofilu a.
-W przypadku mętności wody, rozpoczęcie prac nad nowym lądem znacząco zwiększyło stężenie zawiesiny w wodzie.
+Wskaźnik FLH Blue od rozpoczęcia prac odnotował ciągły spadek stężenia chlorofilu a w wodzie.
+W przypadku mętności wody, rozpoczęcie prac nad nowym lądem zwiększyło stężenie zawiesiny w wodzie.
 Według wskaźnika Bow06, po zakończeniu prac mętność wody ponownie zmniejszyła się.
 Chip09 wykazuje natomiast dalszą degradację jakości wód.
 
@@ -304,23 +309,27 @@ Chip09 wykazuje natomiast dalszą degradację jakości wód.
 knitr::include_graphics("figures/costarica/sabi_flhblue_corr.png")
 ```
 @fig-cr_sabi_flhblue_corr przedstawia korelację między wartościami wskaźników badających stężenia chlorofilu a.
-W przeciwieństwie do @fig-ng_sabi_flhblue_corr, przedstawiającego korelację wskaźników chlorofilu a w Lagos, w Limon odnotowano ujemną korelację.
+W przeciwieństwie do korelacji wskaźników chlorofilu a w Lagos, w Limon odnotowano ujemną korelację.
 Jest ona równocześnie słabsza.
-Wykazuje ona zależność, według której wraz ze wzrostem odnotowanego stężenia chlorofilu a przez wskaźnik SABI, maleje ilość chlorofilu a według wskaźnika FLH Blue.
-Zależność ta jest widoczna w @tbl-cr_stats, gdzie obydwa wskaźniki wykazują przeciwne trendy zmian stężenia chlorofilu a.
+Wykazuje ona zależność, według której wraz ze wzrostem odnotowanego stężenia chlorofilu a przez wskaźnik SABI, maleje stężenie chlorofilu a według wskaźnika FLH Blue.
+@tbl-cr_stats pokazuje zależność, gdzie obydwa wskaźniki wykazują przeciwne trendy zmian stężenia chlorofilu a.
+Różnica w zmianach między dwoma wskaźnikami może wynikać z formuł obydwu wskaźników.
+Wskaźnik SABI jest stosunkiem między kanałami barw widzialnych i bliskiej podczerwieni.
+Wzór wskaźnika FLH Blue jest natomiast różnicą między kanałami widzialnymi.
+Wykorzystanie kanału bliskiej podczerwieni SABI mogło mieć wpływ na różnice w zmianach wartości chlorofilu a według tego wskaźnika, a zmianami wskaźnika FLH Blue.
 
-```{r fig-cr_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+```{r fig-cr_chip_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cr_chip_violin
 #| echo: false
 #| fig-cap: "Rozkład wartości stężenia zawiesiny dla Limon na przykładzie wskaźnika Chip09, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
 knitr::include_graphics("figures/costarica/chip_violin.png")
 ```
 @fig-cr_chip_violin obrazuje różnice w rozkładach stężenia zawiesiny, w zależności od etapu prac i pory roku.
-Obserwacje z etapu prowadzenia konstrukcji cechują się mniejszym rozkładem wartości niż wskaźniki obliczone przed.
-Większość wartości stężenia zawiesiny w wodzie podczas trwania prac skupiona była wokół najwyższych wartości.
-Oznacza to, że konstrukcja nowych lądów zmniejszyła różnorodność stężenia zawiesiny na obszarze badań w Limon, grupując wartości wokół średniej wyższej niż przed rozpoczęciem prac.
+Wartości z etapu trwania konstrukcji lądu cechują się większą jednorodnością, w porównaniu do rozkładu wartości z etapu przed rozpoczęciem prac.
+Większość wartości stężenia zawiesiny podczas trwania prac skupiona była wokół najwyższych wartości.
+Oznacza to, że konstrukcja nowych lądów zmniejszyła różnorodność stężenia zawiesiny na obszarze badań w Limon, grupując wartości wokół średniej, wyższej niż przed rozpoczęciem prac.
 Rozkład wartości po zakończeniu prac jest podobny do tego z okresu trwania prac.
-Można wnioskować, że konstrukcja lądów trwale zabużyła rozkład stężenia zawiesiny, ograniczając stężenia zawiesiny do wartości zbliżonych do średnich.
+Można wnioskować, że konstrukcja lądów zaburzyła rozkład stężenia zawiesiny w skali badanego zakresu czasowego, ograniczając stężenia zawiesiny do wartości zbliżonych do średniej.
 
 ```{r fig-cr_flhblue_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cr_flhblue_diff
@@ -329,24 +338,25 @@ Można wnioskować, że konstrukcja lądów trwale zabużyła rozkład stężeni
 knitr::include_graphics("figures/costarica/flhblue_diff.png")
 ```
 @fig-cr_flhblue_diff przedstawia różnice w stężeniach chlorofilu a dla poszczególnych etapów prac.
-Lewa rycina skupia się na obserwacji zmian ilości chlorofilu a w wodzie po rozpoczęciu prac, w porównaniu do stanu przed.
-Wartości ujemne, tożsame ze spadkiem ilości chlorofilu a, dominują w pasie biegnącym od północnego zachodu do południowego wschodu.
+Lewa rycina skupia się na obserwacji zmian stężenia chlorofilu a w wodzie po rozpoczęciu prac, w porównaniu do stanu przed.
+Wartości ujemne, tożsame ze spadkiem stężenia chlorofilu a, dominują w pasie biegnącym od północnego zachodu do południowego wschodu.
 Pokrywa się on z pasem wybrzeża Limon.
-Oznacza to, że największy spadek jakości wód odnotowano przy wybrzeżu.
 Taki sam trend zaobserwowano na prawej rycinie, porównującą stan wód po zakończeniu prac.
 Ujemne wartości na tej rycinie wskazują, że stężenie chlorofilu a było jeszcze mniejsze niż w trakcie konstrukcji lądów.
-Stan jakości wód po zakończeniu prac uległ degradacji przy samym wybrzeżu.
 Zbiorniki wodne położone dalej od wybrzeża zanotowały wzrost stężenia chlorofilu a.
 
-Parametry jakości wód jednoznacznie wskazują, iż w Limon konstrukcja nowego lądu wpłynęła negatywnie na stan jakości wód.
-W trakcie trwania prac stężenie chlorofilu a było najmniejsze, a stężenie zawiesiny -- największe.
-Ponadto, dwa wskaźniki zaobserwowały dalszą degradację jakości wód po zakończeniu prac, wskazując na negatywne długofalowe skutki konstrukcji nowych lądów.
+Na obszarze badań w Limon odnotowano największą zmianę stężenia chlorofilu a po rozpoczęciu prac konstrukcji nowego lądu.
+Jednocześnie, testy wykazują najmniejszą istotność statystyczną spośród wszystkich obszarów badań.
+Wynika to z liczby wykorzystanych danych, która dla Limon była najmniejsza spośród wszystkich obszarów badań.
+Potwierdzenie istotności zmian jakości wód między etapami prac wymaga pozyskania większej liczby danych.
+W trakcie trwania prac, stężenie zawiesiny również było największe.
+Zmiany obydwu parametrów sygnalizują o znaczącym wpłynie konstrukcji nowych lądów na jakość wód w Limon.
 
 ## Singapur
 ```{r tbl-sg_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-sg_stats
 #| echo: false
-#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Singapuru z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu)."
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Singapuru z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu). W tabeli zawarto również p-value z testu Kruskala-Wallisa, sprawdzającego istotność statystyczną zmian średnich wartości wskaźników między etapami prac."
 sabi_df <- readRDS("data/singapore/sabi.Rda")
 flh_df <- readRDS("data/singapore/flhblue.Rda")
 bow_df <- readRDS("data/singapore/bow06.Rda")
@@ -398,41 +408,41 @@ knitr::kable(df_means, format = "latex", booktabs = TRUE, linesep = "", digits =
 Wskaźniki badające wartości stężenia chlorofilu a wykryły spadek wartości w etapie prowadzenia prac, porównując je do stanu przed rozpoczęciem prac.
 Wskaźniki spektralne różnią się od siebie natomiast średnimi wartościami chlorofilu a po zakończeniu prac.
 Według SABI, stężenie chlorofilu a wzrośnie po zakończeniu konstrukcji nowych lądów.
-Wskaźnik FLH Blue wskazuje natomiast na kontynuację spadku chlorofilu a, rozpoczętą w etapie prowadzenia prac.
+Wskaźnik FLH Blue wskazuje natomiast na kontynuację zaniku chlorofilu a, rozpoczętą w etapie prowadzenia prac.
 Stężenie zawiesiny w wodzie dla obszaru badań w Singapurze uległo zmniejszeniu wraz z upływem lat.
 Dla obydwu wskaźników, średnie wartości zawiesiny były najwyższe przed rozpoczęciem prac, a najniższe -- po ich zakończeniu.
 Wskazuje to na potencjalny wpływ konstrukcji nowych lądów na zmniejszenie mętności wody.
 
-```{r fig-sg_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+```{r fig-sg_sabi_flhblue_means, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-sg_sabi_flhblue_means
 #| echo: false
-#| fig-cap: "Rozkład średnich wartości stężenia chlorofilu a dla Singapuru. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu."
+#| fig-cap: "Rozkład średnich wartości stężenia chlorofilu a dla Singapuru. Każda kropka reprezentuje pojedynczy obraz satelitarny, dla którego obliczono wskaźniki. Obserwacje podzielono ze względu na etap prowadzonych prac: przed, w trakcie i po zakończeniu. Czarna linia jest wygładzoną linią trendów."
 knitr::include_graphics("figures/singapore/sabi_flhblue_means.png")
 ```
 @fig-sg_sabi_flhblue_means przedstawia zmiany średnich wartości stężeń chlorofilu a w Singapurze.
 Największe spadki średnich wartości stężenia chlorofilu odnotowano podczas prowadzenia prac konstrukcyjnych.
 Dodatkowo, widoczne są różnice między wskaźnikami w zmianach średnich wartości w czasie.
-SABI przedstawia stały trend zmnieszania sie ilości chlorofilu a w wodzie przez cały okres trwania prac.
-Wskaźnik FLH Blue natomiast przez pierwszą połowę etapu konstrukcji lądu odnotowywał wzrost ilości chlorofilu a.
-W 1997 roku stężenie chlorofilu a zaczęło maleć, aż do momentu zakończenia prac, gdzie osiągneło najniższy poziom.
+SABI przedstawia trend zmniejszania sie stężenia chlorofilu a w wodzie przez większość okresu trwania prac.
+Wskaźnik FLH Blue natomiast przez pierwszą połowę etapu konstrukcji lądu odnotowywał wzrost stężenia chlorofilu a.
+W 1997 roku stężenie chlorofilu a zaczęło maleć aż do momentu zakończenia prac, gdzie osiągnęło najniższy poziom.
 
-```{r fig-sg_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+```{r fig-sg_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="350px"}
 #| label: fig-sg_profile
 #| echo: false
 #| fig-cap: "Zmiany głębokości zbiornika wodnego wzdłuż profilu dla Singapuru."
 knitr::include_graphics("figures/singapore/profile.png")
 ```
-```{r fig-sg_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+```{r fig-sg_bow_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
 #| label: fig-sg_bow_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości stężenia chlorofilu a wzdłuż profilu dla Singapuru, na podstawie wskąźnika Bow06. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+#| fig-cap: "Zmiany wartości stężenia zawiesiny a wzdłuż profilu dla Singapuru, na podstawie wskaźnika Bow06. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku. Czerwona linia jest wygładzoną linią trendów."
 knitr::include_graphics("figures/singapore/bow_profile.png")
 ```
 @fig-sg_bow_profile przedstawia zmiany w stężeniu zawiesiny w wodzie wzdłuż profilu.
-Dynamika zmian wartości zawiesiny wraz z odległością pokrywa się ze zmianą głębokości [@fig-sg_profile].
+@fig-sg_profile pokazuje, że dynamika zmian wartości zawiesiny wraz z odległością pokrywa się ze zmianą głębokości.
 Przy odległości 2500 metrów, dno zbiornika zaczyna stawać się głębsze, schodząc od 25 do 70 metrów głębokości na końcu profilu.
-Wpływ zmian głębokości na stężenie zawiesiny jest widoczny na obserwacjach przed i po zakończeniu prac.
-Wraz z odległością od brzegu, stężenie zawiesiny zaczyna wzrastać.
+Wpływ zmian głębokości na stężenie zawiesiny jest widoczny na obserwacjach z przed i po zakończeniu prac.
+Wraz z oddalaniem się od brzegu, stężenie zawiesiny zaczyna wzrastać.
 Trend ten natomiast nie jest widoczny dla obserwacji z etapu przeprowadzania konstrukcji nowego lądu.
 Zmiany stężenia zawiesiny w wodzie podczas trwania prac są bardziej zróżnicowanie i nie wykazują powiązania ze zmianą głębokości zbiornika wodnego.
 Wskazuje to na potencjalny wpływ tworzenia nowych lądów na powstawanie zaburzeń w rozkładzie przestrzennym stężeń zawiesiny.
@@ -446,26 +456,25 @@ knitr::include_graphics("figures/singapore/chip_diff.png")
 @fig-sg_chip_diff przedstawia różnice w stężeniu zawiesiny między wybranymi etapami prac.
 Lewa rycina porównuje mętność wody w trakcie prowadzenia prac ze stanem przed ich rozpoczęciem.
 Większości obszaru przypisane zostały dodatnie wartości.
-Utożsamiane są one ze wzrostem stężenia chlorofilu a w wodzie.
+Utożsamiane są one ze wzrostem stężenia zawiesiny w wodzie.
 Oznacza to, że rozpoczęcie prac tworzenia nowych lądów w Singapurze wpłynęło na zwiększenie mętności wody na większości obszaru badań.
 Prawa rycina porównuje stężenie zawiesiny w zbiorniku wodnym po zakończeniu prac, ze stanem wody w trakcie prowadzenia prac.
 Na tej rycinie przeważają wartości ujemne, oznaczające zmniejszenie mętności wody.
 Wzrost stężenia zawiesiny po zakończeniu prac w Singapurze odnotowano jedynie na północnym obszarze, na którym powstał nowy ląd.
 
-W konteście występowania chlorofilu a w wodzie, tworzenie nowych lądów w Singapurze miało negatywny wpływ na stan jakości wód.
-Rozpoczęcie prac doprowadziło do zmniejszenia stężenia chlorofilu a w wodzie.
-W zależności od wskaźnika spektralnego, po zakończeniu prac stężenie chlorofilu a zwiększyło się lub zmniejszyło.
-Tworzenie nowych lądów miało pozytywny wpływ na mętność wody na obszarze badań w Singapurze.
-Wraz z rozpoczęciem konstrukcji nowych lądów, stężenie zawiesiny zmniejszało się.
+Test Kruskala-Wallisa wskazał zmiany średnich wartości wskaźnika FLH Blue między etapami prac jako istotne statystycznie.
+Wskaźnik ten odnotował spadek stężenia chlorofilu a po rozpoczęciu konstrukcji lądu w Singapurze.
+Wraz z rozpoczęciem konstrukcji nowych lądów, stężenie zawiesiny również zmniejszało się.
 Najniższe wartości stężenia zawiesiny zostały odnotowane po zakończeniu prac.
-Procesy tworzenia nowych lądów miały natomiast negatywny wpływ na rozkład przestrzenny stężenia zawiesiny.
+Zmiany te można uznać jako pozytywny sygnał poprawy jakości wód.
+Procesy tworzenia nowych lądów miały jednak negatywny wpływ na rozkład przestrzenny stężenia zawiesiny.
 Uległ on rozproszeniu, i w przeciwieństwie do pozostałych etapów prac, podczas tworzenia nowych lądów nie wykryto zależności między zmianą głębokości a zmianą stężenia zawiesiny.
 
 ## Szanghaj, Chiny
 ```{r tbl-cn_stats, echo=FALSE, warning=FALSE, message = FALSE}
 #| label: tbl-cn_stats
 #| echo: false
-#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Szanghaju z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu)."
+#| tbl-cap: "Średnie wartości wskaźników jakości wody dla Szanghaju z podziałem na dwie grupy parametrów jakości wód (chlorofil a i zawiesina) oraz na trzy etapy prac (przed, w trakcie i po zakończeniu). W tabeli zawarto również p-value z testu Kruskala-Wallisa, sprawdzającego istotność statystyczną zmian średnich wartości wskaźników między etapami prac."
 sabi_df <- readRDS("data/china/sabi.Rda")
 flh_df <- readRDS("data/china/flhblue.Rda")
 bow_df <- readRDS("data/china/bow06.Rda")
@@ -513,14 +522,13 @@ knitr::kable(df_means, format = "latex", booktabs = TRUE, linesep = "", digits =
   kableExtra::group_rows("zawiesina", 3, 4)
 ```
 @tbl-cn_stats przedstawia zmiany średnich wartości stężeń parametrów oceny jakości wód.
-Wraz z upływem lat, stężenie chlorofilu a w zbiorniku wodnym na obszarze badań w Szanghaju stale wzrastało.
+Wraz z upływem lat, stężenie chlorofilu a w zbiornikach wodnym na obszarze badań w Szanghaju stale wzrastało.
 Trend ten jest widoczny na obydwu wskaźnikach.
 Podobne zmiany zaobserwowano dla stężenia zawiesiny.
 Mętność wody wzrosła po rozpoczęciu prac, i po ich zakończeniu ponownie wzrosła według wskaźnika Chip09, lub spadła według wskaźnika Bow06.
 Stężenie chlorofilu a cechowało się większymi zmianami wartości, w porównaniu do wartości wskaźników opisujących mętność wody.
-Zmiany stężenia chlorofilu a wskazują na polepszenie jakości wód, a zmiany mętności -- na pogorszenie jakości wód.
 
-```{r fig-cn_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="550px"}
+```{r fig-cn_flhblue_violin, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cn_flhblue_violin
 #| echo: false
 #| fig-cap: "Rozkład wartości stężenia chlorofilu a dla Szanghaju według wskaźnika FLH Blue, z podziałem na trzy etapy prac: przed rozpoczęciem, w trakcie i po zakończeniu prac, oraz na cztery pory roku."
@@ -532,27 +540,26 @@ Wartości w trakcie prowadzenia prac cechowały się większą różnorodności�
 Rozkład średnich wartości wiosną podczas prowadzenia prac znacząco różni się od rozkładu wartości wiosną przed i po zakończeniu prac.
 Świadczy to o wpływie konstrukcji nowych lądów na zwiększenie różnorodności stężenia chlorofilu a na obszarze badań w Szanghaju.
 
-```{r fig-cn_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="400px"}
+```{r fig-cn_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="350px"}
 #| label: fig-cn_profile
 #| echo: false
 #| fig-cap: "Zmiany głębokości zbiornika wodnego wzdłuż profilu dla Szanghaju."
 knitr::include_graphics("figures/china/profile.png")
 ```
-```{r fig-cn_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="500px"}
+```{r fig-cn_chip_profile, echo=FALSE, warning=FALSE, message=FALSE, out.width="650px"}
 #| label: fig-cn_chip_profile
 #| echo: false
-#| fig-cap: "Zmiany wartości stężenia zawiesiny wzdłuż profilu dla Szanghaju, przy wykorzysatniu wskaźnika Chip09. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku."
+#| fig-cap: "Zmiany wartości stężenia zawiesiny wzdłuż profilu dla Szanghaju, przy wykorzysatniu wskaźnika Chip09. Rycina składa się z trzech paneli: zmiany wartości dla obrazów przed rozpoczęciem prac, w trakcie trwania prac i po zakończeniu prac. Każdy z paneli podzielony jest na poszczególne pory roku. Czerwona linia jest wygładzoną linią trendów."
 knitr::include_graphics("figures/china/chip_profile.png")
 ```
-Zbiornik wodny na obszarze badań w Szanghaju osiąga maksymalną głębokość sześciu metrów [@fig-cn_profile].
-Mimo małej różnicy głębokości, zmiany stężenia zawiesiny w wodzie wykazują zależność ze zmianą głębokości wzdłuż profilu [@fig-cn_chip_profile].
+@fig-cn_profile pokazuje, że zbiornik wodny na obszarze badań w Szanghaju osiąga maksymalną głębokość sześciu metrów.
+@fig-cn_chip_profile przedstawia, iż mimo małej różnicy głębokości, zmiany stężenia zawiesiny w wodzie wykazują zależność ze zmianą głębokości wzdłuż profilu.
 Zależność ta jest widoczna przed rozpoczęciem prac tworzenia nowych lądów.
 Wraz z osiągnięciem odległości 2500 metrów wzdłuż profilu, stężenie zawiesiny zaczyna maleć.
 Szczególnym przypadkiem jest wiosna, podczas której na odległości 8000 metrów stężenie zawiesiny zaczyna rosnąć.
 Trend ten jest również widoczny podczas trwania prac i po ich zakończeniu.
 Zmiany stężenia zawiesiny wiosną po zakończeniu prac są jednak większe niż przed ich rozpoczęciem.
 Może to oznaczać potencjalny wpływ tworzenia nowych lądów na powstawanie zaburzeń w rozkładzie przestrzennym stężeń zawiesiny, zwłaszcza na obszarach położonych dalej od lądu.
-Podobny trend jest widoczny na @fig-sg_bow_profile.
 
 ```{r fig-cn_sabi_diff, echo=FALSE, warning=FALSE, message=FALSE, out.width="600px"}
 #| label: fig-cn_sabi_diff
@@ -561,21 +568,21 @@ Podobny trend jest widoczny na @fig-sg_bow_profile.
 knitr::include_graphics("figures/china/sabi_diff.png")
 ```
 @fig-cn_sabi_diff przedstawia różnice w stężeniach chlorofilu a na obszarze badań w Szanghaju.
-Lewa rycina pokazuje zmiany w występowaniu chlorofilu a w trakcie prac, zestawiając ich wartości ze stanem przed rozpoczęciem prac.
+Lewa rycina pokazuje zmiany w występowaniu chlorofilu a w trakcie trwania prac, zestawiając ich wartości ze stanem przed rozpoczęciem prac.
 Wartości ujemne odpowiadają spadkowi stężenia chlorofilu a wraz z rozpoczęciem prac tworzenia nowego lądu.
-Odnotowane spadki stężenia chlorofilu a widoczne są na całym obszarze badań, jednak największe były przy północno--zachodzniej częsci obszaru, na północ od strefy konstrukcji nowego lądu.
-Prawa rycina pokazuje, w jaki sposób zakończenie prac tworzenia nowych lądów wpłynęło na zmiany jakości wód po zakończeniu prac.
-Wartości dodatnie oznaczają poprawę jakości wody, wynikającej ze wzrostu stężenia chloforilu a.
-Wartości ujemne odpowiadają dalszemu spadkowi stężenia chlorofilu a, przyczyniającemu się degradacji jakości wód.
+Odnotowane spadki stężenia chlorofilu a widoczne są na całym obszarze badań, jednak największe zaobserwowano przy północno--zachodniej części obszaru, na północ od strefy konstrukcji nowego lądu.
+Prawa rycina pokazuje, w jaki sposób zakończenie prac tworzenia nowych lądów wpłynęło na zmiany jakości wód.
+Wartości dodatnie oznaczają wzrost stężenia chlorofilu a.
+Wartości ujemne odpowiadają dalszemu spadkowi stężenia chlorofilu a.
 Najniższe wartości odnotowano wzdłuż wybrzeża Szanghaju.
 Wskazuje to na długofalowe skutki konstrukcji nowych lądów na jakość pobliskich wód.
 Wraz z oddalaniem się od wybrzeża, stężenie chlorofilu a wzrasta.
-Oznacza to, że po zakończeniu prac tworzenia nowych lądów, jakość wód oddalonych od nowego lądu uległa poprawie.
+Wskazuje to na potencjalny wpływ tworzenia nowych lądów na zmiany przestrzenne jakości wód.
 
-Dla całego obszaru badań w Szanghaju, tworzenie nowych lądów miało pozytywny wpływ na wzrost stężenia chlorofilu a.
-Wraz z upływem lat, ilość chlorofilu a w wodzie zwiększała się.
-Pogorszenie jakości wód odnotowano jedynie w strefie przybrzeżnej.
-Zmiany stężenia zawiesiny wskazują na pogorszenie jakości wód, ponieważ po rozpoczęciu tworzenia nowych lądów, mętność wody stale wzrastała.
+Zmiany wartości wskaźnika FLH Blue, wskazujące na wzrost stężenia chlorofilu a w Szanghaju po rozpoczęciu prac tworzenia nowych lądów, wykazują istotność statystyczną.
+Spadek stężenia chlorofilu a odnotowano jedynie w strefie przybrzeżnej.
+Zmiany stężenia zawiesiny wskazują na pogorszenie jakości wód, ponieważ po rozpoczęciu tworzenia nowych lądów mętność wody stale wzrastała.
 Odnotowano także zaburzenia w rozkładzie przestrzennym stężeń zawiesiny.
-Porównując wielkości zmian obu parametrów, można zaobserwować, że wzrost stężenia chlorofilu a był większy od wzrostu stężenia zawiesiny.
-Pozwala to stwierdzić, że tworzenie nowych lądów na obszarze badań w Szanghaju miało ogólnie pozytywny wpływ na jakość wód.
+Zmiany stężenia zawiesiny w wodzie dla obszaru badań w Szanghaju były jednak najmniejszymi odnotowanymi zmianami, spośród wszystkich obszarów badań.
+Dodatkowo, mętność wody przed rozpoczęciem prac na obszarze badań w Szanghaju była najwyższa spośród wszystkich obszarów.
+Wskazuje to na potencjalnie niski wpływ tworzenia nowych lądów na zmiany parametru jakości wód, jakim jest mętność wody.

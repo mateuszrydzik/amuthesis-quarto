@@ -1,0 +1,1572 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  26 NOV 2024 22:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/mateuszrydzik/studia/amuthesis-quarto/mrydzik.tex
+(/Users/mateuszrydzik/studia/amuthesis-quarto/mrydzik.tex
+LaTeX2e <2024-06-01> patch level 1
+L3 programming layer <2024-05-27>
+(./amuthesis.cls
+Document Class: amuthesis 2023/07/22 AMU Thesis Class
+(/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen142
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip17
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks18
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/bera.sty
+Package: bera 2004/01/31 (WaS)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/beraserif.sty
+Package: beraserif 2004/01/30 (WaS)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+LaTeX Font Info:    Trying to load font information for T1+fve on input line 30.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/t1fve.fd
+File: t1fve.fd 2004/09/07 scalable font definitions for T1/fve.
+)
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 30.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/berasans.sty
+Package: berasans 2004/01/30 (WaS)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup7
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 54.
+)
+\c@part=\count272
+\c@chapter=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\bibindent=\dimen150
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks25
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
+\ttl@toksa=\toks26
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+\MT@toks=\toks27
+\MT@tempbox=\box55
+\MT@count=\count287
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
+LaTeX Info: Redefining \leftprotrusion on input line 1062.
+\MT@prot@toks=\toks28
+LaTeX Info: Redefining \rightprotrusion on input line 1081.
+LaTeX Info: Redefining \textls on input line 1392.
+\MT@outer@kern=\dimen174
+LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+\MT@listname@count=\count288
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip65
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count289
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count290
+\c@listtotal=\count291
+\c@listcount=\count292
+\c@liststart=\count293
+\c@liststop=\count294
+\c@citecount=\count295
+\c@citetotal=\count296
+\c@multicitecount=\count297
+\c@multicitetotal=\count298
+\c@instcount=\count299
+\c@maxnames=\count300
+\c@minnames=\count301
+\c@maxitems=\count302
+\c@minitems=\count303
+\c@citecounter=\count304
+\c@maxcitecounter=\count305
+\c@savedcitecounter=\count306
+\c@uniquelist=\count307
+\c@uniquename=\count308
+\c@refsection=\count309
+\c@refsegment=\count310
+\c@maxextratitle=\count311
+\c@maxextratitleyear=\count312
+\c@maxextraname=\count313
+\c@maxextradate=\count314
+\c@maxextraalpha=\count315
+\c@abbrvpenalty=\count316
+\c@highnamepenalty=\count317
+\c@lownamepenalty=\count318
+\c@maxparens=\count319
+\c@parenlevel=\count320
+\blx@tempcnta=\count321
+\blx@tempcntb=\count322
+\blx@tempcntc=\count323
+\c@blx@maxsection=\count324
+\blx@maxsegment@0=\count325
+\blx@notetype=\count326
+\blx@parenlevel@text=\count327
+\blx@parenlevel@foot=\count328
+\blx@sectionciteorder@0=\count329
+\blx@sectionciteorderinternal@0=\count330
+\blx@entrysetcounter=\count331
+\blx@biblioinstance=\count332
+\labelnumberwidth=\skip80
+\labelalphawidth=\skip81
+\biblabelsep=\skip82
+\bibitemsep=\skip83
+\bibnamesep=\skip84
+\bibinitsep=\skip85
+\bibparsep=\skip86
+\bibhang=\skip87
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language6
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip88
+\shortjournalwidth=\skip89
+\shortserieswidth=\skip90
+\shorttitlewidth=\skip91
+\shortauthorwidth=\skip92
+\shorteditorwidth=\skip93
+\locallabelnumberwidth=\skip94
+\locallabelalphawidth=\skip95
+\localshorthandwidth=\skip96
+\localshortjournalwidth=\skip97
+\localshortserieswidth=\skip98
+\localshorttitlewidth=\skip99
+\localshortauthorwidth=\skip100
+\localshorteditorwidth=\skip101
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count412
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.bbx' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
+File: authoryear-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
+)))
+Package biblatex Info: Trying to load citation style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+File: authoryear-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count415
+\l__pdf_internal_box=\box56
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-05-27 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count416
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen175
+\Hy@linkcounter=\count417
+\Hy@pagecounter=\count418
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count419
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count420
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen176
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count421
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count422
+\c@Item=\count423
+\c@Hfootnote=\count424
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count425
+\c@bookmark@seq@number=\count426
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip102
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 170.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 170.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 170.
+Package hyperref Info: Option `colorlinks' set `true' on input line 170.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip103
+\cftbeforetoctitleskip=\skip104
+\cftaftertoctitleskip=\skip105
+\cftbeforepartskip=\skip106
+\cftpartnumwidth=\skip107
+\cftpartindent=\skip108
+\cftbeforechapskip=\skip109
+\cftchapindent=\skip110
+\cftchapnumwidth=\skip111
+\cftbeforesecskip=\skip112
+\cftsecindent=\skip113
+\cftsecnumwidth=\skip114
+\cftbeforesubsecskip=\skip115
+\cftsubsecindent=\skip116
+\cftsubsecnumwidth=\skip117
+\cftbeforesubsubsecskip=\skip118
+\cftsubsubsecindent=\skip119
+\cftsubsubsecnumwidth=\skip120
+\cftbeforeparaskip=\skip121
+\cftparaindent=\skip122
+\cftparanumwidth=\skip123
+\cftbeforesubparaskip=\skip124
+\cftsubparaindent=\skip125
+\cftsubparanumwidth=\skip126
+\cftbeforeloftitleskip=\skip127
+\cftafterloftitleskip=\skip128
+\cftbeforefigskip=\skip129
+\cftfigindent=\skip130
+\cftfignumwidth=\skip131
+\c@lofdepth=\count427
+\c@lotdepth=\count428
+\cftbeforelottitleskip=\skip132
+\cftafterlottitleskip=\skip133
+\cftbeforetabskip=\skip134
+\cfttabindent=\skip135
+\cfttabnumwidth=\skip136
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip137
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count429
+\FV@InFile=\read3
+\FV@TabBox=\box57
+\c@FancyVerbLine=\count430
+\FV@StepNumber=\count431
+\FV@OutFile=\write4
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip138
+\LTright=\skip139
+\LTpre=\skip140
+\LTpost=\skip141
+\LTchunksize=\count432
+\LTcapwidth=\dimen183
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count433
+\LT@rows=\count434
+\c@LT@tables=\count435
+\c@LT@chunks=\count436
+\LT@p@ftn=\toks29
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen184
+\lightrulewidth=\dimen185
+\cmidrulewidth=\dimen186
+\belowrulesep=\dimen187
+\belowbottomsep=\dimen188
+\aboverulesep=\dimen189
+\abovetopsep=\dimen190
+\cmidrulesep=\dimen191
+\cmidrulekern=\dimen192
+\defaultaddspace=\dimen193
+\@cmidla=\count437
+\@cmidlb=\count438
+\@aboverulesep=\dimen194
+\@belowrulesep=\dimen195
+\@thisruleclass=\count439
+\@lastruleclass=\count440
+\@thisrulewidth=\dimen196
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/05/23 v2.6c Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box63
+\extrarowheight=\dimen198
+\NC@list=\toks30
+\extratabsurround=\skip142
+\backup@length=\skip143
+\ar@cellbox=\box64
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box65
+\sift@deathcycles=\count441
+\@vwid@loff=\dimen199
+\@vwid@roff=\dimen256
+)
+\c@taburow=\count442
+\tabu@nbcols=\count443
+\tabu@cnt=\count444
+\tabu@Xcol=\count445
+\tabu@alloc=\count446
+\tabu@nested=\count447
+\tabu@target=\dimen257
+\tabu@spreadtarget=\dimen258
+\tabu@naturalX=\dimen259
+\tabucolX=\dimen260
+\tabu@Xsum=\dimen261
+\extrarowdepth=\dimen262
+\abovetabulinesep=\dimen263
+\belowtabulinesep=\dimen264
+\tabustrutrule=\dimen265
+\tabu@thebody=\toks31
+\tabu@footnotes=\toks32
+\tabu@box=\box66
+\tabu@arstrutbox=\box67
+\tabu@hleads=\box68
+\tabu@vleads=\box69
+\tabu@cellskip=\skip144
+)) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/polski/polski.sty
+Package: polski 2021/08/25 v1.3.6 Polish language package
+
+   Inputenc package detected. Catcodes not changed.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen266
+\TX@old@table=\dimen267
+\TX@old@col=\dimen268
+\TX@target=\dimen269
+\TX@delta=\dimen270
+\TX@cols=\count448
+\TX@ftn=\toks33
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count449
+))
+\@quotelevel=\count450
+\@quotereset=\count451
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 48.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+) (./mrydzik.aux)
+\openout1 = `mrydzik.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(99.58464pt, 426.79135pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 674.33032pt, 99.58464pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Applying patch `item' on input line 48.
+Package microtype Info: Applying patch `toc' on input line 48.
+Package microtype Info: Applying patch `eqnum' on input line 48.
+Package microtype Info: Applying patch `footnote' on input line 48.
+Package microtype Info: Applying patch `verbatim' on input line 48.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 48.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `mrydzik.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'mrydzik.bbl' found.
+ (./mrydzik.bbl)
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
+Package hyperref Info: Link coloring ON on input line 48.
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 52.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 52.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvs' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<figures/uam-logo.jpg, id=4, 1707.37875pt x 332.24126pt>
+File: figures/uam-logo.jpg Graphic file (type jpg)
+<use figures/uam-logo.jpg>
+Package pdftex.def Info: figures/uam-logo.jpg  used on input line 52.
+(pdftex.def)             Requested size: 540.60236pt x 105.19899pt.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
+(Font)              scaled to size 15.55188pt on input line 52.
+
+
+[1
+
+{/Users/mateuszrydzik/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} <./figures/uam-logo.jpg>]
+
+[2]
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 57.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 57.
+
+
+[3
+
+]
+
+[4]
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 21.59985pt on input line 115.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 21.59985pt on input line 115.
+ (./mrydzik.toc
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 1.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 1.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 1.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+) (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 1.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+\tf@toc=\write5
+\openout5 = `mrydzik.toc'.
+
+
+
+[5]
+
+[6
+
+]
+Rozdzia\PlPrIeC {\l } 1.
+
+LaTeX Warning: Citation 'cropper1994interaction' on page 7 undefined on input line 127.
+
+
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+Rozdzia\PlPrIeC {\l } 2.
+
+LaTeX Warning: Citation 'tyagi2013water' on page 11 undefined on input line 246.
+
+
+
+[11
+
+]
+
+[12]
+
+LaTeX Warning: Citation 'wang2023observations' on page 13 undefined on input line 323.
+
+
+
+[13]
+
+[14]
+Rozdzia\PlPrIeC {\l } 3.
+
+LaTeX Warning: Reference `fig-flowchart' on page 15 undefined on input line 351.
+
+<figures/flowchart.png, id=154, 692.5875pt x 449.68pt>
+File: figures/flowchart.png Graphic file (type png)
+<use figures/flowchart.png>
+Package pdftex.def Info: figures/flowchart.png  used on input line 360.
+(pdftex.def)             Requested size: 376.41176pt x 244.39487pt.
+
+
+[15
+
+]
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 13.49991pt on input line 370.
+
+
+[16 <./figures/flowchart.png>]
+
+LaTeX Warning: Citation 'R-rsi' on page 17 undefined on input line 413.
+
+
+LaTeX Warning: Citation 'montero2023standardized' on page 17 undefined on input line 417.
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 433.
+(/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+
+[17]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 444.
+ (/Users/mateuszrydzik/Library/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 444.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[18]
+LaTeX Font Info:    Font shape `T1/fvs/m/it' will be
+(Font)              scaled to size 9.85492pt on input line 497.
+
+
+[19]
+
+LaTeX Warning: Citation 'R-terra' on page 20 undefined on input line 530.
+
+
+LaTeX Warning: Citation 'R-dplyr' on page 20 undefined on input line 534.
+
+
+LaTeX Warning: Citation 'R-lubridate' on page 20 undefined on input line 534.
+
+
+LaTeX Warning: Citation 'R-reshape2' on page 20 undefined on input line 535.
+
+
+LaTeX Warning: Citation 'bijeesh2019comparative' on page 20 undefined on input line 549.
+
+
+LaTeX Warning: Citation 'bijeesh2019comparative' on page 20 undefined on input line 556.
+
+
+
+[20]
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 573.
+
+
+LaTeX Warning: Citation 'beck2016comparison' on page 21 undefined on input line 599.
+
+
+
+[21]
+
+LaTeX Warning: Citation 'bowers2006optical' on page 22 undefined on input line 624.
+
+
+LaTeX Warning: Citation 'Chipman2009' on page 22 undefined on input line 627.
+
+
+LaTeX Warning: Citation 'bowers2006optical' on page 22 undefined on input line 651.
+
+
+LaTeX Warning: Citation 'Chipman2009' on page 22 undefined on input line 651.
+
+
+
+[22]
+
+LaTeX Warning: Citation 'R-waterquality' on page 23 undefined on input line 659.
+
+
+LaTeX Warning: Citation 'R-ggplot2' on page 23 undefined on input line 670.
+
+
+LaTeX Warning: Citation 'R-patchwork' on page 23 undefined on input line 671.
+
+
+LaTeX Warning: Citation 'R-RColorBrewer' on page 23 undefined on input line 675.
+
+
+LaTeX Warning: Citation 'R-knitr' on page 23 undefined on input line 676.
+
+
+
+[23]
+
+[24
+
+]
+Rozdzia\PlPrIeC {\l } 4.
+
+LaTeX Warning: Reference `fig-aois_profiles' on page 25 undefined on input line 701.
+
+<figures/aois3.png, id=224, 824.8416pt x 389.5353pt>
+File: figures/aois3.png Graphic file (type png)
+<use figures/aois3.png>
+Package pdftex.def Info: figures/aois3.png  used on input line 708.
+(pdftex.def)             Requested size: 426.79306pt x 201.55501pt.
+<figures/aois_profiles.png, id=225, 844.8363pt x 597.432pt>
+File: figures/aois_profiles.png Graphic file (type png)
+<use figures/aois_profiles.png>
+Package pdftex.def Info: figures/aois_profiles.png  used on input line 718.
+(pdftex.def)             Requested size: 426.80011pt x 301.81473pt.
+
+Overfull \hbox (1.6744pt too wide) in paragraph at lines 735--735
+[]|\T1/ppl/m/n/10.95 (-20) zako«czenie 
+ []
+
+
+Overfull \hbox (32.86525pt too wide) in paragraph at lines 733--744
+ [][] 
+ []
+
+
+
+[25]
+
+[26 <./figures/aois3.png> <./figures/aois_profiles.png>]
+<figures/dubai/dubai_aoi.jpg, id=243, 2055.68pt x 1370.11874pt>
+File: figures/dubai/dubai_aoi.jpg Graphic file (type jpg)
+<use figures/dubai/dubai_aoi.jpg>
+Package pdftex.def Info: figures/dubai/dubai_aoi.jpg  used on input line 752.
+(pdftex.def)             Requested size: 426.78091pt x 284.45114pt.
+
+
+LaTeX Warning: Citation 'gibling2013construction' on page 27 undefined on input line 764.
+
+
+
+[27
+
+]
+<figures/nigeria/nigeria_aoi.jpeg, id=253, 1686.3pt x 948.54375pt>
+File: figures/nigeria/nigeria_aoi.jpeg Graphic file (type jpg)
+<use figures/nigeria/nigeria_aoi.jpeg>
+Package pdftex.def Info: figures/nigeria/nigeria_aoi.jpeg  used on input line 778.
+(pdftex.def)             Requested size: 426.77159pt x 240.05902pt.
+
+
+[28 <./figures/dubai/dubai_aoi.jpg>]
+<figures/costarica/costarica_aoi.jpg, id=266, 1606.0pt x 890.32625pt>
+File: figures/costarica/costarica_aoi.jpg Graphic file (type jpg)
+<use figures/costarica/costarica_aoi.jpg>
+Package pdftex.def Info: figures/costarica/costarica_aoi.jpg  used on input line 806.
+(pdftex.def)             Requested size: 426.78876pt x 236.60101pt.
+
+
+[29 <./figures/nigeria/nigeria_aoi.jpeg>]
+<figures/singapore/singapore_aoi.jpeg, id=276, 630.1944pt x 419.6478pt>
+File: figures/singapore/singapore_aoi.jpeg Graphic file (type jpg)
+<use figures/singapore/singapore_aoi.jpeg>
+Package pdftex.def Info: figures/singapore/singapore_aoi.jpeg  used on input line 836.
+(pdftex.def)             Requested size: 426.78603pt x 284.19772pt.
+
+
+[30 <./figures/costarica/costarica_aoi.jpg>]
+<figures/china/china_aoi.jpg, id=289, 4047.12pt x 3035.34pt>
+File: figures/china/china_aoi.jpg Graphic file (type jpg)
+<use figures/china/china_aoi.jpg>
+Package pdftex.def Info: figures/china/china_aoi.jpg  used on input line 864.
+(pdftex.def)             Requested size: 426.78189pt x 320.08641pt.
+
+
+[31 <./figures/singapore/singapore_aoi.jpeg>]
+
+[32 <./figures/china/china_aoi.jpg>]
+Rozdzia\PlPrIeC {\l } 5.
+
+
+[33
+
+]
+Overfull \hbox (40.02669pt too wide) in paragraph at lines 950--961
+ [][] 
+ []
+
+
+
+[34]
+Rozdzia\PlPrIeC {\l } 6.
+
+LaTeX Warning: Citation 'dembowska2021use' on page 35 undefined on input line 992.
+
+
+
+[35
+
+]
+
+LaTeX Warning: Reference `tbl-db_stats' on page 36 undefined on input line 1035.
+
+
+
+[36]
+<figures/dubai/sabi_violin.png, id=337, 700.5372pt x 424.4658pt>
+File: figures/dubai/sabi_violin.png Graphic file (type png)
+<use figures/dubai/sabi_violin.png>
+Package pdftex.def Info: figures/dubai/sabi_violin.png  used on input line 1058.
+(pdftex.def)             Requested size: 451.68803pt x 273.68442pt.
+
+Overfull \hbox (24.89668pt too wide) in paragraph at lines 1058--1059
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-db_sabi_violin' on page 37 undefined on input line 1070.
+
+
+
+[37 <./figures/dubai/sabi_violin.png>]
+<figures/dubai/flhblue_diff.png, id=344, 1049.9225pt x 461.725pt>
+File: figures/dubai/flhblue_diff.png Graphic file (type png)
+<use figures/dubai/flhblue_diff.png>
+Package pdftex.def Info: figures/dubai/flhblue_diff.png  used on input line 1084.
+(pdftex.def)             Requested size: 451.68216pt x 198.6365pt.
+
+Overfull \hbox (24.89081pt too wide) in paragraph at lines 1084--1085
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-db_flhblue_diff' on page 38 undefined on input line 1097.
+
+<figures/dubai/bow_diff.png, id=345, 979.66pt x 459.7175pt>
+File: figures/dubai/bow_diff.png Graphic file (type png)
+<use figures/dubai/bow_diff.png>
+Package pdftex.def Info: figures/dubai/bow_diff.png  used on input line 1112.
+(pdftex.def)             Requested size: 451.68051pt x 211.95662pt.
+
+Overfull \hbox (24.88916pt too wide) in paragraph at lines 1112--1113
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-db_bow_diff' on page 38 undefined on input line 1125.
+
+
+
+[38 <./figures/dubai/flhblue_diff.png>]
+
+[39 <./figures/dubai/bow_diff.png>]
+
+LaTeX Warning: Reference `tbl-lg_stats' on page 40 undefined on input line 1181.
+
+<figures/nigeria/sabi_flhblue_means.png, id=358, 921.2016pt x 547.8066pt>
+File: figures/nigeria/sabi_flhblue_means.png Graphic file (type png)
+<use figures/nigeria/sabi_flhblue_means.png>
+Package pdftex.def Info: figures/nigeria/sabi_flhblue_means.png  used on input line 1195.
+(pdftex.def)             Requested size: 451.68793pt x 268.6031pt.
+
+Overfull \hbox (24.89658pt too wide) in paragraph at lines 1195--1196
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-ng_sabi_flhblue_means' on page 40 undefined on input line 1207.
+
+
+
+[40]
+<figures/nigeria/sabi_flhblue_corr.png, id=366, 572.1375pt x 470.7186pt>
+File: figures/nigeria/sabi_flhblue_corr.png Graphic file (type png)
+<use figures/nigeria/sabi_flhblue_corr.png>
+Package pdftex.def Info: figures/nigeria/sabi_flhblue_corr.png  used on input line 1223.
+(pdftex.def)             Requested size: 301.12747pt x 247.74866pt.
+
+
+LaTeX Warning: Reference `fig-ng_sabi_flhblue_corr' on page 41 undefined on input line 1236.
+
+<figures/nigeria/bow_diff.png, id=367, 1101.11375pt x 491.8375pt>
+File: figures/nigeria/bow_diff.png Graphic file (type png)
+<use figures/nigeria/bow_diff.png>
+Package pdftex.def Info: figures/nigeria/bow_diff.png  used on input line 1244.
+(pdftex.def)             Requested size: 451.678pt x 201.75223pt.
+
+Overfull \hbox (24.88664pt too wide) in paragraph at lines 1244--1245
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-ng_bow_diff' on page 41 undefined on input line 1257.
+
+
+
+[41 <./figures/nigeria/sabi_flhblue_means.png>]
+
+LaTeX Warning: Citation 'EkoAtlantic2012' on page 42 undefined on input line 1279.
+
+
+
+[42 <./figures/nigeria/sabi_flhblue_corr.png>]
+
+LaTeX Warning: Reference `tbl-cr_stats' on page 43 undefined on input line 1313.
+
+<figures/costarica/sabi_flhblue_corr.png, id=379, 572.1375pt x 470.7186pt>
+File: figures/costarica/sabi_flhblue_corr.png Graphic file (type png)
+<use figures/costarica/sabi_flhblue_corr.png>
+Package pdftex.def Info: figures/costarica/sabi_flhblue_corr.png  used on input line 1325.
+(pdftex.def)             Requested size: 301.12747pt x 247.74866pt.
+
+
+[43 <./figures/nigeria/bow_diff.png>]
+
+LaTeX Warning: Reference `tbl-cr_stats' on page 44 undefined on input line 1343.
+
+<figures/costarica/chip_violin.png, id=391, 700.5372pt x 424.4658pt>
+File: figures/costarica/chip_violin.png Graphic file (type png)
+<use figures/costarica/chip_violin.png>
+Package pdftex.def Info: figures/costarica/chip_violin.png  used on input line 1355.
+(pdftex.def)             Requested size: 451.68803pt x 273.68442pt.
+
+Overfull \hbox (24.89668pt too wide) in paragraph at lines 1355--1356
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-cr_chip_violin' on page 44 undefined on input line 1366.
+
+
+
+[44 <./figures/costarica/sabi_flhblue_corr.png>]
+<figures/costarica/flhblue_diff.png, id=398, 986.68625pt x 508.90125pt>
+File: figures/costarica/flhblue_diff.png Graphic file (type png)
+<use figures/costarica/flhblue_diff.png>
+Package pdftex.def Info: figures/costarica/flhblue_diff.png  used on input line 1381.
+(pdftex.def)             Requested size: 451.69812pt x 232.97147pt.
+
+Overfull \hbox (24.90677pt too wide) in paragraph at lines 1381--1382
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-cr_flhblue_diff' on page 45 undefined on input line 1394.
+
+
+
+[45 <./figures/costarica/chip_violin.png>]
+
+LaTeX Warning: Reference `tbl-sg_stats' on page 46 undefined on input line 1444.
+
+
+
+[46 <./figures/costarica/flhblue_diff.png>]
+<figures/singapore/sabi_flhblue_means.png, id=411, 921.2016pt x 547.8066pt>
+File: figures/singapore/sabi_flhblue_means.png Graphic file (type png)
+<use figures/singapore/sabi_flhblue_means.png>
+Package pdftex.def Info: figures/singapore/sabi_flhblue_means.png  used on input line 1460.
+(pdftex.def)             Requested size: 451.68793pt x 268.6031pt.
+
+Overfull \hbox (24.89658pt too wide) in paragraph at lines 1460--1461
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-sg_sabi_flhblue_means' on page 47 undefined on input line 1472.
+
+<figures/singapore/profile.png, id=412, 856.1586pt x 373.1541pt>
+File: figures/singapore/profile.png Graphic file (type png)
+<use figures/singapore/profile.png>
+Package pdftex.def Info: figures/singapore/profile.png  used on input line 1485.
+(pdftex.def)             Requested size: 263.47296pt x 114.83388pt.
+<figures/singapore/bow_profile.png, id=413, 892.2936pt x 503.7219pt>
+File: figures/singapore/bow_profile.png Graphic file (type png)
+<use figures/singapore/bow_profile.png>
+Package pdftex.def Info: figures/singapore/bow_profile.png  used on input line 1496.
+(pdftex.def)             Requested size: 489.31978pt x 276.23315pt.
+
+Overfull \hbox (62.52843pt too wide) in paragraph at lines 1496--1497
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-sg_bow_profile' on page 47 undefined on input line 1509.
+
+
+LaTeX Warning: Reference `fig-sg_profile' on page 47 undefined on input line 1510.
+
+
+
+[47]
+
+[48 <./figures/singapore/sabi_flhblue_means.png> <./figures/singapore/profile.png>]
+<figures/singapore/chip_diff.png, id=427, 1004.75375pt x 485.815pt>
+File: figures/singapore/chip_diff.png Graphic file (type png)
+<use figures/singapore/chip_diff.png>
+Package pdftex.def Info: figures/singapore/chip_diff.png  used on input line 1526.
+(pdftex.def)             Requested size: 451.67508pt x 218.39233pt.
+
+Overfull \hbox (24.88373pt too wide) in paragraph at lines 1526--1527
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-sg_chip_diff' on page 49 undefined on input line 1539.
+
+
+
+[49 <./figures/singapore/bow_profile.png>]
+
+LaTeX Warning: Reference `tbl-cn_stats' on page 50 undefined on input line 1592.
+
+<figures/china/flhblue_violin.png, id=434, 700.5372pt x 424.4658pt>
+File: figures/china/flhblue_violin.png Graphic file (type png)
+<use figures/china/flhblue_violin.png>
+Package pdftex.def Info: figures/china/flhblue_violin.png  used on input line 1604.
+(pdftex.def)             Requested size: 451.68803pt x 273.68442pt.
+
+Overfull \hbox (24.89668pt too wide) in paragraph at lines 1604--1605
+ [][] 
+ []
+
+
+
+[50 <./figures/singapore/chip_diff.png>]
+
+[51 <./figures/china/flhblue_violin.png>]
+<figures/china/profile.png, id=452, 856.1586pt x 373.1541pt>
+File: figures/china/profile.png Graphic file (type png)
+<use figures/china/profile.png>
+Package pdftex.def Info: figures/china/profile.png  used on input line 1628.
+(pdftex.def)             Requested size: 263.47296pt x 114.83388pt.
+<figures/china/chip_profile.png, id=453, 892.2936pt x 503.7219pt>
+File: figures/china/chip_profile.png Graphic file (type png)
+<use figures/china/chip_profile.png>
+Package pdftex.def Info: figures/china/chip_profile.png  used on input line 1639.
+(pdftex.def)             Requested size: 489.31978pt x 276.23315pt.
+
+Overfull \hbox (62.52843pt too wide) in paragraph at lines 1639--1640
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig-cn_profile' on page 52 undefined on input line 1652.
+
+
+LaTeX Warning: Reference `fig-cn_chip_profile' on page 52 undefined on input line 1654.
+
+
+
+[52 <./figures/china/profile.png> <./figures/china/chip_profile.png>]
+<figures/china/sabi_diff.png, id=460, 1039.885pt x 457.71pt>
+File: figures/china/sabi_diff.png Graphic file (type png)
+<use figures/china/sabi_diff.png>
+Package pdftex.def Info: figures/china/sabi_diff.png  used on input line 1669.
+(pdftex.def)             Requested size: 451.6799pt x 198.80891pt.
+
+Overfull \hbox (24.88855pt too wide) in paragraph at lines 1669--1670
+ [][] 
+ []
+
+
+
+[53 <./figures/china/sabi_diff.png>]
+
+[54]
+Rozdzia\PlPrIeC {\l } 7.
+
+
+[55
+
+]
+
+LaTeX Warning: Citation 'wang2023observations' on page 56 undefined on input line 1770.
+
+
+
+[56]
+
+[57]
+
+[58]
+
+[59]
+
+[60
+
+]
+
+[61]
+
+[62]
+
+[63] (./mrydzik.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                mrydzik
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'mrydzik.run.xml'.
+\openout1 = `mrydzik.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 25300 strings out of 475525
+ 444040 string characters out of 5775499
+ 1939905 words of memory out of 5000000
+ 46932 multiletter control sequences out of 15000+600000
+ 664376 words of font info for 390 fonts, out of 8000000 for 9000
+ 34 hyphenation exceptions out of 8191
+ 81i,12n,95p,1229b,2093s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.caption.11} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.23} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.21} has been referenced but does not exist, replaced by a fixed one
+
+</Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsro8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/mateuszrydzik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on mrydzik.pdf (63 pages, 12845030 bytes).
+PDF statistics:
+ 674 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 77619 words of extra memory for PDF output out of 89155 (max. 10000000)
+

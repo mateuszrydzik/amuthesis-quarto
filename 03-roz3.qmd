@@ -1,6 +1,7 @@
 # Materiały {#sec-materialy}
 
-Do oceny jakości stanu wód, wykorzystano dane teledetekcyjne w postaci zdjęć satelitarnych [@tbl-data_info].
+Do oceny stanu jakości wód, wykorzystano dane teledetekcyjne w postaci obrazów satelitarnych.
+[@tbl-data_info] zawiera szczegóły odnośnie pozyskanych zdjęć.
 Wszystkie obrazy pochodzą z drugiego poziomu programu Landsat Collection 2.
 W zależności od lat prowadzonych badań, zdjęcia pochodzą z satelit Landsat 5, 7 lub 8.
 Obrazy pozyskano z katalogu Planetary Computer od firmy Microsoft [@microsoft_open_source_2022_7261897].
@@ -12,7 +13,7 @@ Wykorzystany został również kanał oceny jakości poszczególnych pikseli do 
 @tbl-data_info zawiera również informacje o liczbie dostępnych zdjęć dla obszarów badań, pozyskanych z Planetary Computer.
 W przypadku Dubaju, Lagosu oraz Szanghaju, obszary badań były wystarczająco duże, że ich obszar dla pojedynczych dni pokrywały dwa zdjęcia satelitarne.
 Spowodowało to wzrost ilości dostępnych obrazów dla tych obszarów.
-Dla Dubaju i Lagosu jednak dwa zdjęcia dla tych samych dni pokrywały się tak mocno, że dodatkowy obraz nie dostarczał nowych danych do obszaru badań. 
+Dla Dubaju i Lagosu jednak, dwa zdjęcia dla tych samych dni pokrywały się tak mocno, że dodatkowy obraz nie dostarczał nowych informacji do obszaru badań. 
 Ze wszystkich dostępnych zdjęć dla badanych obszarów wybrano jedynie te, dla których procentowy udział ilości pikseli bez wartości w całym obrazie nie przekroczył wartości progowej.
 Wartość progowa zmieniała się dla każdego z obszarów, w zależności od ilości obszarów lądowych znajdujących się w obszarze badań.
 Piksele klasyfikowane jako ląd były wykluczane z analizy, w wyniku czego przy dużym udziale lądu należało zwiększyć wartość progową braku wartości.

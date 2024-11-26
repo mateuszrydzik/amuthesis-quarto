@@ -1,0 +1,22 @@
+\contentsline {chapter}{Streszczenie}{3}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Przegląd literatury}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Metody}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wybór obszarów badań}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pozyskiwanie zdjęć satelitarnych}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Obliczanie wskaźników spektralnych}{20}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Obszary badań}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dubaj, Zjednoczone Emiraty Arabskie}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lagos, Nigeria}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Limon, Kostaryka}{29}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Singapur}{30}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Szanghaj, Chiny}{31}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Materiały}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Wyniki}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Dubaj, Zjednoczone Emiraty Arabskie}{36}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Lagos, Nigeria}{40}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Limon, Kostaryka}{43}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Singapur}{47}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Szanghaj, Chiny}{50}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Podsumowanie}{55}{chapter.7}%
+\contentsline {chapter}{Bibliografia}{61}{chapter*.34}%

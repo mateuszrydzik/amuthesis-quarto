@@ -1,0 +1,1105 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{alawadi2010detection}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=d5febf58ec3eb24035bee03829f47cc4}{%
+           family={Alawadi},
+           familyi={A\bibinitperiod},
+           given={Fahad},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{fullhash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{fullhashraw}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{bibnamehash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{authorbibnamehash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{authornamehash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{authorfullhash}{d5febf58ec3eb24035bee03829f47cc4}
+      \strng{authorfullhashraw}{d5febf58ec3eb24035bee03829f47cc4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Remote sensing of the ocean, sea ice, and large water regions 2010}
+      \field{title}{Detection of surface algal blooms using the newly developed algorithm surface algal bloom index (SABI)}
+      \field{volume}{7825}
+      \field{year}{2010}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+    \endentry
+    \entry{arulrajah2009instrumentation}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=46c598da17063d8da8d26ebe716d73dc}{%
+           family={Arulrajah},
+           familyi={A\bibinitperiod},
+           given={Arul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=79eeb238170ac1f45f252f7dc5f12c44}{%
+           family={Bo},
+           familyi={B\bibinitperiod},
+           given={Myint\bibnamedelima Win},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=37504d91d46d21bbe945f3e1174023a5}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=96b4db204ee638922a33c4a4bcdd2218}{%
+           family={Nikraz},
+           familyi={N\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomas Telford Ltd}%
+      }
+      \strng{namehash}{c85c117a1b903fb646a275fc242492f3}
+      \strng{fullhash}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \strng{fullhashraw}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \strng{bibnamehash}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \strng{authorbibnamehash}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \strng{authornamehash}{c85c117a1b903fb646a275fc242492f3}
+      \strng{authorfullhash}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \strng{authorfullhashraw}{a1fc4bd6a72bb8b48f0f9ba616b9866e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Institution of Civil Engineers-Geotechnical Engineering}
+      \field{number}{1}
+      \field{title}{Instrumentation at Changi land reclamation project, Singapore}
+      \field{volume}{162}
+      \field{year}{2009}
+      \field{pages}{33\bibrangedash 40}
+      \range{pages}{8}
+    \endentry
+    \entry{desaunited}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=81f3480e9e63cd0fddc84c4671a5b65f}{%
+           family={DESA},
+           familyi={D\bibinitperiod},
+           given={UN},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UN DESA/POP/2022/TR}%
+      }
+      \strng{namehash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{fullhash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{fullhashraw}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{bibnamehash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{authorbibnamehash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{authornamehash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{authorfullhash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{authorfullhashraw}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{United Nations Department of Economic and Social Affairs, Population Division. 2022. World Population Prospects 2022: Summary of Results}
+      \field{type}{techreport}
+    \endentry
+    \entry{gebco_2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2ef5ea4a2e57f6a489f56ac7a37e9d51}{%
+           family={{GEBCO Bathymetric Compilation Group 2023}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {NERC EDS British Oceanographic Data Centre NOC}%
+      }
+      \strng{namehash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{fullhash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{fullhashraw}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{bibnamehash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{authorbibnamehash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{authornamehash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{authorfullhash}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \strng{authorfullhashraw}{2ef5ea4a2e57f6a489f56ac7a37e9d51}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The GEBCO\_2023 Grid - a continuous terrain model of the global oceans and land.}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5285/F98B053B-0CBC-6C23-E053-6C86ABC0AF7B
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/f98b053b-0cbc-6c23-e053-6c86abc0af7b/
+      \endverb
+      \verb{url}
+      \verb https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/f98b053b-0cbc-6c23-e053-6c86abc0af7b/
+      \endverb
+      \keyw{elevation,oceans}
+    \endentry
+    \entry{gholizadeh2016comprehensive}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8741860829896fcf394506ca2e80fe43}{%
+           family={Gholizadeh},
+           familyi={G\bibinitperiod},
+           given={Mohammad\bibnamedelima Haji},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=c8371a7003582d67ecd5a94ac689a202}{%
+           family={Melesse},
+           familyi={M\bibinitperiod},
+           given={Assefa\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=51ae1310068513ca3ede373dcd01c3d6}{%
+           family={Reddi},
+           familyi={R\bibinitperiod},
+           given={Lakshmi},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{3ead08182e645a378fa394c7a6cadcb5}
+      \strng{fullhash}{c0044dcfd8b7779da7bac2b0ff774165}
+      \strng{fullhashraw}{c0044dcfd8b7779da7bac2b0ff774165}
+      \strng{bibnamehash}{c0044dcfd8b7779da7bac2b0ff774165}
+      \strng{authorbibnamehash}{c0044dcfd8b7779da7bac2b0ff774165}
+      \strng{authornamehash}{3ead08182e645a378fa394c7a6cadcb5}
+      \strng{authorfullhash}{c0044dcfd8b7779da7bac2b0ff774165}
+      \strng{authorfullhashraw}{c0044dcfd8b7779da7bac2b0ff774165}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{8}
+      \field{title}{A comprehensive review on water quality parameters estimation using remote sensing techniques}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{pages}{1298}
+      \range{pages}{1}
+    \endentry
+    \entry{glasgow2004real}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=bc6d1e81619e675871f0e6f1d4130c3d}{%
+           family={Glasgow},
+           familyi={G\bibinitperiod},
+           given={Howard\bibnamedelima B},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ad6299c620064119e0692ed71ea85395}{%
+           family={Burkholder},
+           familyi={B\bibinitperiod},
+           given={JoAnn\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=91cc2169179b57573e94fc770afe57b6}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=88812b2eeebc7322dfd68b5ab91fcd84}{%
+           family={Lewitus},
+           familyi={L\bibinitperiod},
+           given={Alan\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d314dc6442a7a6218168056ba2c03912}{%
+           family={Kleinman},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5e3454aa622e8757e9871673a2b52c5c}
+      \strng{fullhash}{d0e49d1068b1411f533c6076ed35a2a1}
+      \strng{fullhashraw}{d0e49d1068b1411f533c6076ed35a2a1}
+      \strng{bibnamehash}{d0e49d1068b1411f533c6076ed35a2a1}
+      \strng{authorbibnamehash}{d0e49d1068b1411f533c6076ed35a2a1}
+      \strng{authornamehash}{5e3454aa622e8757e9871673a2b52c5c}
+      \strng{authorfullhash}{d0e49d1068b1411f533c6076ed35a2a1}
+      \strng{authorfullhashraw}{d0e49d1068b1411f533c6076ed35a2a1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of experimental marine biology and ecology}
+      \field{number}{1-2}
+      \field{title}{Real-time remote monitoring of water quality: a review of current applications, and advancements in sensor, telemetry, and computing technologies}
+      \field{volume}{300}
+      \field{year}{2004}
+      \field{pages}{409\bibrangedash 448}
+      \range{pages}{40}
+    \endentry
+    \entry{gupta2015futures}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d5c73df7859faa8094eff91aeed921a7}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Pamila},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Beewolf Press Limited}%
+      }
+      \strng{namehash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{fullhash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{fullhashraw}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{bibnamehash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{authorbibnamehash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{authornamehash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{authorfullhash}{d5c73df7859faa8094eff91aeed921a7}
+      \strng{authorfullhashraw}{d5c73df7859faa8094eff91aeed921a7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Island Studies Journal}
+      \field{number}{2}
+      \field{title}{Futures, fakes and discourses of the gigantic and miniature in ‘The World’islands, Dubai}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{181\bibrangedash 196}
+      \range{pages}{16}
+    \endentry
+    \entry{hao2021effects}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=bff26c6f7392482a49f4a2bc4f29fc13}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3f13ac597e12ea52c1e6d3f803aa800f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Hengtao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{2513ac2b2db76ee70b6e062c46b33283}
+      \strng{fullhash}{b4af0b662382ca289ed01dfb7a1461ca}
+      \strng{fullhashraw}{b4af0b662382ca289ed01dfb7a1461ca}
+      \strng{bibnamehash}{b4af0b662382ca289ed01dfb7a1461ca}
+      \strng{authorbibnamehash}{b4af0b662382ca289ed01dfb7a1461ca}
+      \strng{authornamehash}{2513ac2b2db76ee70b6e062c46b33283}
+      \strng{authorfullhash}{b4af0b662382ca289ed01dfb7a1461ca}
+      \strng{authorfullhashraw}{b4af0b662382ca289ed01dfb7a1461ca}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IOP Conference Series: Earth and Environmental Science}
+      \field{number}{1}
+      \field{title}{Effects of sea reclamation project on heavy metal concentrations in seawater-a case study in Qixingtu}
+      \field{volume}{647}
+      \field{year}{2021}
+      \field{pages}{012217}
+      \range{pages}{1}
+    \endentry
+    \entry{hoeksema2007three}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f2d72de5afd62e49307e26ce7d3a4c65}{%
+           family={Hoeksema},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{fullhash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{fullhashraw}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{bibnamehash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{authorbibnamehash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{authornamehash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{authorfullhash}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \strng{authorfullhashraw}{f2d72de5afd62e49307e26ce7d3a4c65}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Irrigation and Drainage: The Journal of the International Commission on Irrigation and Drainage}
+      \field{number}{S1}
+      \field{title}{Three stages in the history of land reclamation in the Netherlands}
+      \field{volume}{56}
+      \field{year}{2007}
+      \field{pages}{S113\bibrangedash S126}
+      \range{pages}{-1}
+    \endentry
+    \entry{hugo2011future}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1e9a86f9755a8cb95bc37904b9f76b6}{%
+           family={Hugo},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{fullhash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{fullhashraw}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{bibnamehash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{authorbibnamehash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{authornamehash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{authorfullhash}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \strng{authorfullhashraw}{b1e9a86f9755a8cb95bc37904b9f76b6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Environmental Change}
+      \field{title}{Future demographic change and its interactions with migration and climate change}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{pages}{S21\bibrangedash S33}
+      \range{pages}{-1}
+    \endentry
+    \entry{martin2016review}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=84850b8a832128a4760644dae8d2cbce}{%
+           family={Martín-Antón},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de9225141e6f3fe27a4c63158b164850}{%
+           family={Negro},
+           familyi={N\bibinitperiod},
+           given={Vicente},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a94b7d754bd0e3e15b5ab355c8f01119}{%
+           family={Campo},
+           familyi={C\bibinitperiod},
+           given={José\bibnamedelima María},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=113bc22901688e94d77100d687e098f7}{%
+           family={López-Gutiérrez},
+           familyi={L\bibinithyphendelim G\bibinitperiod},
+           given={José\bibnamedelima Santos},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=639d611642b21f3742f03d14e480e17d}{%
+           family={Esteban},
+           familyi={E\bibinitperiod},
+           given={M\bibnamedelima Dolores},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Coastal Education}%
+        {Research Foundation}%
+      }
+      \strng{namehash}{7d4f090cf326bf46d6a40d82c986405d}
+      \strng{fullhash}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \strng{fullhashraw}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \strng{bibnamehash}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \strng{authorbibnamehash}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \strng{authornamehash}{7d4f090cf326bf46d6a40d82c986405d}
+      \strng{authorfullhash}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \strng{authorfullhashraw}{d1e19cffd4de5fe86e3e5e6370fb1370}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Coastal Research}
+      \field{number}{75}
+      \field{title}{Review of coastal land reclamation situation in the world}
+      \field{year}{2016}
+      \field{pages}{667\bibrangedash 671}
+      \range{pages}{5}
+    \endentry
+    \entry{mcgranahan2007rising}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=993291bf7f7a0de607854333b386effa}{%
+           family={McGranahan},
+           familyi={M\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e402408fa42d78b5b84878c6bf90d09f}{%
+           family={Balk},
+           familyi={B\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ab08a2627938798c478c294db8c5968}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Bridget},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage UK: London, England}%
+      }
+      \strng{namehash}{9057d07468153218f25b3788f522d2af}
+      \strng{fullhash}{9aea91517af0e4db61599b37bdc358bf}
+      \strng{fullhashraw}{9aea91517af0e4db61599b37bdc358bf}
+      \strng{bibnamehash}{9aea91517af0e4db61599b37bdc358bf}
+      \strng{authorbibnamehash}{9aea91517af0e4db61599b37bdc358bf}
+      \strng{authornamehash}{9057d07468153218f25b3788f522d2af}
+      \strng{authorfullhash}{9aea91517af0e4db61599b37bdc358bf}
+      \strng{authorfullhashraw}{9aea91517af0e4db61599b37bdc358bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environment and urbanization}
+      \field{number}{1}
+      \field{title}{The rising tide: assessing the risks of climate change and human settlements in low elevation coastal zones}
+      \field{volume}{19}
+      \field{year}{2007}
+      \field{pages}{17\bibrangedash 37}
+      \range{pages}{21}
+    \endentry
+    \entry{notteboom2022port}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=614fbd413e85fbf127bb3d3aa2a73ff8}{%
+           family={Notteboom},
+           familyi={N\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a02b1a69456e279734fbfb9ff256170c}{%
+           family={Pallis},
+           familyi={P\bibinitperiod},
+           given={Athanasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e14b83838eb71945757f91a4de96a3b1}{%
+           family={Rodrigue},
+           familyi={R\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{8d891868f009c9b6fda64456045aa396}
+      \strng{fullhash}{ec0e14a24d21bf9233e793de6d3c665c}
+      \strng{fullhashraw}{ec0e14a24d21bf9233e793de6d3c665c}
+      \strng{bibnamehash}{ec0e14a24d21bf9233e793de6d3c665c}
+      \strng{authorbibnamehash}{ec0e14a24d21bf9233e793de6d3c665c}
+      \strng{authornamehash}{8d891868f009c9b6fda64456045aa396}
+      \strng{authorfullhash}{ec0e14a24d21bf9233e793de6d3c665c}
+      \strng{authorfullhashraw}{ec0e14a24d21bf9233e793de6d3c665c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Port economics, management and policy}
+      \field{year}{2022}
+    \endentry
+    \entry{omotosho2013new}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=95dd92706970ec0e1b4069248b61e9ee}{%
+           family={Omotosho},
+           familyi={O\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {African Real Estate Society (AfRES)}%
+      }
+      \strng{namehash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{fullhash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{fullhashraw}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{bibnamehash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{authorbibnamehash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{authornamehash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{authorfullhash}{95dd92706970ec0e1b4069248b61e9ee}
+      \strng{authorfullhashraw}{95dd92706970ec0e1b4069248b61e9ee}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{New Cities and Real Estate Markets-A focus on the Eko Atlantic City Project}
+      \field{type}{techreport}
+      \field{year}{2013}
+    \endentry
+    \entry{phang2003strategic}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=52e358c7ebbd8cba3f972a60fe380f9e}{%
+           family={Phang},
+           familyi={P\bibinitperiod},
+           given={Sock-Yong},
+           giveni={S\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{fullhash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{fullhashraw}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{bibnamehash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{authorbibnamehash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{authornamehash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{authorfullhash}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \strng{authorfullhashraw}{52e358c7ebbd8cba3f972a60fe380f9e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transport Policy}
+      \field{number}{1}
+      \field{title}{Strategic development of airport and rail infrastructure: the case of Singapore}
+      \field{volume}{10}
+      \field{year}{2003}
+      \field{pages}{27\bibrangedash 33}
+      \range{pages}{7}
+    \endentry
+    \entry{R-base}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhashraw}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhashraw}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{sengupta2018building}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3b4649fc259e160a635dcbe2b063ba7f}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Dhritiraj},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cab33c9839ca654bddf655853350b0b5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ruishan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0a77b3384e3b6ff4ee69357651767061}{%
+           family={Meadows},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1f440ba34312f39ee748c53ba21114c0}
+      \strng{fullhash}{8a418dc4898e0326496b7d99ba4fd77b}
+      \strng{fullhashraw}{8a418dc4898e0326496b7d99ba4fd77b}
+      \strng{bibnamehash}{8a418dc4898e0326496b7d99ba4fd77b}
+      \strng{authorbibnamehash}{8a418dc4898e0326496b7d99ba4fd77b}
+      \strng{authornamehash}{1f440ba34312f39ee748c53ba21114c0}
+      \strng{authorfullhash}{8a418dc4898e0326496b7d99ba4fd77b}
+      \strng{authorfullhashraw}{8a418dc4898e0326496b7d99ba4fd77b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied geography}
+      \field{title}{Building beyond land: An overview of coastal land reclamation in 16 global megacities}
+      \field{volume}{90}
+      \field{year}{2018}
+      \field{pages}{229\bibrangedash 238}
+      \range{pages}{10}
+    \endentry
+    \entry{seto2011meta}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ec97c7bc484ad555397e8638cd3c181e}{%
+           family={Seto},
+           familyi={S\bibinitperiod},
+           given={Karen\bibnamedelima C},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d9b882c6760e97ac3fc3d7dda2a8c40e}{%
+           family={Fragkias},
+           familyi={F\bibinitperiod},
+           given={Michail},
+           giveni={M\bibinitperiod}}}%
+        {{hash=26aca9ebd03f9edf2ce1f4967afcb52b}{%
+           family={Güneralp},
+           familyi={G\bibinitperiod},
+           given={Burak},
+           giveni={B\bibinitperiod}}}%
+        {{hash=64139c5bf9c69b9744304d2182c8ac52}{%
+           family={Reilly},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, USA}%
+      }
+      \strng{namehash}{dc0332d7525d2de26e9400354c9b3b7a}
+      \strng{fullhash}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \strng{fullhashraw}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \strng{bibnamehash}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \strng{authorbibnamehash}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \strng{authornamehash}{dc0332d7525d2de26e9400354c9b3b7a}
+      \strng{authorfullhash}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \strng{authorfullhashraw}{a7a9bc8eb1167b39b12f5a14f6aa16a4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{8}
+      \field{title}{A meta-analysis of global urban land expansion}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{e23777}
+      \range{pages}{-1}
+    \endentry
+    \entry{shi2016new}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3288fb7824a9703519995ee76d9d1850}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yishao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1aa3e9d67d1168f3d27580976a967bce}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yongjian},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{f826c44c8ef1894fa15fdcee187f8b62}
+      \strng{fullhash}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \strng{fullhashraw}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \strng{bibnamehash}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \strng{authorbibnamehash}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \strng{authornamehash}{f826c44c8ef1894fa15fdcee187f8b62}
+      \strng{authorfullhash}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \strng{authorfullhashraw}{4e5a44e3ecd71f7e0a6495b07bfea437}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Urban Sciences}
+      \field{number}{1}
+      \field{title}{New city planning and construction in Shanghai: retrospective and prospective}
+      \field{volume}{20}
+      \field{year}{2016}
+      \field{pages}{49\bibrangedash 72}
+      \range{pages}{24}
+    \endentry
+    \entry{microsoft_open_source_2022_7261897}{software}{}{}
+      \name{author}{5}{}{%
+        {{hash=3ac59b7037fb4d5a44f01c7094c3ce17}{%
+           family={Source},
+           familyi={S\bibinitperiod},
+           given={Microsoft\bibnamedelima Open},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=1ba496480d83665036e545c9f77b6edc}{%
+           family={McFarland},
+           familyi={M\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d965f9a476540424e73dcb5203b4f4a}{%
+           family={Emanuele},
+           familyi={E\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c730d9036cd4c6c7dfcef84c582e1d95}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bbb9cae798de875fe375cd78fdbc05e8}{%
+           family={Augspurger},
+           familyi={A\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{f0db2d1e8c0d88249d22d6b046fe0224}
+      \strng{fullhash}{a90963e6c456ef5ccb1973148eb3e450}
+      \strng{fullhashraw}{a90963e6c456ef5ccb1973148eb3e450}
+      \strng{bibnamehash}{a90963e6c456ef5ccb1973148eb3e450}
+      \strng{authorbibnamehash}{a90963e6c456ef5ccb1973148eb3e450}
+      \strng{authornamehash}{f0db2d1e8c0d88249d22d6b046fe0224}
+      \strng{authorfullhash}{a90963e6c456ef5ccb1973148eb3e450}
+      \strng{authorfullhashraw}{a90963e6c456ef5ccb1973148eb3e450}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{microsoft/PlanetaryComputer: October 2022}
+      \field{version}{2022.10.28}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.5281/zenodo.7261897
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.7261897
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.7261897
+      \endverb
+    \endentry
+    \entry{summers2020water}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=900da3dfcf28a40bb2fca387f0046a7d}{%
+           family={Summers},
+           familyi={S\bibinitperiod},
+           given={J\bibnamedelima Kevin},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BoD--Books on Demand}%
+      }
+      \strng{namehash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{fullhash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{fullhashraw}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{bibnamehash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{authorbibnamehash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{authornamehash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{authorfullhash}{900da3dfcf28a40bb2fca387f0046a7d}
+      \strng{authorfullhashraw}{900da3dfcf28a40bb2fca387f0046a7d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Water Quality: Science, Assessments and Policy}
+      \field{year}{2020}
+    \endentry
+    \entry{van2012lagos}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=4cc20c336802215750859f5210a828f3}{%
+           family={Van\bibnamedelima Bentum},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={KM},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8efdb3d79546b44c7fef20af07058fe1}{%
+           family={Hoyng},
+           familyi={H\bibinitperiod},
+           given={CW},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1d15ac8263bcb498382ded9191785563}{%
+           family={Ledden},
+           familyi={L\bibinitperiod},
+           given={Mathijs},
+           giveni={M\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a8bf2146a3d228ac14e835d5100afdf6}{%
+           family={Luijendijk},
+           familyi={L\bibinitperiod},
+           given={Arjen\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f8bbc6d57fd37ba22b20553b2eb5658d}{%
+           family={Stive},
+           familyi={S\bibinitperiod},
+           given={MJF},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {University of Twente}%
+      }
+      \strng{namehash}{394cb93049a2449a6bdf90546d1b4088}
+      \strng{fullhash}{d9dcab4736e4ed712f3020546e31b0d0}
+      \strng{fullhashraw}{d9dcab4736e4ed712f3020546e31b0d0}
+      \strng{bibnamehash}{d9dcab4736e4ed712f3020546e31b0d0}
+      \strng{authorbibnamehash}{d9dcab4736e4ed712f3020546e31b0d0}
+      \strng{authornamehash}{394cb93049a2449a6bdf90546d1b4088}
+      \strng{authorfullhash}{d9dcab4736e4ed712f3020546e31b0d0}
+      \strng{authorfullhashraw}{d9dcab4736e4ed712f3020546e31b0d0}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{NCK-Days 2012: Crossing borders in coastal research}
+      \field{title}{The Lagos coast--Investigation of the long-term morphological impact of the Eko Atlantic City project}
+      \field{year}{2012}
+    \endentry
+    \entry{ven1993man}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e4d97872a0baf42a9ce198a8eaa3a6d6}{%
+           family={Ven},
+           familyi={V\bibinitperiod},
+           given={GP\bibnamedelima van\bibnamedelima de},
+           giveni={G\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{fullhash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{fullhashraw}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{bibnamehash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{authorbibnamehash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{authornamehash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{authorfullhash}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \strng{authorfullhashraw}{e4d97872a0baf42a9ce198a8eaa3a6d6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Man-made lowlands: history of water management and land reclamation in the Netherlands.}
+      \field{year}{1993}
+    \endentry
+    \entry{wang2014development}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c2969289c79bfb5f2bd68129932f963b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4c1dbf67b53210ff707448664f3a2184}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yongqi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=53aede7617ce2b19f4962b9fb5cb50c1}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Jilan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2e448f2e68ab2f1cd9e54269cab56966}
+      \strng{fullhash}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \strng{fullhashraw}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \strng{bibnamehash}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \strng{authorbibnamehash}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \strng{authornamehash}{2e448f2e68ab2f1cd9e54269cab56966}
+      \strng{authorfullhash}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \strng{authorfullhashraw}{2a7d6d9cabc3836de5e0e5a499ea2d69}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ocean \& Coastal Management}
+      \field{title}{Development and management of land reclamation in China}
+      \field{volume}{102}
+      \field{year}{2014}
+      \field{pages}{415\bibrangedash 425}
+      \range{pages}{11}
+    \endentry
+    \entry{wenzel2007megacities}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=076b0aa50a6dd8c2dbfa38c00bac90f6}{%
+           family={Wenzel},
+           familyi={W\bibinitperiod},
+           given={Friedemann},
+           giveni={F\bibinitperiod}}}%
+        {{hash=507361bdb7ec5ad07cae23c010bfabf8}{%
+           family={Bendimerad},
+           familyi={B\bibinitperiod},
+           given={Fouad},
+           giveni={F\bibinitperiod}}}%
+        {{hash=46ac02763d45e2a0281f9731c191ba0c}{%
+           family={Sinha},
+           familyi={S\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{70318f5cb3a548585c5cf51d40b6122f}
+      \strng{fullhash}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \strng{fullhashraw}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \strng{bibnamehash}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \strng{authorbibnamehash}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \strng{authornamehash}{70318f5cb3a548585c5cf51d40b6122f}
+      \strng{authorfullhash}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \strng{authorfullhashraw}{4f6c2e022757dde8e2e9d4bbdd9679a4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Hazards}
+      \field{title}{Megacities--megarisks}
+      \field{volume}{42}
+      \field{year}{2007}
+      \field{pages}{481\bibrangedash 491}
+      \range{pages}{11}
+    \endentry
+    \entry{zhang2017assessment}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=f189b293bd3263254702f8c5fe1d714b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=67896ea763770e31ba9c700f3ef8a360}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a9b031ba82c9304a7b9ca4c61833b8d3}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Sheng-kang},
+           giveni={S\bibinithyphendelim k\bibinitperiod}}}%
+        {{hash=5e469c9d2d01fdf46d157f4416c7901e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ke-qiang},
+           giveni={K\bibinithyphendelim q\bibinitperiod}}}%
+        {{hash=996cc4a3582a1fbe2f7961f354be5d3e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yan-bin},
+           giveni={Y\bibinithyphendelim b\bibinitperiod}}}%
+        {{hash=0e81df06f339871532bf92eb454bae99}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiu-lin},
+           giveni={X\bibinithyphendelim l\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{43f6b7d8131958f2f51a0a7de999ff64}
+      \strng{fullhash}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \strng{fullhashraw}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \strng{bibnamehash}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \strng{authorbibnamehash}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \strng{authornamehash}{43f6b7d8131958f2f51a0a7de999ff64}
+      \strng{authorfullhash}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \strng{authorfullhashraw}{ad3ecf54bffe7832c88cb666f6f92dd5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Indicators}
+      \field{title}{Assessment of long-term water quality variation affected by high-intensity land-based inputs and land reclamation in Jiaozhou Bay, China}
+      \field{volume}{75}
+      \field{year}{2017}
+      \field{pages}{210\bibrangedash 219}
+      \range{pages}{10}
+    \endentry
+    \entry{R-kableExtra}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=9d368ab66d67ab2a2f3f79695b175856}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{fullhash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{fullhashraw}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{bibnamehash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{authorbibnamehash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{authornamehash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{authorfullhash}{9d368ab66d67ab2a2f3f79695b175856}
+      \strng{authorfullhashraw}{9d368ab66d67ab2a2f3f79695b175856}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.4.0, https://github.com/haozhu233/kableExtra}
+      \field{title}{kableExtra: Construct Complex Table with kable and Pipe Syntax}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb http://haozhu233.github.io/kableExtra/
+      \endverb
+      \verb{url}
+      \verb http://haozhu233.github.io/kableExtra/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

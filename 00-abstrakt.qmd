@@ -1,15 +1,36 @@
 ## Streszczenie {-}
 
-Streszczenie powinno przedstawiać skrótowo główny problem pracy i jego rozwiązanie.
-Możliwa struktura streszczenia to: (1) 1-3 zdania wstępu do problemu (czym się zajmujemy, dlaczego jest to ważne, jakie są problemy/luki do wypełnienia), (2) 1 zdanie opisujące cel pracy, (3) 1-3 zdania przedstawiające użyte materiały (dane) i metody (techniki, narzędzia), (4) 1-3 zdania obrazujące główne wyniki pracy, (5) 1-2 zdania podsumowujące; możliwe jest też określenie dalszych kroków/planów.
+Tworzenie nowych lądów polega na sztucznym przekształcaniu obszarów wodnych w tereny lądowe.
+Procesy te wpływają na ekosystemy wodne, stanowiąc potencjalne zagrożenie dla występujących w nich organizmów.
+Wzrost liczby ludności, zamieszkującej wybrzeża może doprowadzić do nasilenia się procesów tworzenia nowych lądów.
+Celem pracy jest ocena potencjalnego wpływu procesów tworzenia nowych obszarów lądowych na jakość pobliskich wód.
+Do oceny jakości wód wykorzystane zostały wskaźniki spektralne, obliczone przy wykorzystaniu zdjęć satelitarnych.
+Wskaźniki te opisują zmiany dwóch parametrów jakości wód: stężeń chlorofilu a i zawiesiny.
+Badania przeprowadzono dla pięciu obszarów, na których powstały nowe lądy: Dubaj (Zjednoczone Emiraty Arabskie), Lagos (Nigeria), Limon (Kostaryka), Singapur, Szanghaj (Chiny).
+Wskaźniki spektralne wykryły znaczące zmiany jakości wód na obszarach badań w trakcie tworzenia nowych lądów.
+Konstrukcja nowych lądów doprowadziła do spadku stężenia chlorofilu a w Dubaju, Limon i Singapurze.
+Wzrost stężenia chlorofilu a odnotowano w Lagos i Szanghaju.
+Podczas trwania budowy nowych obszarów lądowych, w Dubaju, Limon i Szanghaju zaobserwowano wzrost stężenia zawiesiny w wodzie.
+W Lagos i Singapurze wykryto długookresowy spadek stężenia zawiesiny.
 
-Słowa kluczowe: (4-6 słów/zwrotów opisujących treść pracy, które nie wystąpiły w tytule)
+Słowa kluczowe: (wskaźniki spektralne, obrazy satelitarne, jakość wód, tworzenie lądów)
 
 ## Abstract {-}
 
-The abstract must be consistent with the above text.
+Land reclamation involves the artificial transformation of water areas into land areas.
+These processes affect water ecosystems, posing potential threats to the organisms living within them.
+The increase in coastal population may lead to an intensification of land reclamation processes.
+The aim of this study is to assess the potential impact of land reclamation processes on the quality of nearby waters.
+Spectral indices, calculated using satellite images, were used to assess water quality.
+These indices describe changes in two water quality parameters: chlorophyll-a concentration and suspended matter concentration.
+The study was conducted in five areas where new lands have been created: Dubai (United Arab Emirates), Lagos (Nigeria), Limon (Costa Rica), Singapore, and Shanghai (China).
+Spectral indices detected significant changes in water quality in the study areas during the land reclamation processes.
+The construction of new lands led to a decrease in chlorophyll-a concentration in Dubai, Limon, and Singapore.
+An increase in chlorophyll-a concentration was observed in Lagos and Shanghai.
+During the construction of new land areas, an increase in suspended matter concentration in the water was observed in Dubai, Limon, and Shanghai.
+In Lagos and Singapore, a long-term decrease in suspended matter concentration was detected.
 
-Keywords: (as stated before)
+Keywords: (spectral indices, satellite images, water quality, land reclamation)
 
 \newpage
 
